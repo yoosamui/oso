@@ -1,0 +1,129 @@
+[1]
+Active ViewSpace=0
+Height 1440=1330
+Kate-MDI-H-Splitter=200,1254,200
+Kate-MDI-Sidebar-0-Splitter=0
+Kate-MDI-Sidebar-1-Splitter=
+Kate-MDI-Sidebar-2-Splitter=
+Kate-MDI-Sidebar-3-Splitter=0
+Kate-MDI-Sidebar-Style=2
+Kate-MDI-Sidebar-Visible=true
+Kate-MDI-ToolView-kate_plugin_katesearch-Persistent=false
+Kate-MDI-ToolView-kate_plugin_katesearch-Position=3
+Kate-MDI-ToolView-kate_plugin_katesearch-Sidebar-Position=0
+Kate-MDI-ToolView-kate_plugin_katesearch-Visible=false
+Kate-MDI-ToolView-kate_private_plugin_katefiletreeplugin-Persistent=false
+Kate-MDI-ToolView-kate_private_plugin_katefiletreeplugin-Position=0
+Kate-MDI-ToolView-kate_private_plugin_katefiletreeplugin-Sidebar-Position=0
+Kate-MDI-ToolView-kate_private_plugin_katefiletreeplugin-Visible=false
+Kate-MDI-V-Splitter=150,1288,200
+State=AAAA/wAAAAD9AAAAAAAABP4AAAUeAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+Width 2560=1278
+
+[1-Splitter 0]
+Children=1-ViewSpace 0
+Orientation=1
+Sizes=1254
+
+[1-ViewSpace 0]
+Active View=file:///media/yoo/develop/OpenCv-dev/OpenCVRTSPViewer/open-all.sh
+Count=1
+Documents=file:///media/yoo/develop/OpenCv-dev/OpenCVRTSPViewer/open-all.sh
+View 0=file:///media/yoo/develop/OpenCv-dev/OpenCVRTSPViewer/open-all.sh
+
+[1-ViewSpace 0 file:///media/yoo/develop/OpenCv-dev/OpenCVRTSPViewer/open-all.sh]
+CursorColumn=0
+CursorLine=0
+JumpList=
+TextFolding=[]
+ViMarks=
+
+[Document 0]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+URL=file:///media/yoo/develop/OpenCv-dev/OpenCVRTSPViewer/open-all.sh
+
+[General]
+Last Session=
+
+[Kate Plugins]
+katebacktracebrowserplugin=false
+katebuildplugin=false
+katecloseexceptplugin=false
+katectagsplugin=false
+katefilebrowserplugin=false
+katefiletreeplugin=true
+kategdbplugin=false
+katekonsoleplugin=false
+kateopenheaderplugin=false
+kateprojectplugin=true
+katereplicodeplugin=false
+katesearchplugin=true
+katesnippetsplugin=false
+katesqlplugin=false
+katesymbolviewerplugin=false
+katexmlcheckplugin=false
+katexmltoolsplugin=false
+kterustcompletionplugin=false
+ktexteditor_lumen=false
+ktexteditorpreviewplugin=false
+tabswitcherplugin=true
+textfilterplugin=false
+
+[Number]
+NumberOfWindows=1
+
+[Open Documents]
+Count=1
+
+[Plugin:katesearchplugin:MainWindow:0]
+BinaryFiles=false
+CurrentExcludeFilter=-1
+CurrentFilter=-1
+ExcludeFilters=
+ExpandSearchResults=false
+Filters=
+FollowSymLink=false
+HiddenFiles=false
+MatchCase=false
+Place=1
+Recursive=true
+Replaces=
+Search=
+SearchDiskFiles=
+SearchDiskFiless=
+UseRegExp=false
+
+[Recent Files]
+File1[$e]=/boot/grub/sinox-custom.cfg
+File10[$e]=/media/yoo/develop/OpenCv-dev/OpenCVRTSPViewer/open-all.sh
+File2[$e]=$HOME/.config/docklight/docklight.config
+File3[$e]=/media/yoo/shared/VisaDELinks.txt
+File4[$e]=$HOME/.config/openbox/autostart
+File5[$e]=$HOME/.config/autostart/redshift-gtk.desktop
+File6[$e]=$HOME/.local/share/cinnamon/applets/temperature@fevimu/applet.js
+File7[$e]=$HOME/.local/share/cinnamon/applets/ipindicator@matus.benko@gmail.com/applet.js
+File8[$e]=/var/sinox/scripts/clone-maker.sh
+File9[$e]=/media/yoo/shared/infos/Linux/Network-Unmanaged-nmcli.txt
+Name1[$e]=sinox-custom.cfg
+Name10[$e]=open-all.sh
+Name2[$e]=docklight.config
+Name3[$e]=VisaDELinks.txt
+Name4[$e]=autostart
+Name5[$e]=redshift-gtk.desktop
+Name6[$e]=applet.js
+Name7[$e]=applet.js
+Name8[$e]=clone-maker.sh
+Name9[$e]=Network-Unmanaged-nmcli.txt
+
+[WindowProperties1]
+ClassName=KateMainWindow
+Height 1440=1330
+ObjectName=MainWindow#1
+State=AAAA/wAAAAD9AAAAAAAABP4AAAUeAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+Width 2560=1278

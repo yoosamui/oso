@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="">
+  <name>Thumbnail Grid</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>Zren</author>
+  <homepage>https://store.kde.org/p/1153173</homepage>
+  <licence></licence>
+  <version>5</version>
+  <rating>78</rating>
+  <downloads>12976</downloads>
+  <installedfile>/tmp/thumbnail_grid-v5.zip</installedfile>
+  <id>1153173</id>
+  <releasedate>2019-04-18</releasedate>
+  <summary>Thumbnail + Icon + Caption + Close Button&lt;br />
+&lt;br />
+There are a few other skins like this, but they don't work in KDE 5.5 (Kubuntu 16.04) or later.&lt;br />
+&lt;strong>Note:&lt;/strong> If you tried an older broken KWin switcher, KWin won't use a skin until it's restarted (logout+login). Even the...</summary>
+  <changelog></changelog>
+  <preview>https://cn.opendesktop.org/cache/100x100-0/img/6/d/c/0/9fe140a9cb6831f12eb9b09d50c87fe930bc.png</preview>
+  <previewBig>https://cn.opendesktop.org/cache/770x540-0/img/6/d/c/0/9fe140a9cb6831f12eb9b09d50c87fe930bc.png</previewBig>
+  <payload>https://dllb2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1NTU1NjIyNTgiLCJvIjoiMSIsInMiOiIxY2NkZmUwY2IyMzNhNGU2OWVhZDRmMGRmZWY5ZDgxOGUzNjQ1Y2VlZjY5ODEzZWM1OTdhZTgxNDIyYWEyOGI0Yzc5N2E3NWJiMjBjOTI4MWM5YWVlMWU1NTBlYWFkZWZjNWU2Yjk1Njk4Mzk0MDZkOTQxMzAzYjM5OGE4YTI5NiIsInQiOjE1OTY5MDI0MDQsInN0ZnAiOm51bGwsInN0aXAiOiIxOTQuNS40OS4xNyJ9.DVBvj9Q7iu6XC-xsyBxJo616A8CqnjqjhfVt92pRD7U/thumbnail_grid-v5.zip</payload>
+  <tags>linux,unix,gplv2-later</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="">
+  <name>MediumDefault</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>adhe</author>
+  <homepage>https://store.kde.org/p/1367158</homepage>
+  <licence></licence>
+  <version>0.1</version>
+  <rating>71</rating>
+  <downloads>25009</downloads>
+  <installedfile>/tmp/MediumDefault.tar.gz</installedfile>
+  <id>1367158</id>
+  <releasedate>2020-03-14</releasedate>
+  <summary>&lt;span style="color: #0055ff;">&lt;strong>Medium Default tasks switcher&lt;/strong>&lt;/span>&lt;br />
+&lt;br />
+Windows Switcher default from breeze rounded with a perfect size of icons :)&lt;br />
+The highlight color is taken from the color scheme &lt;br />
+&lt;br />
+&lt;strong>&lt;span style="text-decoration: underline;">#...</summary>
+  <changelog></changelog>
+  <preview>https://cn.opendesktop.org/cache/100x100-0/img/d/0/a/1/03c576d9ee57aba18cddc13b1832d7d3a7e5.png</preview>
+  <previewBig>https://cn.opendesktop.org/cache/770x540-0/img/d/0/a/1/03c576d9ee57aba18cddc13b1832d7d3a7e5.png</previewBig>
+  <payload>https://dllb2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1ODQyNDAwNTciLCJvIjoiMSIsInMiOiI1MjMwZDg5ZWJiMGQ5ZWVlMGU2YTI3MmJkMjE4MzZmZjY1MDQ5NTdmMzRhNzZiODA1MWRlYWE4MWJlZTE0ODJhNzNhYzhlMThjZDkzZmMzNzM4MWVmYjQzZTVhMGQyYmU0MTVhOTZkYTkzY2M4MDRmNWQ2YTAyZjQyM2VjNjMyYyIsInQiOjE1OTY5MDI1MjEsInN0ZnAiOm51bGwsInN0aXAiOiIxOTQuNS40OS4xNyJ9.kH8PwWyS_heQ1FhqgAFT9JIZTrhzgDyFCiGjGkYfRcg/MediumDefault.tar.gz</payload>
+  <tags>modification-product,linux,unix,gplv3</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

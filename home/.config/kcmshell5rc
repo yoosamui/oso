@@ -1,0 +1,18 @@
+[FileDialogSize]
+Height 1440=819
+Width 2560=995
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/KDE-rules/docklight.kwinrule,file:$HOME/.config/autostart/docklight.desktop,file:///bin/aa-exec,file:$HOME/wallpapers/1920x1200.svg
+Recent URLs[$e]=file:$HOME/KDE-rules/
+
+[KPropertiesDialog]
+Height 1440=507
+Width 2560=444
+
+[Open-with settings]
+CompletionMode=1
+History=/home/yoo/.config/autostart/docklight.desktop
+
+[PlasmaRunnerManager]
+LaunchCounts=

@@ -1,0 +1,31 @@
+2020-11-21  6:40:01 0 [Note] InnoDB: Using Linux native AIO
+2020-11-21  6:40:01 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-11-21  6:40:01 0 [Note] InnoDB: Uses event mutexes
+2020-11-21  6:40:01 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-11-21  6:40:01 0 [Note] InnoDB: Number of pools: 1
+2020-11-21  6:40:01 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-11-21  6:40:01 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-11-21  6:40:01 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-11-21  6:40:01 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-11-21  6:40:01 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-11-21  6:40:01 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-11-21  6:40:01 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-11-21  6:40:01 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-11-21  6:40:01 0 [Note] InnoDB: Waiting for purge to start
+2020-11-21  6:40:01 0 [Note] InnoDB: 10.3.25 started; log sequence number 2086133; transaction id 567
+2020-11-21  6:40:01 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-11-21  6:40:01 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-11-21  6:40:01 0 [Note] Reading of all Master_info entries succeeded
+2020-11-21  6:40:01 0 [Note] Added new Master_info '' to hash table
+2020-11-21  6:40:01 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.25-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.W6EdQR/mysql.socket'  port: 0  Debian 10
+2020-11-21  6:40:01 0 [Note] InnoDB: Buffer pool(s) load completed at 201121  6:40:01
+2020-11-21  7:20:27 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-11-21  7:20:27 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-11-21  7:20:27 0 [Note] InnoDB: Starting shutdown...
+2020-11-21  7:20:27 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-11-21  7:20:27 0 [Note] InnoDB: Buffer pool(s) dump completed at 201121  7:20:27
+2020-11-21  7:20:28 0 [Note] InnoDB: Shutdown completed; log sequence number 2086142; transaction id 589
+2020-11-21  7:20:28 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-11-21  7:20:28 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+

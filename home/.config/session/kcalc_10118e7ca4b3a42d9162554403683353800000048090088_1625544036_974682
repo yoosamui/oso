@@ -1,0 +1,10 @@
+[Number]
+NumberOfWindows=1
+
+[WindowProperties1]
+ClassName=KCalculator
+Height 1440=251
+ObjectName=MainWindow#1
+State=AAAA/wAAAAD9AAAAAAAAAP0AAADTAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 2560=253

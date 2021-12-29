@@ -1,0 +1,24 @@
+[Desktop Entry]
+Comment[en_DE]=
+Comment=
+Comment[en_US]=No description
+Exec=/var/sinox/docklight-3.0/docklight
+GenericName[en_DE]=
+GenericName=
+Hidden=false
+MimeType=
+Name[en_DE]=docklight
+Name=docklight
+Name[en_US]=docklight
+NoDisplay=false
+Path=
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-GNOME-Autostart-Delay=3
+X-GNOME-Autostart-enabled=true
+X-KDE-SubstituteUID=false
+X-KDE-Username=

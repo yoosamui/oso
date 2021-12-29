@@ -1,0 +1,19 @@
+<unity_prefs version_major="1" version_minor="1">
+	<pref name="AimColor" type="int">1</pref>
+	<pref name="ChatLanguage" type="int">2</pref>
+	<pref name="ChatSelected" type="int">1</pref>
+	<pref name="DailyTasks" type="string">QVE9PQ==</pref>
+	<pref name="GoalBarComponentIsVisible" type="int">1</pref>
+	<pref name="HeroAbilityIsVisible" type="int">1</pref>
+	<pref name="IsAnnouncerEnabled" type="int">1</pref>
+	<pref name="IsTutorialPassed" type="int">1</pref>
+	<pref name="Language" type="string">RW5nbGlzaA==</pref>
+	<pref name="MRegion" type="string">V29ybGR3aWRl</pref>
+	<pref name="NewEquipment" type="string">QVE9PQ==</pref>
+	<pref name="Screenmanager Is Fullscreen mode" type="int">1</pref>
+	<pref name="Screenmanager Resolution Height" type="int">1080</pref>
+	<pref name="Screenmanager Resolution Width" type="int">1920</pref>
+	<pref name="SelectedGame" type="string">QVFNQUFBQUNBQUFBQVFBQUFBQUFBQUE9</pref>
+	<pref name="SerializationVersion" type="int">11</pref>
+	<pref name="UnitySelectMonitor" type="int">-1</pref>
+</unity_prefs>

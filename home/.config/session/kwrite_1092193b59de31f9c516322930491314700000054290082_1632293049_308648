@@ -1,0 +1,33 @@
+[1]
+DocumentNumber=1
+
+[1][General Options]
+CursorColumn=0
+CursorLine=0
+JumpList=
+TextFolding=[]
+ViMarks=
+
+[Document 1]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+URL=file:///home/yoo/CRIP.TXT
+
+[Number]
+NumberOfDocuments=1
+NumberOfWindows=1
+
+[Window 1]
+DocumentNumber=1
+
+[WindowProperties1]
+ClassName=KWrite
+Height 1440=899
+ObjectName=MainWindow#1
+State=AAAA/wAAAAD9AAAAAAAABekAAANKAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+Width 2560=1513

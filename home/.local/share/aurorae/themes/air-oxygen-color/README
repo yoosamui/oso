@@ -1,0 +1,11 @@
+Files below can be generated from the buttons.svg file using the buildButtonFiles.bash script:
+minimium.svgz
+maximum.svgz
+restore.svgz
+shade.svgz
+close.svgz
+keepabove.svgz
+keepbelow.svgz
+alldestops.svgz
+ 
+If you want modify one of this button you should modify buttons.svg

@@ -1,0 +1,12 @@
+[1]
+ActiveTab=0
+Urls[$e]=file:$HOME/Desktop/Lufthansa - Your Booking Information.pdf
+
+[Number]
+NumberOfWindows=1
+
+[WindowProperties1]
+ClassName=Shell
+ObjectName=okular::Shell#1
+State=AAAA/wAAAAD9AAAAAAAAB34AAAPfAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+Window-Maximized 1080x1920=true

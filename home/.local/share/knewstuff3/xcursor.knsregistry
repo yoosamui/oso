@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="">
+  <name>We10XOS cursors</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>yeyushengfan258</author>
+  <homepage>https://store.kde.org/p/1381208</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>73</rating>
+  <downloads>15410</downloads>
+  <installedfile>/home/yoo/.icons//We10XOS-cursors/*</installedfile>
+  <installedfile>/home/yoo/.icons//</installedfile>
+  <id>1381208</id>
+  <releasedate>2020-06-07</releasedate>
+  <summary>We10XOS cursors for linux desktops&lt;br />
+This is an x-cursor theme inspired by WinOS &lt;br />
+based on capitaine-cursors&lt;a href="https://github.com/keeferrourke/capitaine-cursors" target="_blank" rel="nofollow">https://github.com/keeferrourke/capitaine-cursors&lt;/a></summary>
+  <changelog></changelog>
+  <preview>https://cn.opendesktop.org/cache/100x100-0/img/f/9/7/d/c16de0d4feab8568339ca8af96635c6d8d1d.png</preview>
+  <previewBig>https://cn.opendesktop.org/cache/770x540-0/img/f/9/7/d/c16de0d4feab8568339ca8af96635c6d8d1d.png</previewBig>
+  <payload>https://dllb2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1OTE1MTgzMDIiLCJvIjoiMSIsInMiOiIwODgzMTE1ZDA4NDU5MTdmNzVhNDhlNzhhMGIzNTY1ZWJkZDdhMDk4ZWNiZjNjZjBhYmViNDkzMGNiNTJjZjdmNjI3OTBlZThkOTY5YWMyYWRmNTNjMWI2ZmMyN2YzYmUxZGI3ZDExMDdiNmRhOWI0YWFmYWJkYTU4NTUzOWJiNyIsInQiOjE1OTY2NzMxNzMsInN0ZnAiOm51bGwsInN0aXAiOiI0NS42Ny45Ni4yMjkifQ.99NV4dntHA20TdLTvUe-wTdICPsGKoO-VJ4AvZCr0ys/We10XOS-cursors.tar.gz</payload>
+  <tags>gplv3,linux,unix,cursor</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

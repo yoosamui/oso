@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="">
+  <name>We10Xos color Theme</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>yeyushengfan258</author>
+  <homepage>https://store.kde.org/p/1368852</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>60</rating>
+  <downloads>36550</downloads>
+  <installedfile>/home/yoo/.local/share/color-schemes//Win10XOSConcept.colors</installedfile>
+  <installedfile>/home/yoo/.local/share/color-schemes//</installedfile>
+  <id>1368852</id>
+  <releasedate>2020-03-20</releasedate>
+  <summary>We10XOS-Concept kde is a light clean theme for KDE Plasma desktop.&lt;br />
+&lt;br />
+In this repository you'll find:&lt;br />
+&lt;br />
+    Aurorae Themes&lt;br />
+    Kvantum Themes&lt;br />
+    Plasma Color Schemes&lt;br />
+    Plasma Desktop Themes&lt;br />
+    Plasma Look-and-Feel Settings&lt;br />
+&lt;br />
+------------------------------&lt;br />
+&lt;strong>We10Xos Global Theme&lt;/strong>:&lt;a href="https://www.pling.com/p/1368860/" target="_blank" rel="nofollow">https://www.pling.com/p/1368860/&lt;/a>&lt;br />
+&lt;br />
+&lt;strong>We10Xos Sddm Theme&lt;/strong>:&lt;a href="https://www.pling.com/p/1368854/" target="_blank" rel="nofollow">https://www.pling.com/p/1368854/&lt;/a>&lt;br />
+&lt;br />
+&lt;strong>We10Xos color Theme&lt;/strong>:&lt;a href="https://www.pling.com/p/1368852/" target="_blank" rel="nofollow">https://www.pling.com/p/1368852/&lt;/a>&lt;br />
+&lt;br />
+&lt;strong>We10Xos Plasma Theme&lt;/strong>:&lt;a href="https://www.pling.com/p/1368853/" target="_blank" rel="nofollow">https://www.pling.com/p/1368853/&lt;/a>&lt;br />
+&lt;br />
+&lt;strong>We10Xos Aurorae Theme &lt;/strong>:&lt;a href="https://www.pling.com/p/1368851/" target="_blank" rel="nofollow">https://www.pling.com/p/1368851/&lt;/a>&lt;br />
+&lt;br />
+&lt;strong>We10Xos Wallpaper&lt;/strong>:&lt;a href="https://www.pling.com/p/1368857/" target="_blank" rel="nofollow">https://www.pling.com/p/1368857/&lt;/a>&lt;br />
+&lt;br />
+&lt;strong>We10Xos Kvantum&lt;/strong>:&lt;a href="https://www.pling.com/p/1368859/" target="_blank" rel="nofollow">https://www.pling.com/p/1368859/&lt;/a>&lt;br />
+------------------------------&lt;br />
+&lt;strong>We10X icon theme &lt;/strong>:&lt;a href="https://www.pling.com/p/1366371/" target="_blank" rel="nofollow">https://www.pling.com/p/1366371/&lt;/a></summary>
+  <changelog></changelog>
+  <preview>https://cn.opendesktop.org/cache/100x100-0/img/7/a/f/2/236fdd61093306e0e2ddb55c41d7c129dae6.png</preview>
+  <previewBig>https://cn.opendesktop.org/cache/770x540-0/img/7/a/f/2/236fdd61093306e0e2ddb55c41d7c129dae6.png</previewBig>
+  <payload>https://dllb2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1ODQ3MzI3NTkiLCJvIjoiMSIsInMiOiI4MDNjNTE1ZWVjMmE3ZTIzOGEwODcyY2I2MTZhZDUyOTU3MGU0MmFlNzViYjY4N2U2Y2MyNWVhYmMzMmUxNjQ2MzllZGNiYjc4NmNmZTJkMjVlMjEwMTJkNGUxYjlhMDYyZWVkMzU5NjU4YWZlNTk5N2QwN2UxMWUxZmQ0YmJkMCIsInQiOjE1OTY2NzMxMDUsInN0ZnAiOm51bGwsInN0aXAiOiI0NS42Ny45Ni4yMjkifQ.5JtyAS9Y9xdFliveHoXN3dyjjU3MuiSRoPRdWzIKohg/Win10XOSConcept.tar.xz</payload>
+  <tags>linux,unix,theme,kde,plasma,colorscheme,original-product,gplv3</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="">
+  <name>WhiteSur Color</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>vinceliuice</author>
+  <homepage>https://store.kde.org/p/1398831</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>50</rating>
+  <downloads>32725</downloads>
+  <installedfile>/home/yoo/.local/share/color-schemes//WhiteSur.colors</installedfile>
+  <installedfile>/home/yoo/.local/share/color-schemes//WhiteSurDark.colors</installedfile>
+  <installedfile>/home/yoo/.local/share/color-schemes//</installedfile>
+  <id>1398831</id>
+  <releasedate>2020-07-06</releasedate>
+  <summary>MacOS big sur theme for kde plasma</summary>
+  <changelog></changelog>
+  <preview>https://cn.opendesktop.org/cache/100x100-0/img/8/6/3/2/129887a42b22bb843754c81631903b901c02.png</preview>
+  <previewBig>https://cn.opendesktop.org/cache/770x540-0/img/8/6/3/2/129887a42b22bb843754c81631903b901c02.png</previewBig>
+  <payload>https://dllb2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1OTQwMjk2MTIiLCJvIjoiMSIsInMiOiI1MTEyNjAxYjQ0NTE0ZmYwYTJlZWZlYWQ3NjZmNTVhMDBiYTc5YzcyNzgxOThlNGQ3ZGE3MWQ1ZDc5YmZhNDg1ZGIyNzFjZmNlYWI1MGEyZGU0ZjJjZTEzMjQxMzJmZDE2NmI1MTQxMTAwYjQ3YTU0NTE0ZDhlYTk4ZTFmNmYyOCIsInQiOjE1OTY2NzMwODAsInN0ZnAiOm51bGwsInN0aXAiOiI0NS42Ny45Ni4yMjkifQ.yUpR8MWVc_XQYIIilvL7l5GoFRpBuW9z5naS5oqv-rM/WhiteSur.tar.xz</payload>
+  <tags>gplv3,linux,unix,theme,kde,plasma,colorscheme,modification-product</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

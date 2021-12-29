@@ -1,0 +1,16 @@
+[Desktop Entry]
+Name=nm-apple 
+Comment=Web Browser
+Comment=Network Manager apple
+Exec=/usr/bin/nm-applet %u
+Terminal=false
+Type=Application
+Icon=system
+Categories=Network
+StartupNotify=true
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-GNOME-Autostart-Delay=3
+X-GNOME-Autostart-enabled=false
+X-KDE-SubstituteUID=false
+X-KDE-Username=

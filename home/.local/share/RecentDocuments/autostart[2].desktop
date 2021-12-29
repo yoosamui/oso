@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=text-plain
+Name=autostart
+Type=Link
+URL[$e]=file:$HOME/.config/openbox/autostart
+X-KDE-LastOpenedWith=org.kde.kate

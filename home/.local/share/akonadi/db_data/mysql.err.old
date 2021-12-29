@@ -1,0 +1,2194 @@
+2020-08-06 21:24:14 0 [Note] InnoDB: Using Linux native AIO
+2020-08-06 21:24:14 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-08-06 21:24:14 0 [Note] InnoDB: Uses event mutexes
+2020-08-06 21:24:14 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-08-06 21:24:14 0 [Note] InnoDB: Number of pools: 1
+2020-08-06 21:24:14 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-08-06 21:24:14 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-08-06 21:24:14 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-06 21:24:14 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-08-06 21:24:14 0 [Note] InnoDB: Setting log file ./ib_logfile101 size to 67108864 bytes
+2020-08-06 21:24:14 0 [Note] InnoDB: Setting log file ./ib_logfile1 size to 67108864 bytes
+2020-08-06 21:24:14 0 [Note] InnoDB: Renaming log file ./ib_logfile101 to ./ib_logfile0
+2020-08-06 21:24:14 0 [Note] InnoDB: New log files created, LSN=1625448
+2020-08-06 21:24:14 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-08-06 21:24:14 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-08-06 21:24:14 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-08-06 21:24:14 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-08-06 21:24:14 0 [Note] InnoDB: 10.3.23 started; log sequence number 1625612; transaction id 21
+2020-08-06 21:24:14 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-06 21:24:14 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-06 21:24:14 0 [Note] InnoDB: Buffer pool(s) load completed at 200806 21:24:14
+2020-08-06 21:24:14 0 [Note] Reading of all Master_info entries succeeded
+2020-08-06 21:24:14 0 [Note] Added new Master_info '' to hash table
+2020-08-06 21:24:14 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.1TLKt5/mysql.socket'  port: 0  Debian 10
+2020-08-06 21:29:24 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-08-06 21:29:24 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-08-06 21:29:24 0 [Note] InnoDB: Starting shutdown...
+2020-08-06 21:29:24 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-06 21:29:24 0 [Note] InnoDB: Buffer pool(s) dump completed at 200806 21:29:24
+2020-08-06 21:29:25 0 [Note] InnoDB: Shutdown completed; log sequence number 2045912; transaction id 477
+2020-08-06 21:29:25 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-08-06 21:29:25 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-08-06 21:29:35 0 [Note] InnoDB: Using Linux native AIO
+2020-08-06 21:29:35 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-08-06 21:29:35 0 [Note] InnoDB: Uses event mutexes
+2020-08-06 21:29:35 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-08-06 21:29:35 0 [Note] InnoDB: Number of pools: 1
+2020-08-06 21:29:35 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-08-06 21:29:35 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-08-06 21:29:35 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-06 21:29:35 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-08-06 21:29:35 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-08-06 21:29:35 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-08-06 21:29:35 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-08-06 21:29:35 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-08-06 21:29:35 0 [Note] InnoDB: 10.3.23 started; log sequence number 2045912; transaction id 479
+2020-08-06 21:29:35 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-06 21:29:35 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-06 21:29:35 0 [Note] InnoDB: Buffer pool(s) load completed at 200806 21:29:35
+2020-08-06 21:29:35 0 [Note] Reading of all Master_info entries succeeded
+2020-08-06 21:29:35 0 [Note] Added new Master_info '' to hash table
+2020-08-06 21:29:35 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.1TLKt5/mysql.socket'  port: 0  Debian 10
+2020-08-07 20:18:37 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-08-07 20:18:37 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-08-07 20:18:37 0 [Note] InnoDB: Starting shutdown...
+2020-08-07 20:18:37 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-07 20:18:37 0 [Note] InnoDB: Buffer pool(s) dump completed at 200807 20:18:37
+2020-08-07 20:18:38 0 [Note] InnoDB: Shutdown completed; log sequence number 2055482; transaction id 517
+2020-08-07 20:18:38 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-08-07 20:18:38 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-08-07 20:19:01 0 [Note] InnoDB: Using Linux native AIO
+2020-08-07 20:19:01 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-08-07 20:19:01 0 [Note] InnoDB: Uses event mutexes
+2020-08-07 20:19:01 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-08-07 20:19:01 0 [Note] InnoDB: Number of pools: 1
+2020-08-07 20:19:01 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-08-07 20:19:01 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-08-07 20:19:01 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-07 20:19:01 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-08-07 20:19:01 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-08-07 20:19:01 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-08-07 20:19:01 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-08-07 20:19:01 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-08-07 20:19:01 0 [Note] InnoDB: Waiting for purge to start
+2020-08-07 20:19:01 0 [Note] InnoDB: 10.3.23 started; log sequence number 2055482; transaction id 519
+2020-08-07 20:19:01 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-07 20:19:01 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-07 20:19:01 0 [Note] InnoDB: Buffer pool(s) load completed at 200807 20:19:01
+2020-08-07 20:19:01 0 [Note] Reading of all Master_info entries succeeded
+2020-08-07 20:19:01 0 [Note] Added new Master_info '' to hash table
+2020-08-07 20:19:01 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.1TLKt5/mysql.socket'  port: 0  Debian 10
+2020-08-07 20:33:31 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-08-07 20:33:31 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-08-07 20:33:31 0 [Note] InnoDB: Starting shutdown...
+2020-08-07 20:33:31 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-07 20:33:31 0 [Note] InnoDB: Buffer pool(s) dump completed at 200807 20:33:31
+2020-08-07 20:33:33 0 [Note] InnoDB: Shutdown completed; log sequence number 2055491; transaction id 541
+2020-08-07 20:33:33 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-08-07 20:33:33 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-08-07 20:33:49 0 [Note] InnoDB: Using Linux native AIO
+2020-08-07 20:33:49 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-08-07 20:33:49 0 [Note] InnoDB: Uses event mutexes
+2020-08-07 20:33:49 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-08-07 20:33:49 0 [Note] InnoDB: Number of pools: 1
+2020-08-07 20:33:49 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-08-07 20:33:50 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-08-07 20:33:50 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-07 20:33:50 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-08-07 20:33:50 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-08-07 20:33:50 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-08-07 20:33:50 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-08-07 20:33:50 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-08-07 20:33:50 0 [Note] InnoDB: 10.3.23 started; log sequence number 2055491; transaction id 519
+2020-08-07 20:33:50 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-07 20:33:50 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-07 20:33:50 0 [Note] Reading of all Master_info entries succeeded
+2020-08-07 20:33:50 0 [Note] Added new Master_info '' to hash table
+2020-08-07 20:33:50 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.34EfuF/mysql.socket'  port: 0  Debian 10
+2020-08-07 20:33:50 0 [Note] InnoDB: Buffer pool(s) load completed at 200807 20:33:50
+2020-08-07 22:08:50 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-08-07 22:08:50 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-08-07 22:08:50 0 [Note] InnoDB: Starting shutdown...
+2020-08-07 22:08:50 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-07 22:08:50 0 [Note] InnoDB: Buffer pool(s) dump completed at 200807 22:08:50
+2020-08-07 22:08:52 0 [Note] InnoDB: Shutdown completed; log sequence number 2055500; transaction id 541
+2020-08-07 22:08:52 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-08-07 22:08:52 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-08-07 22:09:06 0 [Note] InnoDB: Using Linux native AIO
+2020-08-07 22:09:06 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-08-07 22:09:06 0 [Note] InnoDB: Uses event mutexes
+2020-08-07 22:09:06 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-08-07 22:09:06 0 [Note] InnoDB: Number of pools: 1
+2020-08-07 22:09:06 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-08-07 22:09:06 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-08-07 22:09:06 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-07 22:09:06 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-08-07 22:09:06 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-08-07 22:09:06 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-08-07 22:09:06 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-08-07 22:09:06 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-08-07 22:09:06 0 [Note] InnoDB: Waiting for purge to start
+2020-08-07 22:09:06 0 [Note] InnoDB: 10.3.23 started; log sequence number 2055500; transaction id 519
+2020-08-07 22:09:06 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-07 22:09:06 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-07 22:09:06 0 [Note] Reading of all Master_info entries succeeded
+2020-08-07 22:09:06 0 [Note] Added new Master_info '' to hash table
+2020-08-07 22:09:06 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.XC7Lcq/mysql.socket'  port: 0  Debian 10
+2020-08-07 22:09:06 0 [Note] InnoDB: Buffer pool(s) load completed at 200807 22:09:06
+2020-08-08  0:18:01 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-08-08  0:18:01 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-08-08  0:18:01 0 [Note] InnoDB: Starting shutdown...
+2020-08-08  0:18:01 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-08  0:18:01 0 [Note] InnoDB: Buffer pool(s) dump completed at 200808  0:18:01
+2020-08-08  0:18:03 0 [Note] InnoDB: Shutdown completed; log sequence number 2055509; transaction id 541
+2020-08-08  0:18:03 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-08-08  0:18:03 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-08-08  0:20:24 0 [Note] InnoDB: Using Linux native AIO
+2020-08-08  0:20:24 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-08-08  0:20:24 0 [Note] InnoDB: Uses event mutexes
+2020-08-08  0:20:24 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-08-08  0:20:24 0 [Note] InnoDB: Number of pools: 1
+2020-08-08  0:20:24 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-08-08  0:20:24 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-08-08  0:20:24 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-08  0:20:24 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-08-08  0:20:24 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-08-08  0:20:24 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-08-08  0:20:24 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-08-08  0:20:24 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-08-08  0:20:24 0 [Note] InnoDB: Waiting for purge to start
+2020-08-08  0:20:24 0 [Note] InnoDB: 10.3.23 started; log sequence number 2055509; transaction id 519
+2020-08-08  0:20:24 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-08  0:20:24 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-08  0:20:24 0 [Note] Reading of all Master_info entries succeeded
+2020-08-08  0:20:24 0 [Note] Added new Master_info '' to hash table
+2020-08-08  0:20:24 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.hQsMHD/mysql.socket'  port: 0  Debian 10
+2020-08-08  0:20:24 0 [Note] InnoDB: Buffer pool(s) load completed at 200808  0:20:24
+2020-08-08  1:04:00 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-08-08  1:04:00 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-08-08  1:04:00 0 [Note] InnoDB: Starting shutdown...
+2020-08-08  1:04:00 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-08  1:04:00 0 [Note] InnoDB: Buffer pool(s) dump completed at 200808  1:04:00
+2020-08-08  1:04:01 0 [Note] InnoDB: Shutdown completed; log sequence number 2055518; transaction id 541
+2020-08-08  1:04:01 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-08-08  1:04:01 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-08-08  1:04:18 0 [Note] InnoDB: Using Linux native AIO
+2020-08-08  1:04:18 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-08-08  1:04:18 0 [Note] InnoDB: Uses event mutexes
+2020-08-08  1:04:18 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-08-08  1:04:18 0 [Note] InnoDB: Number of pools: 1
+2020-08-08  1:04:18 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-08-08  1:04:18 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-08-08  1:04:18 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-08  1:04:18 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-08-08  1:04:18 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-08-08  1:04:18 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-08-08  1:04:18 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-08-08  1:04:18 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-08-08  1:04:18 0 [Note] InnoDB: 10.3.23 started; log sequence number 2055518; transaction id 519
+2020-08-08  1:04:18 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-08  1:04:18 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-08  1:04:18 0 [Note] InnoDB: Buffer pool(s) load completed at 200808  1:04:18
+2020-08-08  1:04:18 0 [Note] Reading of all Master_info entries succeeded
+2020-08-08  1:04:18 0 [Note] Added new Master_info '' to hash table
+2020-08-08  1:04:18 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.hQsMHD/mysql.socket'  port: 0  Debian 10
+2020-08-08  1:07:26 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-08-08  1:07:26 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-08-08  1:07:26 0 [Note] InnoDB: Starting shutdown...
+2020-08-08  1:07:26 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-08  1:07:26 0 [Note] InnoDB: Buffer pool(s) dump completed at 200808  1:07:26
+2020-08-08  1:07:28 0 [Note] InnoDB: Shutdown completed; log sequence number 2055527; transaction id 541
+2020-08-08  1:07:28 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-08-08  1:07:28 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-08-08  1:08:57 0 [Note] InnoDB: Using Linux native AIO
+2020-08-08  1:08:57 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-08-08  1:08:57 0 [Note] InnoDB: Uses event mutexes
+2020-08-08  1:08:57 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-08-08  1:08:57 0 [Note] InnoDB: Number of pools: 1
+2020-08-08  1:08:57 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-08-08  1:08:57 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-08-08  1:08:57 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-08  1:08:57 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-08-08  1:08:57 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-08-08  1:08:57 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-08-08  1:08:57 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-08-08  1:08:57 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-08-08  1:08:57 0 [Note] InnoDB: Waiting for purge to start
+2020-08-08  1:08:57 0 [Note] InnoDB: 10.3.23 started; log sequence number 2055527; transaction id 519
+2020-08-08  1:08:57 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-08  1:08:57 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-08  1:08:57 0 [Note] Reading of all Master_info entries succeeded
+2020-08-08  1:08:57 0 [Note] Added new Master_info '' to hash table
+2020-08-08  1:08:57 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.L7HFt0/mysql.socket'  port: 0  Debian 10
+2020-08-08  1:08:57 0 [Note] InnoDB: Buffer pool(s) load completed at 200808  1:08:57
+2020-08-08  2:43:49 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-08-08  2:43:49 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-08-08  2:43:49 0 [Note] InnoDB: Starting shutdown...
+2020-08-08  2:43:49 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-08  2:43:49 0 [Note] InnoDB: Buffer pool(s) dump completed at 200808  2:43:49
+2020-08-08  2:43:51 0 [Note] InnoDB: Shutdown completed; log sequence number 2055536; transaction id 541
+2020-08-08  2:43:51 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-08-08  2:43:51 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-08-08  2:44:27 0 [Note] InnoDB: Using Linux native AIO
+2020-08-08  2:44:27 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-08-08  2:44:27 0 [Note] InnoDB: Uses event mutexes
+2020-08-08  2:44:27 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-08-08  2:44:27 0 [Note] InnoDB: Number of pools: 1
+2020-08-08  2:44:27 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-08-08  2:44:27 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-08-08  2:44:27 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-08  2:44:27 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-08-08  2:44:27 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-08-08  2:44:27 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-08-08  2:44:27 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-08-08  2:44:27 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-08-08  2:44:27 0 [Note] InnoDB: Waiting for purge to start
+2020-08-08  2:44:27 0 [Note] InnoDB: 10.3.23 started; log sequence number 2055536; transaction id 519
+2020-08-08  2:44:27 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-08  2:44:27 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-08  2:44:27 0 [Note] Reading of all Master_info entries succeeded
+2020-08-08  2:44:27 0 [Note] Added new Master_info '' to hash table
+2020-08-08  2:44:27 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.ADimdO/mysql.socket'  port: 0  Debian 10
+2020-08-08  2:44:27 0 [Note] InnoDB: Buffer pool(s) load completed at 200808  2:44:27
+2020-08-08  2:57:42 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-08-08  2:57:42 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-08-08  2:57:42 0 [Note] InnoDB: Starting shutdown...
+2020-08-08  2:57:42 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-08  2:57:42 0 [Note] InnoDB: Buffer pool(s) dump completed at 200808  2:57:42
+2020-08-08  2:57:44 0 [Note] InnoDB: Shutdown completed; log sequence number 2055545; transaction id 541
+2020-08-08  2:57:44 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-08-08  2:57:44 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-08-08  2:58:02 0 [Note] InnoDB: Using Linux native AIO
+2020-08-08  2:58:02 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-08-08  2:58:02 0 [Note] InnoDB: Uses event mutexes
+2020-08-08  2:58:02 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-08-08  2:58:02 0 [Note] InnoDB: Number of pools: 1
+2020-08-08  2:58:02 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-08-08  2:58:02 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-08-08  2:58:02 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-08  2:58:02 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-08-08  2:58:02 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-08-08  2:58:02 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-08-08  2:58:02 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-08-08  2:58:02 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-08-08  2:58:02 0 [Note] InnoDB: Waiting for purge to start
+2020-08-08  2:58:02 0 [Note] InnoDB: 10.3.23 started; log sequence number 2055545; transaction id 519
+2020-08-08  2:58:02 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-08  2:58:02 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-08  2:58:02 0 [Note] Reading of all Master_info entries succeeded
+2020-08-08  2:58:02 0 [Note] Added new Master_info '' to hash table
+2020-08-08  2:58:02 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.QagMpb/mysql.socket'  port: 0  Debian 10
+2020-08-08  2:58:02 0 [Note] InnoDB: Buffer pool(s) load completed at 200808  2:58:02
+2020-08-08  3:20:12 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-08-08  3:20:12 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-08-08  3:20:12 0 [Note] InnoDB: Starting shutdown...
+2020-08-08  3:20:12 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-08  3:20:12 0 [Note] InnoDB: Buffer pool(s) dump completed at 200808  3:20:12
+2020-08-08  3:20:14 0 [Note] InnoDB: Shutdown completed; log sequence number 2055554; transaction id 541
+2020-08-08  3:20:14 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-08-08  3:20:14 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-08-08  3:20:29 0 [Note] InnoDB: Using Linux native AIO
+2020-08-08  3:20:29 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-08-08  3:20:29 0 [Note] InnoDB: Uses event mutexes
+2020-08-08  3:20:29 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-08-08  3:20:29 0 [Note] InnoDB: Number of pools: 1
+2020-08-08  3:20:29 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-08-08  3:20:29 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-08-08  3:20:29 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-08  3:20:29 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-08-08  3:20:29 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-08-08  3:20:29 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-08-08  3:20:29 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-08-08  3:20:29 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-08-08  3:20:29 0 [Note] InnoDB: Waiting for purge to start
+2020-08-08  3:20:29 0 [Note] InnoDB: 10.3.23 started; log sequence number 2055554; transaction id 519
+2020-08-08  3:20:29 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-08  3:20:29 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-08  3:20:29 0 [Note] Reading of all Master_info entries succeeded
+2020-08-08  3:20:29 0 [Note] Added new Master_info '' to hash table
+2020-08-08  3:20:29 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.E2K8EK/mysql.socket'  port: 0  Debian 10
+2020-08-08  3:20:29 0 [Note] InnoDB: Buffer pool(s) load completed at 200808  3:20:29
+2020-08-08 17:15:46 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-08-08 17:15:46 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-08-08 17:15:46 0 [Note] InnoDB: Starting shutdown...
+2020-08-08 17:15:46 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-08 17:15:46 0 [Note] InnoDB: Buffer pool(s) dump completed at 200808 17:15:46
+2020-08-08 17:15:48 0 [Note] InnoDB: Shutdown completed; log sequence number 2055563; transaction id 541
+2020-08-08 17:15:48 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-08-08 17:15:48 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-08-08 17:16:10 0 [Note] InnoDB: Using Linux native AIO
+2020-08-08 17:16:10 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-08-08 17:16:10 0 [Note] InnoDB: Uses event mutexes
+2020-08-08 17:16:10 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-08-08 17:16:10 0 [Note] InnoDB: Number of pools: 1
+2020-08-08 17:16:10 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-08-08 17:16:10 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-08-08 17:16:10 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-08 17:16:10 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-08-08 17:16:10 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-08-08 17:16:10 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-08-08 17:16:10 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-08-08 17:16:10 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-08-08 17:16:10 0 [Note] InnoDB: Waiting for purge to start
+2020-08-08 17:16:10 0 [Note] InnoDB: 10.3.23 started; log sequence number 2055563; transaction id 519
+2020-08-08 17:16:10 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-08 17:16:10 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-08 17:16:10 0 [Note] InnoDB: Buffer pool(s) load completed at 200808 17:16:10
+2020-08-08 17:16:10 0 [Note] Reading of all Master_info entries succeeded
+2020-08-08 17:16:10 0 [Note] Added new Master_info '' to hash table
+2020-08-08 17:16:10 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.E2K8EK/mysql.socket'  port: 0  Debian 10
+2020-08-08 20:31:19 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-08-08 20:31:19 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-08-08 20:31:19 0 [Note] InnoDB: Starting shutdown...
+2020-08-08 20:31:19 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-08 20:31:19 0 [Note] InnoDB: Buffer pool(s) dump completed at 200808 20:31:19
+2020-08-08 20:31:21 0 [Note] InnoDB: Shutdown completed; log sequence number 2055572; transaction id 541
+2020-08-08 20:31:21 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-08-08 20:31:21 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-08-08 20:32:40 0 [Note] InnoDB: Using Linux native AIO
+2020-08-08 20:32:40 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-08-08 20:32:40 0 [Note] InnoDB: Uses event mutexes
+2020-08-08 20:32:40 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-08-08 20:32:40 0 [Note] InnoDB: Number of pools: 1
+2020-08-08 20:32:40 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-08-08 20:32:40 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-08-08 20:32:40 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-08 20:32:40 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-08-08 20:32:40 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-08-08 20:32:40 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-08-08 20:32:40 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-08-08 20:32:40 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-08-08 20:32:40 0 [Note] InnoDB: 10.3.23 started; log sequence number 2055572; transaction id 519
+2020-08-08 20:32:40 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-08 20:32:40 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-08 20:32:40 0 [Note] Reading of all Master_info entries succeeded
+2020-08-08 20:32:40 0 [Note] Added new Master_info '' to hash table
+2020-08-08 20:32:40 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.leDTJ3/mysql.socket'  port: 0  Debian 10
+2020-08-08 20:32:40 0 [Note] InnoDB: Buffer pool(s) load completed at 200808 20:32:40
+2020-08-08 20:36:14 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-08-08 20:36:14 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-08-08 20:36:14 0 [Note] InnoDB: Starting shutdown...
+2020-08-08 20:36:14 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-08 20:36:14 0 [Note] InnoDB: Buffer pool(s) dump completed at 200808 20:36:14
+2020-08-08 20:36:16 0 [Note] InnoDB: Shutdown completed; log sequence number 2055581; transaction id 541
+2020-08-08 20:36:16 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-08-08 20:36:16 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-08-08 20:36:30 0 [Note] InnoDB: Using Linux native AIO
+2020-08-08 20:36:30 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-08-08 20:36:30 0 [Note] InnoDB: Uses event mutexes
+2020-08-08 20:36:30 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-08-08 20:36:30 0 [Note] InnoDB: Number of pools: 1
+2020-08-08 20:36:30 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-08-08 20:36:30 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-08-08 20:36:30 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-08 20:36:30 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-08-08 20:36:30 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-08-08 20:36:30 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-08-08 20:36:30 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-08-08 20:36:30 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-08-08 20:36:30 0 [Note] InnoDB: Waiting for purge to start
+2020-08-08 20:36:30 0 [Note] InnoDB: 10.3.23 started; log sequence number 2055581; transaction id 519
+2020-08-08 20:36:30 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-08 20:36:30 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-08 20:36:30 0 [Note] Reading of all Master_info entries succeeded
+2020-08-08 20:36:30 0 [Note] Added new Master_info '' to hash table
+2020-08-08 20:36:30 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.qVSPW1/mysql.socket'  port: 0  Debian 10
+2020-08-08 20:36:30 0 [Note] InnoDB: Buffer pool(s) load completed at 200808 20:36:30
+2020-08-08 20:55:09 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-08-08 20:55:09 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-08-08 20:55:09 0 [Note] InnoDB: Starting shutdown...
+2020-08-08 20:55:09 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-08 20:55:09 0 [Note] InnoDB: Buffer pool(s) dump completed at 200808 20:55:09
+2020-08-08 20:55:10 0 [Note] InnoDB: Shutdown completed; log sequence number 2055590; transaction id 541
+2020-08-08 20:55:10 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-08-08 20:55:10 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-08-08 20:57:23 0 [Note] InnoDB: Using Linux native AIO
+2020-08-08 20:57:23 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-08-08 20:57:23 0 [Note] InnoDB: Uses event mutexes
+2020-08-08 20:57:23 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-08-08 20:57:23 0 [Note] InnoDB: Number of pools: 1
+2020-08-08 20:57:23 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-08-08 20:57:23 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-08-08 20:57:23 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-08 20:57:23 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-08-08 20:57:23 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-08-08 20:57:23 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-08-08 20:57:23 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-08-08 20:57:23 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-08-08 20:57:23 0 [Note] InnoDB: 10.3.23 started; log sequence number 2055590; transaction id 519
+2020-08-08 20:57:23 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-08 20:57:23 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-08 20:57:23 0 [Note] InnoDB: Buffer pool(s) load completed at 200808 20:57:23
+2020-08-08 20:57:23 0 [Note] Reading of all Master_info entries succeeded
+2020-08-08 20:57:23 0 [Note] Added new Master_info '' to hash table
+2020-08-08 20:57:23 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.qVSPW1/mysql.socket'  port: 0  Debian 10
+2020-08-08 21:18:48 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-08-08 21:18:48 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-08-08 21:18:48 0 [Note] InnoDB: Starting shutdown...
+2020-08-08 21:18:48 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-08 21:18:48 0 [Note] InnoDB: Buffer pool(s) dump completed at 200808 21:18:48
+2020-08-08 21:18:49 0 [Note] InnoDB: Shutdown completed; log sequence number 2055599; transaction id 541
+2020-08-08 21:18:49 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-08-08 21:18:50 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-08-08 21:20:32 0 [Note] InnoDB: Using Linux native AIO
+2020-08-08 21:20:32 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-08-08 21:20:32 0 [Note] InnoDB: Uses event mutexes
+2020-08-08 21:20:32 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-08-08 21:20:32 0 [Note] InnoDB: Number of pools: 1
+2020-08-08 21:20:32 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-08-08 21:20:32 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-08-08 21:20:32 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-08 21:20:32 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-08-08 21:20:32 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-08-08 21:20:32 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-08-08 21:20:32 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-08-08 21:20:32 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-08-08 21:20:32 0 [Note] InnoDB: 10.3.23 started; log sequence number 2055599; transaction id 519
+2020-08-08 21:20:32 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-08 21:20:32 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-08 21:20:32 0 [Note] Reading of all Master_info entries succeeded
+2020-08-08 21:20:32 0 [Note] Added new Master_info '' to hash table
+2020-08-08 21:20:32 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.NRKxS8/mysql.socket'  port: 0  Debian 10
+2020-08-08 21:20:32 0 [Note] InnoDB: Buffer pool(s) load completed at 200808 21:20:32
+2020-08-08 22:29:45 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-08-08 22:29:45 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-08-08 22:29:45 0 [Note] InnoDB: Starting shutdown...
+2020-08-08 22:29:45 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-08 22:29:45 0 [Note] InnoDB: Buffer pool(s) dump completed at 200808 22:29:45
+2020-08-08 22:29:47 0 [Note] InnoDB: Shutdown completed; log sequence number 2055608; transaction id 541
+2020-08-08 22:29:47 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-08-08 22:29:47 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-08-08 22:30:03 0 [Note] InnoDB: Using Linux native AIO
+2020-08-08 22:30:03 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-08-08 22:30:03 0 [Note] InnoDB: Uses event mutexes
+2020-08-08 22:30:03 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-08-08 22:30:03 0 [Note] InnoDB: Number of pools: 1
+2020-08-08 22:30:03 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-08-08 22:30:03 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-08-08 22:30:03 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-08 22:30:03 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-08-08 22:30:03 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-08-08 22:30:03 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-08-08 22:30:03 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-08-08 22:30:03 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-08-08 22:30:03 0 [Note] InnoDB: Waiting for purge to start
+2020-08-08 22:30:03 0 [Note] InnoDB: 10.3.23 started; log sequence number 2055608; transaction id 519
+2020-08-08 22:30:03 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-08 22:30:03 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-08 22:30:03 0 [Note] Reading of all Master_info entries succeeded
+2020-08-08 22:30:03 0 [Note] Added new Master_info '' to hash table
+2020-08-08 22:30:03 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.D1YWrP/mysql.socket'  port: 0  Debian 10
+2020-08-08 22:30:03 0 [Note] InnoDB: Buffer pool(s) load completed at 200808 22:30:03
+2020-08-08 22:35:02 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-08-08 22:35:02 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-08-08 22:35:02 0 [Note] InnoDB: Starting shutdown...
+2020-08-08 22:35:02 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-08 22:35:02 0 [Note] InnoDB: Buffer pool(s) dump completed at 200808 22:35:02
+2020-08-08 22:35:03 0 [Note] InnoDB: Shutdown completed; log sequence number 2055617; transaction id 541
+2020-08-08 22:35:03 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-08-08 22:35:03 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-08-08 22:35:17 0 [Note] InnoDB: Using Linux native AIO
+2020-08-08 22:35:17 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-08-08 22:35:17 0 [Note] InnoDB: Uses event mutexes
+2020-08-08 22:35:17 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-08-08 22:35:17 0 [Note] InnoDB: Number of pools: 1
+2020-08-08 22:35:17 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-08-08 22:35:17 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-08-08 22:35:17 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-08 22:35:17 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-08-08 22:35:17 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-08-08 22:35:17 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-08-08 22:35:17 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-08-08 22:35:17 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-08-08 22:35:17 0 [Note] InnoDB: Waiting for purge to start
+2020-08-08 22:35:17 0 [Note] InnoDB: 10.3.23 started; log sequence number 2055617; transaction id 519
+2020-08-08 22:35:17 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-08 22:35:17 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-08 22:35:17 0 [Note] Reading of all Master_info entries succeeded
+2020-08-08 22:35:17 0 [Note] Added new Master_info '' to hash table
+2020-08-08 22:35:17 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.EP5QfK/mysql.socket'  port: 0  Debian 10
+2020-08-08 22:35:17 0 [Note] InnoDB: Buffer pool(s) load completed at 200808 22:35:17
+2020-08-08 22:47:19 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-08-08 22:47:19 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-08-08 22:47:19 0 [Note] InnoDB: Starting shutdown...
+2020-08-08 22:47:19 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-08 22:47:19 0 [Note] InnoDB: Buffer pool(s) dump completed at 200808 22:47:19
+2020-08-08 22:47:21 0 [Note] InnoDB: Shutdown completed; log sequence number 2055626; transaction id 541
+2020-08-08 22:47:21 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-08-08 22:47:21 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-08-08 23:16:22 0 [Note] InnoDB: Using Linux native AIO
+2020-08-08 23:16:22 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-08-08 23:16:22 0 [Note] InnoDB: Uses event mutexes
+2020-08-08 23:16:22 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-08-08 23:16:22 0 [Note] InnoDB: Number of pools: 1
+2020-08-08 23:16:22 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-08-08 23:16:22 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-08-08 23:16:22 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-08 23:16:22 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-08-08 23:16:22 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-08-08 23:16:22 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-08-08 23:16:22 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-08-08 23:16:22 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-08-08 23:16:22 0 [Note] InnoDB: 10.3.23 started; log sequence number 2055626; transaction id 519
+2020-08-08 23:16:22 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-08 23:16:22 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-08 23:16:22 0 [Note] Reading of all Master_info entries succeeded
+2020-08-08 23:16:22 0 [Note] Added new Master_info '' to hash table
+2020-08-08 23:16:22 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.r7cGUZ/mysql.socket'  port: 0  Debian 10
+2020-08-08 23:16:22 0 [Note] InnoDB: Buffer pool(s) load completed at 200808 23:16:22
+2020-08-08 23:18:20 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-08-08 23:18:20 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-08-08 23:18:20 0 [Note] InnoDB: Starting shutdown...
+2020-08-08 23:18:20 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-08 23:18:20 0 [Note] InnoDB: Buffer pool(s) dump completed at 200808 23:18:20
+2020-08-08 23:18:22 0 [Note] InnoDB: Shutdown completed; log sequence number 2055635; transaction id 541
+2020-08-08 23:18:22 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-08-08 23:18:22 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-08-08 23:18:36 0 [Note] InnoDB: Using Linux native AIO
+2020-08-08 23:18:36 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-08-08 23:18:36 0 [Note] InnoDB: Uses event mutexes
+2020-08-08 23:18:36 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-08-08 23:18:36 0 [Note] InnoDB: Number of pools: 1
+2020-08-08 23:18:36 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-08-08 23:18:36 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-08-08 23:18:36 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-08 23:18:36 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-08-08 23:18:36 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-08-08 23:18:36 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-08-08 23:18:36 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-08-08 23:18:36 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-08-08 23:18:36 0 [Note] InnoDB: 10.3.23 started; log sequence number 2055635; transaction id 519
+2020-08-08 23:18:36 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-08 23:18:36 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-08 23:18:36 0 [Note] InnoDB: Buffer pool(s) load completed at 200808 23:18:36
+2020-08-08 23:18:36 0 [Note] Reading of all Master_info entries succeeded
+2020-08-08 23:18:36 0 [Note] Added new Master_info '' to hash table
+2020-08-08 23:18:36 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.r7cGUZ/mysql.socket'  port: 0  Debian 10
+2020-08-08 23:31:00 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-08-08 23:31:00 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-08-08 23:31:00 0 [Note] InnoDB: Starting shutdown...
+2020-08-08 23:31:00 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-08 23:31:00 0 [Note] InnoDB: Buffer pool(s) dump completed at 200808 23:31:00
+2020-08-08 23:31:01 0 [Note] InnoDB: Shutdown completed; log sequence number 2055644; transaction id 541
+2020-08-08 23:31:01 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-08-08 23:31:01 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-08-08 23:33:37 0 [Note] InnoDB: Using Linux native AIO
+2020-08-08 23:33:37 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-08-08 23:33:37 0 [Note] InnoDB: Uses event mutexes
+2020-08-08 23:33:37 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-08-08 23:33:37 0 [Note] InnoDB: Number of pools: 1
+2020-08-08 23:33:37 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-08-08 23:33:37 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-08-08 23:33:37 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-08 23:33:37 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-08-08 23:33:37 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-08-08 23:33:37 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-08-08 23:33:37 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-08-08 23:33:37 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-08-08 23:33:37 0 [Note] InnoDB: Waiting for purge to start
+2020-08-08 23:33:37 0 [Note] InnoDB: 10.3.23 started; log sequence number 2055644; transaction id 519
+2020-08-08 23:33:37 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-08 23:33:37 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-08 23:33:37 0 [Note] Reading of all Master_info entries succeeded
+2020-08-08 23:33:37 0 [Note] Added new Master_info '' to hash table
+2020-08-08 23:33:37 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.Pj27RL/mysql.socket'  port: 0  Debian 10
+2020-08-08 23:33:37 0 [Note] InnoDB: Buffer pool(s) load completed at 200808 23:33:37
+2020-08-08 23:37:10 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-08-08 23:37:10 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-08-08 23:37:10 0 [Note] InnoDB: Starting shutdown...
+2020-08-08 23:37:10 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-08 23:37:10 0 [Note] InnoDB: Buffer pool(s) dump completed at 200808 23:37:10
+2020-08-08 23:37:12 0 [Note] InnoDB: Shutdown completed; log sequence number 2055653; transaction id 541
+2020-08-08 23:37:12 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-08-08 23:37:12 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-08-08 23:37:32 0 [Note] InnoDB: Using Linux native AIO
+2020-08-08 23:37:32 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-08-08 23:37:32 0 [Note] InnoDB: Uses event mutexes
+2020-08-08 23:37:32 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-08-08 23:37:32 0 [Note] InnoDB: Number of pools: 1
+2020-08-08 23:37:32 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-08-08 23:37:32 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-08-08 23:37:32 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-08 23:37:32 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-08-08 23:37:32 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-08-08 23:37:32 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-08-08 23:37:32 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-08-08 23:37:32 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-08-08 23:37:32 0 [Note] InnoDB: 10.3.23 started; log sequence number 2055653; transaction id 519
+2020-08-08 23:37:32 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-08 23:37:32 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-08 23:37:32 0 [Note] Reading of all Master_info entries succeeded
+2020-08-08 23:37:32 0 [Note] Added new Master_info '' to hash table
+2020-08-08 23:37:32 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.hkg529/mysql.socket'  port: 0  Debian 10
+2020-08-08 23:37:32 0 [Note] InnoDB: Buffer pool(s) load completed at 200808 23:37:32
+2020-08-08 23:56:36 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-08-08 23:56:36 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-08-08 23:56:36 0 [Note] InnoDB: Starting shutdown...
+2020-08-08 23:56:36 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-08 23:56:36 0 [Note] InnoDB: Buffer pool(s) dump completed at 200808 23:56:36
+2020-08-08 23:56:37 0 [Note] InnoDB: Shutdown completed; log sequence number 2055662; transaction id 541
+2020-08-08 23:56:37 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-08-08 23:56:37 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-08-08 23:56:56 0 [Note] InnoDB: Using Linux native AIO
+2020-08-08 23:56:56 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-08-08 23:56:56 0 [Note] InnoDB: Uses event mutexes
+2020-08-08 23:56:56 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-08-08 23:56:56 0 [Note] InnoDB: Number of pools: 1
+2020-08-08 23:56:56 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-08-08 23:56:56 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-08-08 23:56:56 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-08 23:56:56 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-08-08 23:56:56 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-08-08 23:56:56 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-08-08 23:56:56 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-08-08 23:56:56 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-08-08 23:56:56 0 [Note] InnoDB: Waiting for purge to start
+2020-08-08 23:56:56 0 [Note] InnoDB: 10.3.23 started; log sequence number 2055662; transaction id 519
+2020-08-08 23:56:56 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-08 23:56:56 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-08 23:56:56 0 [Note] Reading of all Master_info entries succeeded
+2020-08-08 23:56:56 0 [Note] Added new Master_info '' to hash table
+2020-08-08 23:56:56 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.laC6yY/mysql.socket'  port: 0  Debian 10
+2020-08-08 23:56:56 0 [Note] InnoDB: Buffer pool(s) load completed at 200808 23:56:56
+2020-08-09  0:08:46 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-08-09  0:08:46 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-08-09  0:08:46 0 [Note] InnoDB: Starting shutdown...
+2020-08-09  0:08:46 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-09  0:08:46 0 [Note] InnoDB: Buffer pool(s) dump completed at 200809  0:08:46
+2020-08-09  0:08:48 0 [Note] InnoDB: Shutdown completed; log sequence number 2055671; transaction id 541
+2020-08-09  0:08:48 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-08-09  0:08:48 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-08-09  0:09:03 0 [Note] InnoDB: Using Linux native AIO
+2020-08-09  0:09:03 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-08-09  0:09:03 0 [Note] InnoDB: Uses event mutexes
+2020-08-09  0:09:03 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-08-09  0:09:03 0 [Note] InnoDB: Number of pools: 1
+2020-08-09  0:09:03 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-08-09  0:09:04 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-08-09  0:09:04 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-09  0:09:04 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-08-09  0:09:04 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-08-09  0:09:04 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-08-09  0:09:04 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-08-09  0:09:04 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-08-09  0:09:04 0 [Note] InnoDB: 10.3.23 started; log sequence number 2055671; transaction id 519
+2020-08-09  0:09:04 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-09  0:09:04 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-09  0:09:04 0 [Note] Reading of all Master_info entries succeeded
+2020-08-09  0:09:04 0 [Note] Added new Master_info '' to hash table
+2020-08-09  0:09:04 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.RMGPKx/mysql.socket'  port: 0  Debian 10
+2020-08-09  0:09:04 0 [Note] InnoDB: Buffer pool(s) load completed at 200809  0:09:04
+2020-08-09  0:17:20 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-08-09  0:17:20 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-08-09  0:17:20 0 [Note] InnoDB: Starting shutdown...
+2020-08-09  0:17:20 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-09  0:17:20 0 [Note] InnoDB: Buffer pool(s) dump completed at 200809  0:17:20
+2020-08-09  0:17:22 0 [Note] InnoDB: Shutdown completed; log sequence number 2055705; transaction id 541
+2020-08-09  0:17:22 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-08-09  0:17:22 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-08-09  0:19:27 0 [Note] InnoDB: Using Linux native AIO
+2020-08-09  0:19:27 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-08-09  0:19:27 0 [Note] InnoDB: Uses event mutexes
+2020-08-09  0:19:27 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-08-09  0:19:27 0 [Note] InnoDB: Number of pools: 1
+2020-08-09  0:19:27 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-08-09  0:19:27 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-08-09  0:19:27 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-09  0:19:27 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-08-09  0:19:27 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-08-09  0:19:27 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-08-09  0:19:27 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-08-09  0:19:27 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-08-09  0:19:27 0 [Note] InnoDB: Waiting for purge to start
+2020-08-09  0:19:27 0 [Note] InnoDB: 10.3.23 started; log sequence number 2055705; transaction id 519
+2020-08-09  0:19:27 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-09  0:19:27 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-09  0:19:27 0 [Note] Reading of all Master_info entries succeeded
+2020-08-09  0:19:27 0 [Note] Added new Master_info '' to hash table
+2020-08-09  0:19:27 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.Bc2JFK/mysql.socket'  port: 0  Debian 10
+2020-08-09  0:19:27 0 [Note] InnoDB: Buffer pool(s) load completed at 200809  0:19:27
+2020-08-09  0:56:44 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-08-09  0:56:44 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-08-09  0:56:44 0 [Note] InnoDB: Starting shutdown...
+2020-08-09  0:56:44 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-09  0:56:44 0 [Note] InnoDB: Buffer pool(s) dump completed at 200809  0:56:44
+2020-08-09  0:56:45 0 [Note] InnoDB: Shutdown completed; log sequence number 2055714; transaction id 541
+2020-08-09  0:56:45 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-08-09  0:56:45 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-08-09  0:57:00 0 [Note] InnoDB: Using Linux native AIO
+2020-08-09  0:57:00 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-08-09  0:57:00 0 [Note] InnoDB: Uses event mutexes
+2020-08-09  0:57:00 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-08-09  0:57:00 0 [Note] InnoDB: Number of pools: 1
+2020-08-09  0:57:00 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-08-09  0:57:00 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-08-09  0:57:00 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-09  0:57:00 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-08-09  0:57:00 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-08-09  0:57:00 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-08-09  0:57:00 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-08-09  0:57:00 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-08-09  0:57:00 0 [Note] InnoDB: 10.3.23 started; log sequence number 2055714; transaction id 519
+2020-08-09  0:57:00 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-09  0:57:00 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-09  0:57:00 0 [Note] InnoDB: Buffer pool(s) load completed at 200809  0:57:00
+2020-08-09  0:57:00 0 [Note] Reading of all Master_info entries succeeded
+2020-08-09  0:57:00 0 [Note] Added new Master_info '' to hash table
+2020-08-09  0:57:00 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.Bc2JFK/mysql.socket'  port: 0  Debian 10
+2020-08-09  2:33:38 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-08-09  2:33:38 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-08-09  2:33:38 0 [Note] InnoDB: Starting shutdown...
+2020-08-09  2:33:38 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-09  2:33:38 0 [Note] InnoDB: Buffer pool(s) dump completed at 200809  2:33:38
+2020-08-09  2:33:39 0 [Note] InnoDB: Shutdown completed; log sequence number 2055723; transaction id 541
+2020-08-09  2:33:39 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-08-09  2:33:39 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-08-09  2:34:09 0 [Note] InnoDB: Using Linux native AIO
+2020-08-09  2:34:09 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-08-09  2:34:09 0 [Note] InnoDB: Uses event mutexes
+2020-08-09  2:34:09 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-08-09  2:34:09 0 [Note] InnoDB: Number of pools: 1
+2020-08-09  2:34:09 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-08-09  2:34:09 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-08-09  2:34:09 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-09  2:34:09 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-08-09  2:34:09 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-08-09  2:34:09 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-08-09  2:34:09 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-08-09  2:34:09 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-08-09  2:34:09 0 [Note] InnoDB: 10.3.23 started; log sequence number 2055723; transaction id 519
+2020-08-09  2:34:09 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-09  2:34:09 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-09  2:34:09 0 [Note] Reading of all Master_info entries succeeded
+2020-08-09  2:34:09 0 [Note] Added new Master_info '' to hash table
+2020-08-09  2:34:09 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.obavji/mysql.socket'  port: 0  Debian 10
+2020-08-09  2:34:09 0 [Note] InnoDB: Buffer pool(s) load completed at 200809  2:34:09
+2020-08-09  2:39:59 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-08-09  2:39:59 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-08-09  2:39:59 0 [Note] InnoDB: Starting shutdown...
+2020-08-09  2:39:59 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-09  2:39:59 0 [Note] InnoDB: Buffer pool(s) dump completed at 200809  2:39:59
+2020-08-09  2:40:00 0 [Note] InnoDB: Shutdown completed; log sequence number 2055732; transaction id 541
+2020-08-09  2:40:00 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-08-09  2:40:00 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-08-09  2:40:12 0 [Note] InnoDB: Using Linux native AIO
+2020-08-09  2:40:12 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-08-09  2:40:12 0 [Note] InnoDB: Uses event mutexes
+2020-08-09  2:40:12 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-08-09  2:40:12 0 [Note] InnoDB: Number of pools: 1
+2020-08-09  2:40:12 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-08-09  2:40:12 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-08-09  2:40:12 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-09  2:40:12 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-08-09  2:40:12 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-08-09  2:40:12 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-08-09  2:40:12 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-08-09  2:40:12 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-08-09  2:40:12 0 [Note] InnoDB: Waiting for purge to start
+2020-08-09  2:40:12 0 [Note] InnoDB: 10.3.23 started; log sequence number 2055732; transaction id 519
+2020-08-09  2:40:12 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-09  2:40:12 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-09  2:40:12 0 [Note] InnoDB: Buffer pool(s) load completed at 200809  2:40:12
+2020-08-09  2:40:12 0 [Note] Reading of all Master_info entries succeeded
+2020-08-09  2:40:12 0 [Note] Added new Master_info '' to hash table
+2020-08-09  2:40:12 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.obavji/mysql.socket'  port: 0  Debian 10
+2020-08-09  2:46:01 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-08-09  2:46:01 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-08-09  2:46:01 0 [Note] InnoDB: Starting shutdown...
+2020-08-09  2:46:01 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-09  2:46:01 0 [Note] InnoDB: Buffer pool(s) dump completed at 200809  2:46:01
+2020-08-09  2:46:02 0 [Note] InnoDB: Shutdown completed; log sequence number 2055741; transaction id 541
+2020-08-09  2:46:02 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-08-09  2:46:02 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-08-09  2:46:23 0 [Note] InnoDB: Using Linux native AIO
+2020-08-09  2:46:23 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-08-09  2:46:23 0 [Note] InnoDB: Uses event mutexes
+2020-08-09  2:46:23 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-08-09  2:46:23 0 [Note] InnoDB: Number of pools: 1
+2020-08-09  2:46:23 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-08-09  2:46:23 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-08-09  2:46:23 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-09  2:46:23 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-08-09  2:46:23 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-08-09  2:46:23 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-08-09  2:46:23 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-08-09  2:46:23 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-08-09  2:46:23 0 [Note] InnoDB: Waiting for purge to start
+2020-08-09  2:46:23 0 [Note] InnoDB: 10.3.23 started; log sequence number 2055741; transaction id 519
+2020-08-09  2:46:23 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-09  2:46:23 0 [Note] InnoDB: Buffer pool(s) load completed at 200809  2:46:23
+2020-08-09  2:46:23 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-09  2:46:23 0 [Note] Reading of all Master_info entries succeeded
+2020-08-09  2:46:23 0 [Note] Added new Master_info '' to hash table
+2020-08-09  2:46:23 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.obavji/mysql.socket'  port: 0  Debian 10
+2020-08-09  2:48:41 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-08-09  2:48:41 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-08-09  2:48:41 0 [Note] InnoDB: Starting shutdown...
+2020-08-09  2:48:41 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-09  2:48:41 0 [Note] InnoDB: Buffer pool(s) dump completed at 200809  2:48:41
+2020-08-09  2:48:42 0 [Note] InnoDB: Shutdown completed; log sequence number 2055750; transaction id 541
+2020-08-09  2:48:42 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-08-09  2:48:42 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-08-09  2:48:53 0 [Note] InnoDB: Using Linux native AIO
+2020-08-09  2:48:53 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-08-09  2:48:53 0 [Note] InnoDB: Uses event mutexes
+2020-08-09  2:48:53 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-08-09  2:48:53 0 [Note] InnoDB: Number of pools: 1
+2020-08-09  2:48:53 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-08-09  2:48:53 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-08-09  2:48:53 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-09  2:48:53 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-08-09  2:48:53 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-08-09  2:48:53 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-08-09  2:48:53 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-08-09  2:48:53 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-08-09  2:48:53 0 [Note] InnoDB: Waiting for purge to start
+2020-08-09  2:48:53 0 [Note] InnoDB: 10.3.23 started; log sequence number 2055750; transaction id 519
+2020-08-09  2:48:53 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-09  2:48:53 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-09  2:48:53 0 [Note] InnoDB: Buffer pool(s) load completed at 200809  2:48:53
+2020-08-09  2:48:53 0 [Note] Reading of all Master_info entries succeeded
+2020-08-09  2:48:53 0 [Note] Added new Master_info '' to hash table
+2020-08-09  2:48:53 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.obavji/mysql.socket'  port: 0  Debian 10
+2020-08-09  2:53:37 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-08-09  2:53:37 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-08-09  2:53:37 0 [Note] InnoDB: Starting shutdown...
+2020-08-09  2:53:37 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-09  2:53:37 0 [Note] InnoDB: Buffer pool(s) dump completed at 200809  2:53:37
+2020-08-09  2:53:39 0 [Note] InnoDB: Shutdown completed; log sequence number 2055759; transaction id 541
+2020-08-09  2:53:39 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-08-09  2:53:39 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-08-09  2:55:15 0 [Note] InnoDB: Using Linux native AIO
+2020-08-09  2:55:15 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-08-09  2:55:15 0 [Note] InnoDB: Uses event mutexes
+2020-08-09  2:55:15 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-08-09  2:55:15 0 [Note] InnoDB: Number of pools: 1
+2020-08-09  2:55:15 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-08-09  2:55:15 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-08-09  2:55:15 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-09  2:55:15 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-08-09  2:55:15 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-08-09  2:55:15 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-08-09  2:55:15 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-08-09  2:55:15 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-08-09  2:55:15 0 [Note] InnoDB: 10.3.23 started; log sequence number 2055759; transaction id 519
+2020-08-09  2:55:15 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-09  2:55:15 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-09  2:55:15 0 [Note] Reading of all Master_info entries succeeded
+2020-08-09  2:55:15 0 [Note] Added new Master_info '' to hash table
+2020-08-09  2:55:15 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.sM0AiX/mysql.socket'  port: 0  Debian 10
+2020-08-09  2:55:15 0 [Note] InnoDB: Buffer pool(s) load completed at 200809  2:55:15
+2020-08-09  3:02:36 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-08-09  3:02:36 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-08-09  3:02:36 0 [Note] InnoDB: Starting shutdown...
+2020-08-09  3:02:36 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-09  3:02:36 0 [Note] InnoDB: Buffer pool(s) dump completed at 200809  3:02:36
+2020-08-09  3:02:37 0 [Note] InnoDB: Shutdown completed; log sequence number 2055768; transaction id 541
+2020-08-09  3:02:37 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-08-09  3:02:37 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-08-09  3:02:57 0 [Note] InnoDB: Using Linux native AIO
+2020-08-09  3:02:57 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-08-09  3:02:57 0 [Note] InnoDB: Uses event mutexes
+2020-08-09  3:02:57 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-08-09  3:02:57 0 [Note] InnoDB: Number of pools: 1
+2020-08-09  3:02:57 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-08-09  3:02:57 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-08-09  3:02:57 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-09  3:02:57 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-08-09  3:02:57 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-08-09  3:02:57 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-08-09  3:02:57 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-08-09  3:02:57 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-08-09  3:02:57 0 [Note] InnoDB: Waiting for purge to start
+2020-08-09  3:02:57 0 [Note] InnoDB: 10.3.23 started; log sequence number 2055768; transaction id 519
+2020-08-09  3:02:57 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-09  3:02:57 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-09  3:02:57 0 [Note] Reading of all Master_info entries succeeded
+2020-08-09  3:02:57 0 [Note] Added new Master_info '' to hash table
+2020-08-09  3:02:57 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.rcosxL/mysql.socket'  port: 0  Debian 10
+2020-08-09  3:02:57 0 [Note] InnoDB: Buffer pool(s) load completed at 200809  3:02:57
+2020-08-10 18:07:58 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-08-10 18:07:58 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-08-10 18:07:58 0 [Note] InnoDB: Starting shutdown...
+2020-08-10 18:07:58 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-10 18:07:58 0 [Note] InnoDB: Buffer pool(s) dump completed at 200810 18:07:58
+2020-08-10 18:08:00 0 [Note] InnoDB: Shutdown completed; log sequence number 2055777; transaction id 541
+2020-08-10 18:08:00 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-08-10 18:08:00 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-08-10 18:08:17 0 [Note] InnoDB: Using Linux native AIO
+2020-08-10 18:08:17 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-08-10 18:08:17 0 [Note] InnoDB: Uses event mutexes
+2020-08-10 18:08:17 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-08-10 18:08:17 0 [Note] InnoDB: Number of pools: 1
+2020-08-10 18:08:17 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-08-10 18:08:17 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-08-10 18:08:17 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-10 18:08:17 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-08-10 18:08:17 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-08-10 18:08:17 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-08-10 18:08:17 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-08-10 18:08:17 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-08-10 18:08:17 0 [Note] InnoDB: 10.3.23 started; log sequence number 2055777; transaction id 519
+2020-08-10 18:08:17 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-10 18:08:17 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-10 18:08:17 0 [Note] Reading of all Master_info entries succeeded
+2020-08-10 18:08:17 0 [Note] Added new Master_info '' to hash table
+2020-08-10 18:08:17 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.XidWfh/mysql.socket'  port: 0  Debian 10
+2020-08-10 18:08:17 0 [Note] InnoDB: Buffer pool(s) load completed at 200810 18:08:17
+2020-08-10 19:41:46 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-08-10 19:41:46 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-08-10 19:41:46 0 [Note] InnoDB: Starting shutdown...
+2020-08-10 19:41:46 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-10 19:41:46 0 [Note] InnoDB: Buffer pool(s) dump completed at 200810 19:41:46
+2020-08-10 19:41:48 0 [Note] InnoDB: Shutdown completed; log sequence number 2055786; transaction id 541
+2020-08-10 19:41:48 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-08-10 19:41:48 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-08-10 19:42:06 0 [Note] InnoDB: Using Linux native AIO
+2020-08-10 19:42:06 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-08-10 19:42:06 0 [Note] InnoDB: Uses event mutexes
+2020-08-10 19:42:06 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-08-10 19:42:06 0 [Note] InnoDB: Number of pools: 1
+2020-08-10 19:42:06 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-08-10 19:42:06 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-08-10 19:42:06 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-10 19:42:06 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-08-10 19:42:06 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-08-10 19:42:06 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-08-10 19:42:06 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-08-10 19:42:06 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-08-10 19:42:06 0 [Note] InnoDB: Waiting for purge to start
+2020-08-10 19:42:06 0 [Note] InnoDB: 10.3.23 started; log sequence number 2055786; transaction id 519
+2020-08-10 19:42:06 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-10 19:42:06 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-10 19:42:06 0 [Note] InnoDB: Buffer pool(s) load completed at 200810 19:42:06
+2020-08-10 19:42:06 0 [Note] Reading of all Master_info entries succeeded
+2020-08-10 19:42:06 0 [Note] Added new Master_info '' to hash table
+2020-08-10 19:42:06 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.XidWfh/mysql.socket'  port: 0  Debian 10
+2020-08-12 21:34:05 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-08-12 21:34:05 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-08-12 21:34:05 0 [Note] InnoDB: Starting shutdown...
+2020-08-12 21:34:05 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-12 21:34:05 0 [Note] InnoDB: Buffer pool(s) dump completed at 200812 21:34:05
+2020-08-12 21:34:06 0 [Note] InnoDB: Shutdown completed; log sequence number 2055795; transaction id 541
+2020-08-12 21:34:06 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-08-12 21:34:06 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-08-12 21:34:37 0 [Note] InnoDB: Using Linux native AIO
+2020-08-12 21:34:37 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-08-12 21:34:37 0 [Note] InnoDB: Uses event mutexes
+2020-08-12 21:34:37 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-08-12 21:34:37 0 [Note] InnoDB: Number of pools: 1
+2020-08-12 21:34:37 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-08-12 21:34:37 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-08-12 21:34:37 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-12 21:34:37 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-08-12 21:34:37 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-08-12 21:34:37 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-08-12 21:34:37 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-08-12 21:34:37 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-08-12 21:34:37 0 [Note] InnoDB: 10.3.23 started; log sequence number 2055795; transaction id 519
+2020-08-12 21:34:37 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-12 21:34:37 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-12 21:34:37 0 [Note] Reading of all Master_info entries succeeded
+2020-08-12 21:34:37 0 [Note] Added new Master_info '' to hash table
+2020-08-12 21:34:37 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.NsfIg9/mysql.socket'  port: 0  Debian 10
+2020-08-12 21:34:37 0 [Note] InnoDB: Buffer pool(s) load completed at 200812 21:34:37
+2020-08-12 21:39:32 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-08-12 21:39:32 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-08-12 21:39:32 0 [Note] InnoDB: Starting shutdown...
+2020-08-12 21:39:32 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-12 21:39:32 0 [Note] InnoDB: Buffer pool(s) dump completed at 200812 21:39:32
+2020-08-12 21:39:33 0 [Note] InnoDB: Shutdown completed; log sequence number 2055804; transaction id 541
+2020-08-12 21:39:33 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-08-12 21:39:33 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-08-12 21:34:39 0 [Note] InnoDB: Using Linux native AIO
+2020-08-12 21:34:39 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-08-12 21:34:39 0 [Note] InnoDB: Uses event mutexes
+2020-08-12 21:34:39 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-08-12 21:34:39 0 [Note] InnoDB: Number of pools: 1
+2020-08-12 21:34:39 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-08-12 21:34:39 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-08-12 21:34:39 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-12 21:34:39 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-08-12 21:34:39 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-08-12 21:34:39 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-08-12 21:34:39 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-08-12 21:34:39 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-08-12 21:34:39 0 [Note] InnoDB: 10.3.23 started; log sequence number 2055804; transaction id 519
+2020-08-12 21:34:39 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-12 21:34:39 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-12 21:34:39 0 [Note] Reading of all Master_info entries succeeded
+2020-08-12 21:34:39 0 [Note] Added new Master_info '' to hash table
+2020-08-12 21:34:39 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.u0sqYX/mysql.socket'  port: 0  Debian 10
+2020-08-12 21:34:39 0 [Note] InnoDB: Buffer pool(s) load completed at 200812 21:34:39
+2020-08-13  7:26:11 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-08-13  7:26:11 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-08-13  7:26:11 0 [Note] InnoDB: Starting shutdown...
+2020-08-13  7:26:11 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-13  7:26:11 0 [Note] InnoDB: Buffer pool(s) dump completed at 200813  7:26:11
+2020-08-13  7:26:13 0 [Note] InnoDB: Shutdown completed; log sequence number 2055813; transaction id 541
+2020-08-13  7:26:13 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-08-13  7:26:13 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-08-13  7:28:49 0 [Note] InnoDB: Using Linux native AIO
+2020-08-13  7:28:49 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-08-13  7:28:49 0 [Note] InnoDB: Uses event mutexes
+2020-08-13  7:28:49 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-08-13  7:28:49 0 [Note] InnoDB: Number of pools: 1
+2020-08-13  7:28:49 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-08-13  7:28:49 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-08-13  7:28:49 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-13  7:28:49 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-08-13  7:28:49 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-08-13  7:28:49 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-08-13  7:28:49 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-08-13  7:28:49 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-08-13  7:28:49 0 [Note] InnoDB: 10.3.23 started; log sequence number 2055813; transaction id 519
+2020-08-13  7:28:49 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-13  7:28:49 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-13  7:28:49 0 [Note] Reading of all Master_info entries succeeded
+2020-08-13  7:28:49 0 [Note] Added new Master_info '' to hash table
+2020-08-13  7:28:49 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.JfKweJ/mysql.socket'  port: 0  Debian 10
+2020-08-13  7:28:49 0 [Note] InnoDB: Buffer pool(s) load completed at 200813  7:28:49
+2020-08-13  7:33:02 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-08-13  7:33:02 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-08-13  7:33:02 0 [Note] InnoDB: Starting shutdown...
+2020-08-13  7:33:02 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-13  7:33:02 0 [Note] InnoDB: Buffer pool(s) dump completed at 200813  7:33:02
+2020-08-13  7:33:03 0 [Note] InnoDB: Shutdown completed; log sequence number 2055822; transaction id 541
+2020-08-13  7:33:03 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-08-13  7:33:03 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-08-13  8:23:31 0 [Note] InnoDB: Using Linux native AIO
+2020-08-13  8:23:31 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-08-13  8:23:31 0 [Note] InnoDB: Uses event mutexes
+2020-08-13  8:23:31 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-08-13  8:23:31 0 [Note] InnoDB: Number of pools: 1
+2020-08-13  8:23:31 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-08-13  8:23:31 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-08-13  8:23:31 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-13  8:23:31 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-08-13  8:23:31 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-08-13  8:23:31 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-08-13  8:23:31 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-08-13  8:23:31 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-08-13  8:23:31 0 [Note] InnoDB: 10.3.23 started; log sequence number 2055822; transaction id 519
+2020-08-13  8:23:31 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-13  8:23:31 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-13  8:23:31 0 [Note] Reading of all Master_info entries succeeded
+2020-08-13  8:23:31 0 [Note] Added new Master_info '' to hash table
+2020-08-13  8:23:31 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.f1UQD3/mysql.socket'  port: 0  Debian 10
+2020-08-13  8:23:31 0 [Note] InnoDB: Buffer pool(s) load completed at 200813  8:23:31
+2020-08-14  3:25:50 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-08-14  3:25:50 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-08-14  3:25:50 0 [Note] InnoDB: Starting shutdown...
+2020-08-14  3:25:50 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-14  3:25:50 0 [Note] InnoDB: Buffer pool(s) dump completed at 200814  3:25:50
+2020-08-14  3:25:52 0 [Note] InnoDB: Shutdown completed; log sequence number 2055831; transaction id 541
+2020-08-14  3:25:52 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-08-14  3:25:52 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-08-14  3:26:13 0 [Note] InnoDB: Using Linux native AIO
+2020-08-14  3:26:13 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-08-14  3:26:13 0 [Note] InnoDB: Uses event mutexes
+2020-08-14  3:26:13 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-08-14  3:26:13 0 [Note] InnoDB: Number of pools: 1
+2020-08-14  3:26:13 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-08-14  3:26:13 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-08-14  3:26:13 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-14  3:26:13 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-08-14  3:26:13 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-08-14  3:26:13 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-08-14  3:26:13 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-08-14  3:26:13 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-08-14  3:26:13 0 [Note] InnoDB: Waiting for purge to start
+2020-08-14  3:26:13 0 [Note] InnoDB: 10.3.23 started; log sequence number 2055831; transaction id 519
+2020-08-14  3:26:13 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-14  3:26:13 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-14  3:26:13 0 [Note] Reading of all Master_info entries succeeded
+2020-08-14  3:26:13 0 [Note] Added new Master_info '' to hash table
+2020-08-14  3:26:13 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.4IgBSU/mysql.socket'  port: 0  Debian 10
+2020-08-14  3:26:13 0 [Note] InnoDB: Buffer pool(s) load completed at 200814  3:26:13
+2020-08-16 20:21:16 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-08-16 20:21:16 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-08-16 20:21:16 0 [Note] InnoDB: Starting shutdown...
+2020-08-16 20:21:16 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-16 20:21:16 0 [Note] InnoDB: Buffer pool(s) dump completed at 200816 20:21:16
+2020-08-16 20:21:17 0 [Note] InnoDB: Shutdown completed; log sequence number 2055840; transaction id 541
+2020-08-16 20:21:17 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-08-16 20:21:17 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-08-16 20:21:48 0 [Note] InnoDB: Using Linux native AIO
+2020-08-16 20:21:48 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-08-16 20:21:48 0 [Note] InnoDB: Uses event mutexes
+2020-08-16 20:21:48 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-08-16 20:21:48 0 [Note] InnoDB: Number of pools: 1
+2020-08-16 20:21:48 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-08-16 20:21:48 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-08-16 20:21:48 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-16 20:21:48 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-08-16 20:21:48 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-08-16 20:21:48 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-08-16 20:21:48 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-08-16 20:21:48 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-08-16 20:21:48 0 [Note] InnoDB: Waiting for purge to start
+2020-08-16 20:21:48 0 [Note] InnoDB: 10.3.23 started; log sequence number 2055840; transaction id 519
+2020-08-16 20:21:48 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-16 20:21:48 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-16 20:21:48 0 [Note] Reading of all Master_info entries succeeded
+2020-08-16 20:21:48 0 [Note] Added new Master_info '' to hash table
+2020-08-16 20:21:48 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.HS5cGE/mysql.socket'  port: 0  Debian 10
+2020-08-16 20:21:48 0 [Note] InnoDB: Buffer pool(s) load completed at 200816 20:21:48
+2020-08-21 10:23:56 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-08-21 10:23:56 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-08-21 10:23:56 0 [Note] InnoDB: Starting shutdown...
+2020-08-21 10:23:56 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-21 10:23:56 0 [Note] InnoDB: Buffer pool(s) dump completed at 200821 10:23:56
+2020-08-21 10:23:58 0 [Note] InnoDB: Shutdown completed; log sequence number 2055849; transaction id 541
+2020-08-21 10:23:58 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-08-21 10:23:58 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-08-21 10:25:43 0 [Note] InnoDB: Using Linux native AIO
+2020-08-21 10:25:43 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-08-21 10:25:43 0 [Note] InnoDB: Uses event mutexes
+2020-08-21 10:25:43 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-08-21 10:25:43 0 [Note] InnoDB: Number of pools: 1
+2020-08-21 10:25:43 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-08-21 10:25:43 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-08-21 10:25:43 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-21 10:25:43 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-08-21 10:25:43 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-08-21 10:25:43 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-08-21 10:25:43 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-08-21 10:25:43 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-08-21 10:25:43 0 [Note] InnoDB: 10.3.23 started; log sequence number 2055849; transaction id 519
+2020-08-21 10:25:43 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-21 10:25:43 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-21 10:25:43 0 [Note] Reading of all Master_info entries succeeded
+2020-08-21 10:25:43 0 [Note] Added new Master_info '' to hash table
+2020-08-21 10:25:43 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.1CETKg/mysql.socket'  port: 0  Debian 10
+2020-08-21 10:25:43 0 [Note] InnoDB: Buffer pool(s) load completed at 200821 10:25:43
+2020-08-26  3:11:41 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-08-26  3:11:41 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-08-26  3:11:41 0 [Note] InnoDB: Starting shutdown...
+2020-08-26  3:11:41 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-26  3:11:41 0 [Note] InnoDB: Buffer pool(s) dump completed at 200826  3:11:41
+2020-08-26  3:11:43 0 [Note] InnoDB: Shutdown completed; log sequence number 2055858; transaction id 541
+2020-08-26  3:11:43 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-08-26  3:11:43 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-08-26  3:13:35 0 [Note] InnoDB: Using Linux native AIO
+2020-08-26  3:13:35 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-08-26  3:13:35 0 [Note] InnoDB: Uses event mutexes
+2020-08-26  3:13:35 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-08-26  3:13:35 0 [Note] InnoDB: Number of pools: 1
+2020-08-26  3:13:35 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-08-26  3:13:36 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-08-26  3:13:36 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-26  3:13:36 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-08-26  3:13:36 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-08-26  3:13:36 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-08-26  3:13:36 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-08-26  3:13:36 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-08-26  3:13:36 0 [Note] InnoDB: Waiting for purge to start
+2020-08-26  3:13:36 0 [Note] InnoDB: 10.3.23 started; log sequence number 2055858; transaction id 519
+2020-08-26  3:13:36 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-26  3:13:36 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-26  3:13:36 0 [Note] Reading of all Master_info entries succeeded
+2020-08-26  3:13:36 0 [Note] Added new Master_info '' to hash table
+2020-08-26  3:13:36 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.gFM2Ki/mysql.socket'  port: 0  Debian 10
+2020-08-26  3:13:36 0 [Note] InnoDB: Buffer pool(s) load completed at 200826  3:13:36
+2020-08-26 12:27:10 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-08-26 12:27:10 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-08-26 12:27:10 0 [Note] InnoDB: Starting shutdown...
+2020-08-26 12:27:10 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-26 12:27:10 0 [Note] InnoDB: Buffer pool(s) dump completed at 200826 12:27:10
+2020-08-26 12:27:12 0 [Note] InnoDB: Shutdown completed; log sequence number 2055867; transaction id 541
+2020-08-26 12:27:12 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-08-26 12:27:12 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-08-26 12:27:53 0 [Note] InnoDB: Using Linux native AIO
+2020-08-26 12:27:53 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-08-26 12:27:53 0 [Note] InnoDB: Uses event mutexes
+2020-08-26 12:27:53 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-08-26 12:27:53 0 [Note] InnoDB: Number of pools: 1
+2020-08-26 12:27:53 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-08-26 12:27:53 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-08-26 12:27:53 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-26 12:27:53 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-08-26 12:27:53 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-08-26 12:27:53 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-08-26 12:27:53 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-08-26 12:27:53 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-08-26 12:27:53 0 [Note] InnoDB: 10.3.23 started; log sequence number 2055867; transaction id 519
+2020-08-26 12:27:53 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-26 12:27:53 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-26 12:27:53 0 [Note] Reading of all Master_info entries succeeded
+2020-08-26 12:27:53 0 [Note] Added new Master_info '' to hash table
+2020-08-26 12:27:53 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.Ja1x05/mysql.socket'  port: 0  Debian 10
+2020-08-26 12:27:53 0 [Note] InnoDB: Buffer pool(s) load completed at 200826 12:27:53
+2020-08-30  5:38:26 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-08-30  5:38:26 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-08-30  5:38:26 0 [Note] InnoDB: Starting shutdown...
+2020-08-30  5:38:26 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-30  5:38:26 0 [Note] InnoDB: Buffer pool(s) dump completed at 200830  5:38:26
+2020-08-30  5:38:28 0 [Note] InnoDB: Shutdown completed; log sequence number 2055876; transaction id 541
+2020-08-30  5:38:28 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-08-30  5:38:28 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-08-30  5:38:59 0 [Note] InnoDB: Using Linux native AIO
+2020-08-30  5:38:59 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-08-30  5:38:59 0 [Note] InnoDB: Uses event mutexes
+2020-08-30  5:38:59 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-08-30  5:38:59 0 [Note] InnoDB: Number of pools: 1
+2020-08-30  5:38:59 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-08-30  5:38:59 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-08-30  5:38:59 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-08-30  5:38:59 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-08-30  5:38:59 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-08-30  5:38:59 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-08-30  5:38:59 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-08-30  5:38:59 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-08-30  5:38:59 0 [Note] InnoDB: Waiting for purge to start
+2020-08-30  5:38:59 0 [Note] InnoDB: 10.3.23 started; log sequence number 2055876; transaction id 519
+2020-08-30  5:38:59 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-08-30  5:38:59 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-08-30  5:38:59 0 [Note] InnoDB: Buffer pool(s) load completed at 200830  5:38:59
+2020-08-30  5:38:59 0 [Note] Reading of all Master_info entries succeeded
+2020-08-30  5:38:59 0 [Note] Added new Master_info '' to hash table
+2020-08-30  5:38:59 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.46xmrE/mysql.socket'  port: 0  Debian 10
+2020-09-03  3:35:38 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-09-03  3:35:38 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-09-03  3:35:38 0 [Note] InnoDB: Starting shutdown...
+2020-09-03  3:35:38 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-09-03  3:35:38 0 [Note] InnoDB: Buffer pool(s) dump completed at 200903  3:35:38
+2020-09-03  3:35:40 0 [Note] InnoDB: Shutdown completed; log sequence number 2055885; transaction id 541
+2020-09-03  3:35:40 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-09-03  3:35:40 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-09-03  3:36:11 0 [Note] InnoDB: Using Linux native AIO
+2020-09-03  3:36:11 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-09-03  3:36:11 0 [Note] InnoDB: Uses event mutexes
+2020-09-03  3:36:11 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-09-03  3:36:11 0 [Note] InnoDB: Number of pools: 1
+2020-09-03  3:36:11 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-09-03  3:36:11 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-09-03  3:36:11 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-09-03  3:36:11 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-09-03  3:36:11 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-09-03  3:36:11 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-09-03  3:36:11 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-09-03  3:36:11 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-09-03  3:36:11 0 [Note] InnoDB: 10.3.23 started; log sequence number 2055885; transaction id 519
+2020-09-03  3:36:11 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-09-03  3:36:11 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-09-03  3:36:11 0 [Note] Reading of all Master_info entries succeeded
+2020-09-03  3:36:11 0 [Note] Added new Master_info '' to hash table
+2020-09-03  3:36:11 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.stAUtx/mysql.socket'  port: 0  Debian 10
+2020-09-03  3:36:11 0 [Note] InnoDB: Buffer pool(s) load completed at 200903  3:36:11
+2020-09-03 13:07:56 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-09-03 13:07:56 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-09-03 13:07:56 0 [Note] InnoDB: Starting shutdown...
+2020-09-03 13:07:56 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-09-03 13:07:56 0 [Note] InnoDB: Buffer pool(s) dump completed at 200903 13:07:56
+2020-09-03 13:07:57 0 [Note] InnoDB: Shutdown completed; log sequence number 2055894; transaction id 541
+2020-09-03 13:07:57 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-09-03 13:07:57 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-09-03 13:08:50 0 [Note] InnoDB: Using Linux native AIO
+2020-09-03 13:08:50 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-09-03 13:08:50 0 [Note] InnoDB: Uses event mutexes
+2020-09-03 13:08:50 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-09-03 13:08:50 0 [Note] InnoDB: Number of pools: 1
+2020-09-03 13:08:50 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-09-03 13:08:50 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-09-03 13:08:50 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-09-03 13:08:50 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-09-03 13:08:50 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-09-03 13:08:50 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-09-03 13:08:50 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-09-03 13:08:50 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-09-03 13:08:50 0 [Note] InnoDB: Waiting for purge to start
+2020-09-03 13:08:50 0 [Note] InnoDB: 10.3.23 started; log sequence number 2055894; transaction id 519
+2020-09-03 13:08:50 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-09-03 13:08:50 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-09-03 13:08:50 0 [Note] Reading of all Master_info entries succeeded
+2020-09-03 13:08:50 0 [Note] Added new Master_info '' to hash table
+2020-09-03 13:08:50 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.Qu2rqp/mysql.socket'  port: 0  Debian 10
+2020-09-03 13:08:50 0 [Note] InnoDB: Buffer pool(s) load completed at 200903 13:08:50
+2020-09-03 20:32:48 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-09-03 20:32:48 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-09-03 20:32:48 0 [Note] InnoDB: Starting shutdown...
+2020-09-03 20:32:48 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-09-03 20:32:48 0 [Note] InnoDB: Buffer pool(s) dump completed at 200903 20:32:48
+2020-09-03 20:32:49 0 [Note] InnoDB: Shutdown completed; log sequence number 2055903; transaction id 541
+2020-09-03 20:32:49 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-09-03 20:32:49 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-09-03 20:33:05 0 [Note] InnoDB: Using Linux native AIO
+2020-09-03 20:33:05 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-09-03 20:33:05 0 [Note] InnoDB: Uses event mutexes
+2020-09-03 20:33:05 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-09-03 20:33:05 0 [Note] InnoDB: Number of pools: 1
+2020-09-03 20:33:05 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-09-03 20:33:05 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-09-03 20:33:05 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-09-03 20:33:05 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-09-03 20:33:05 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-09-03 20:33:05 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-09-03 20:33:05 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-09-03 20:33:05 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-09-03 20:33:05 0 [Note] InnoDB: 10.3.23 started; log sequence number 2055903; transaction id 519
+2020-09-03 20:33:05 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-09-03 20:33:05 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-09-03 20:33:05 0 [Note] Reading of all Master_info entries succeeded
+2020-09-03 20:33:05 0 [Note] Added new Master_info '' to hash table
+2020-09-03 20:33:05 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.nnLfIB/mysql.socket'  port: 0  Debian 10
+2020-09-03 20:33:05 0 [Note] InnoDB: Buffer pool(s) load completed at 200903 20:33:05
+2020-09-08 15:36:26 0 [Note] InnoDB: Using Linux native AIO
+2020-09-08 15:36:26 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-09-08 15:36:26 0 [Note] InnoDB: Uses event mutexes
+2020-09-08 15:36:26 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-09-08 15:36:26 0 [Note] InnoDB: Number of pools: 1
+2020-09-08 15:36:26 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-09-08 15:36:26 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-09-08 15:36:26 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-09-08 15:36:26 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-09-08 15:36:26 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=2055903
+2020-09-08 15:36:26 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-09-08 15:36:26 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-09-08 15:36:26 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-09-08 15:36:26 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-09-08 15:36:26 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-09-08 15:36:26 0 [Note] InnoDB: Waiting for purge to start
+2020-09-08 15:36:26 0 [Note] InnoDB: 10.3.23 started; log sequence number 2055912; transaction id 519
+2020-09-08 15:36:26 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-09-08 15:36:26 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-09-08 15:36:26 0 [Note] Recovering after a crash using tc.log
+2020-09-08 15:36:26 0 [Note] Starting crash recovery...
+2020-09-08 15:36:26 0 [Note] Crash recovery finished.
+2020-09-08 15:36:26 0 [Note] Reading of all Master_info entries succeeded
+2020-09-08 15:36:26 0 [Note] Added new Master_info '' to hash table
+2020-09-08 15:36:26 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.a7b3me/mysql.socket'  port: 0  Debian 10
+2020-09-08 15:36:26 0 [Note] InnoDB: Buffer pool(s) load completed at 200908 15:36:26
+2020-09-09 14:49:26 0 [Note] InnoDB: Using Linux native AIO
+2020-09-09 14:49:26 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-09-09 14:49:26 0 [Note] InnoDB: Uses event mutexes
+2020-09-09 14:49:26 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-09-09 14:49:26 0 [Note] InnoDB: Number of pools: 1
+2020-09-09 14:49:26 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-09-09 14:49:26 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-09-09 14:49:26 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-09-09 14:49:26 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-09-09 14:49:26 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=2055921
+2020-09-09 14:49:26 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-09-09 14:49:26 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-09-09 14:49:26 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-09-09 14:49:26 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-09-09 14:49:26 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-09-09 14:49:26 0 [Note] InnoDB: Waiting for purge to start
+2020-09-09 14:49:26 0 [Note] InnoDB: 10.3.23 started; log sequence number 2055930; transaction id 519
+2020-09-09 14:49:26 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-09-09 14:49:26 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-09-09 14:49:26 0 [Note] Recovering after a crash using tc.log
+2020-09-09 14:49:26 0 [Note] Starting crash recovery...
+2020-09-09 14:49:26 0 [Note] Crash recovery finished.
+2020-09-09 14:49:26 0 [Note] Reading of all Master_info entries succeeded
+2020-09-09 14:49:26 0 [Note] Added new Master_info '' to hash table
+2020-09-09 14:49:26 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.vse5Vc/mysql.socket'  port: 0  Debian 10
+2020-09-09 14:49:26 0 [Note] InnoDB: Buffer pool(s) load completed at 200909 14:49:26
+2020-09-09 14:52:34 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-09-09 14:52:34 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-09-09 14:52:34 0 [Note] InnoDB: Starting shutdown...
+2020-09-09 14:52:34 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-09-09 14:52:34 0 [Note] InnoDB: Buffer pool(s) dump completed at 200909 14:52:34
+2020-09-09 14:52:36 0 [Note] InnoDB: Shutdown completed; log sequence number 2055948; transaction id 541
+2020-09-09 14:52:36 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-09-09 14:52:36 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-09-09 14:52:51 0 [Note] InnoDB: Using Linux native AIO
+2020-09-09 14:52:51 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-09-09 14:52:51 0 [Note] InnoDB: Uses event mutexes
+2020-09-09 14:52:51 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-09-09 14:52:51 0 [Note] InnoDB: Number of pools: 1
+2020-09-09 14:52:51 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-09-09 14:52:51 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-09-09 14:52:51 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-09-09 14:52:51 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-09-09 14:52:51 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-09-09 14:52:51 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-09-09 14:52:51 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-09-09 14:52:51 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-09-09 14:52:51 0 [Note] InnoDB: Waiting for purge to start
+2020-09-09 14:52:52 0 [Note] InnoDB: 10.3.23 started; log sequence number 2055948; transaction id 519
+2020-09-09 14:52:52 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-09-09 14:52:52 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-09-09 14:52:52 0 [Note] Reading of all Master_info entries succeeded
+2020-09-09 14:52:52 0 [Note] Added new Master_info '' to hash table
+2020-09-09 14:52:52 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.fUs2cq/mysql.socket'  port: 0  Debian 10
+2020-09-09 14:52:52 0 [Note] InnoDB: Buffer pool(s) load completed at 200909 14:52:52
+2020-09-10 18:24:38 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-09-10 18:24:38 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-09-10 18:24:38 0 [Note] InnoDB: Starting shutdown...
+2020-09-10 18:24:38 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-09-10 18:24:38 0 [Note] InnoDB: Buffer pool(s) dump completed at 200910 18:24:38
+2020-09-10 18:24:40 0 [Note] InnoDB: Shutdown completed; log sequence number 2055957; transaction id 541
+2020-09-10 18:24:40 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-09-10 18:24:40 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-09-10 18:30:51 0 [Note] InnoDB: Using Linux native AIO
+2020-09-10 18:30:51 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-09-10 18:30:51 0 [Note] InnoDB: Uses event mutexes
+2020-09-10 18:30:51 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-09-10 18:30:51 0 [Note] InnoDB: Number of pools: 1
+2020-09-10 18:30:51 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-09-10 18:30:51 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-09-10 18:30:51 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-09-10 18:30:51 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-09-10 18:30:51 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-09-10 18:30:51 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-09-10 18:30:51 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-09-10 18:30:51 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-09-10 18:30:51 0 [Note] InnoDB: 10.3.23 started; log sequence number 2055957; transaction id 519
+2020-09-10 18:30:51 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-09-10 18:30:51 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-09-10 18:30:51 0 [Note] Reading of all Master_info entries succeeded
+2020-09-10 18:30:51 0 [Note] Added new Master_info '' to hash table
+2020-09-10 18:30:51 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.3SQMKp/mysql.socket'  port: 0  Debian 10
+2020-09-10 18:30:51 0 [Note] InnoDB: Buffer pool(s) load completed at 200910 18:30:51
+2020-09-12 13:47:23 0 [Note] InnoDB: Using Linux native AIO
+2020-09-12 13:47:23 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-09-12 13:47:23 0 [Note] InnoDB: Uses event mutexes
+2020-09-12 13:47:23 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-09-12 13:47:23 0 [Note] InnoDB: Number of pools: 1
+2020-09-12 13:47:23 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-09-12 13:47:23 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-09-12 13:47:23 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-09-12 13:47:23 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-09-12 13:47:23 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=2055957
+2020-09-12 13:47:23 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-09-12 13:47:23 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-09-12 13:47:23 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-09-12 13:47:23 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-09-12 13:47:23 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-09-12 13:47:23 0 [Note] InnoDB: Waiting for purge to start
+2020-09-12 13:47:23 0 [Note] InnoDB: 10.3.23 started; log sequence number 2055966; transaction id 519
+2020-09-12 13:47:23 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-09-12 13:47:23 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-09-12 13:47:23 0 [Note] Recovering after a crash using tc.log
+2020-09-12 13:47:23 0 [Note] Starting crash recovery...
+2020-09-12 13:47:23 0 [Note] Crash recovery finished.
+2020-09-12 13:47:23 0 [Note] Reading of all Master_info entries succeeded
+2020-09-12 13:47:23 0 [Note] Added new Master_info '' to hash table
+2020-09-12 13:47:23 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.jYCsiK/mysql.socket'  port: 0  Debian 10
+2020-09-12 13:47:23 0 [Note] InnoDB: Buffer pool(s) load completed at 200912 13:47:23
+2020-09-13 15:50:06 0 [Note] InnoDB: Using Linux native AIO
+2020-09-13 15:50:06 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-09-13 15:50:06 0 [Note] InnoDB: Uses event mutexes
+2020-09-13 15:50:06 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-09-13 15:50:06 0 [Note] InnoDB: Number of pools: 1
+2020-09-13 15:50:06 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-09-13 15:50:06 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-09-13 15:50:06 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-09-13 15:50:06 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-09-13 15:50:06 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=2055975
+2020-09-13 15:50:06 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-09-13 15:50:06 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-09-13 15:50:06 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-09-13 15:50:06 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-09-13 15:50:06 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-09-13 15:50:06 0 [Note] InnoDB: Waiting for purge to start
+2020-09-13 15:50:06 0 [Note] InnoDB: 10.3.23 started; log sequence number 2055984; transaction id 519
+2020-09-13 15:50:06 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-09-13 15:50:06 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-09-13 15:50:06 0 [Note] Recovering after a crash using tc.log
+2020-09-13 15:50:06 0 [Note] Starting crash recovery...
+2020-09-13 15:50:06 0 [Note] Crash recovery finished.
+2020-09-13 15:50:06 0 [Note] Reading of all Master_info entries succeeded
+2020-09-13 15:50:06 0 [Note] Added new Master_info '' to hash table
+2020-09-13 15:50:06 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.O4C2Cd/mysql.socket'  port: 0  Debian 10
+2020-09-13 15:50:06 0 [Note] InnoDB: Buffer pool(s) load completed at 200913 15:50:06
+2020-09-13 22:40:22 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-09-13 22:40:22 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-09-13 22:40:22 0 [Note] InnoDB: Starting shutdown...
+2020-09-13 22:40:22 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-09-13 22:40:22 0 [Note] InnoDB: Buffer pool(s) dump completed at 200913 22:40:22
+2020-09-13 22:40:24 0 [Note] InnoDB: Shutdown completed; log sequence number 2056002; transaction id 541
+2020-09-13 22:40:24 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-09-13 22:40:24 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-09-13 22:40:41 0 [Note] InnoDB: Using Linux native AIO
+2020-09-13 22:40:41 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-09-13 22:40:41 0 [Note] InnoDB: Uses event mutexes
+2020-09-13 22:40:41 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-09-13 22:40:41 0 [Note] InnoDB: Number of pools: 1
+2020-09-13 22:40:41 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-09-13 22:40:41 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-09-13 22:40:41 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-09-13 22:40:41 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-09-13 22:40:41 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-09-13 22:40:41 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-09-13 22:40:41 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-09-13 22:40:41 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-09-13 22:40:41 0 [Note] InnoDB: 10.3.23 started; log sequence number 2056002; transaction id 519
+2020-09-13 22:40:41 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-09-13 22:40:41 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-09-13 22:40:41 0 [Note] Reading of all Master_info entries succeeded
+2020-09-13 22:40:41 0 [Note] Added new Master_info '' to hash table
+2020-09-13 22:40:41 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.ef6VVe/mysql.socket'  port: 0  Debian 10
+2020-09-13 22:40:41 0 [Note] InnoDB: Buffer pool(s) load completed at 200913 22:40:41
+2020-09-14  1:09:58 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-09-14  1:09:58 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-09-14  1:09:58 0 [Note] InnoDB: Starting shutdown...
+2020-09-14  1:09:58 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-09-14  1:09:58 0 [Note] InnoDB: Buffer pool(s) dump completed at 200914  1:09:58
+2020-09-14  1:10:00 0 [Note] InnoDB: Shutdown completed; log sequence number 2056011; transaction id 541
+2020-09-14  1:10:00 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-09-14  1:10:00 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-09-14  1:12:10 0 [Note] InnoDB: Using Linux native AIO
+2020-09-14  1:12:10 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-09-14  1:12:10 0 [Note] InnoDB: Uses event mutexes
+2020-09-14  1:12:10 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-09-14  1:12:10 0 [Note] InnoDB: Number of pools: 1
+2020-09-14  1:12:10 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-09-14  1:12:10 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-09-14  1:12:10 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-09-14  1:12:10 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-09-14  1:12:11 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-09-14  1:12:11 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-09-14  1:12:11 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-09-14  1:12:11 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-09-14  1:12:11 0 [Note] InnoDB: 10.3.23 started; log sequence number 2056011; transaction id 519
+2020-09-14  1:12:11 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-09-14  1:12:11 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-09-14  1:12:11 0 [Note] Reading of all Master_info entries succeeded
+2020-09-14  1:12:11 0 [Note] Added new Master_info '' to hash table
+2020-09-14  1:12:11 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.UJS2vD/mysql.socket'  port: 0  Debian 10
+2020-09-14  1:12:11 0 [Note] InnoDB: Buffer pool(s) load completed at 200914  1:12:11
+2020-09-14  3:41:09 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-09-14  3:41:09 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-09-14  3:41:09 0 [Note] InnoDB: Starting shutdown...
+2020-09-14  3:41:09 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-09-14  3:41:09 0 [Note] InnoDB: Buffer pool(s) dump completed at 200914  3:41:09
+2020-09-14  3:41:11 0 [Note] InnoDB: Shutdown completed; log sequence number 2056020; transaction id 541
+2020-09-14  3:41:11 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-09-14  3:41:11 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-09-14  3:41:29 0 [Note] InnoDB: Using Linux native AIO
+2020-09-14  3:41:29 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-09-14  3:41:29 0 [Note] InnoDB: Uses event mutexes
+2020-09-14  3:41:29 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-09-14  3:41:29 0 [Note] InnoDB: Number of pools: 1
+2020-09-14  3:41:29 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-09-14  3:41:29 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-09-14  3:41:29 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-09-14  3:41:29 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-09-14  3:41:29 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-09-14  3:41:29 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-09-14  3:41:29 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-09-14  3:41:29 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-09-14  3:41:29 0 [Note] InnoDB: Waiting for purge to start
+2020-09-14  3:41:29 0 [Note] InnoDB: 10.3.23 started; log sequence number 2056020; transaction id 519
+2020-09-14  3:41:29 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-09-14  3:41:29 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-09-14  3:41:29 0 [Note] Reading of all Master_info entries succeeded
+2020-09-14  3:41:29 0 [Note] Added new Master_info '' to hash table
+2020-09-14  3:41:29 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.yV1Zo3/mysql.socket'  port: 0  Debian 10
+2020-09-14  3:41:29 0 [Note] InnoDB: Buffer pool(s) load completed at 200914  3:41:29
+2020-09-14 12:27:11 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-09-14 12:27:11 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-09-14 12:27:11 0 [Note] InnoDB: Starting shutdown...
+2020-09-14 12:27:11 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-09-14 12:27:11 0 [Note] InnoDB: Buffer pool(s) dump completed at 200914 12:27:11
+2020-09-14 12:27:13 0 [Note] InnoDB: Shutdown completed; log sequence number 2056029; transaction id 541
+2020-09-14 12:27:13 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-09-14 12:27:13 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-09-14 12:27:32 0 [Note] InnoDB: Using Linux native AIO
+2020-09-14 12:27:32 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-09-14 12:27:32 0 [Note] InnoDB: Uses event mutexes
+2020-09-14 12:27:32 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-09-14 12:27:32 0 [Note] InnoDB: Number of pools: 1
+2020-09-14 12:27:32 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-09-14 12:27:32 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-09-14 12:27:32 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-09-14 12:27:32 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-09-14 12:27:32 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-09-14 12:27:32 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-09-14 12:27:32 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-09-14 12:27:32 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-09-14 12:27:32 0 [Note] InnoDB: 10.3.23 started; log sequence number 2056029; transaction id 519
+2020-09-14 12:27:32 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-09-14 12:27:32 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-09-14 12:27:32 0 [Note] Reading of all Master_info entries succeeded
+2020-09-14 12:27:32 0 [Note] Added new Master_info '' to hash table
+2020-09-14 12:27:32 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.iBeZYL/mysql.socket'  port: 0  Debian 10
+2020-09-14 12:27:32 0 [Note] InnoDB: Buffer pool(s) load completed at 200914 12:27:32
+2020-09-14 13:49:09 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-09-14 13:49:09 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-09-14 13:49:09 0 [Note] InnoDB: Starting shutdown...
+2020-09-14 13:49:09 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-09-14 13:49:09 0 [Note] InnoDB: Buffer pool(s) dump completed at 200914 13:49:09
+2020-09-14 13:49:10 0 [Note] InnoDB: Shutdown completed; log sequence number 2056038; transaction id 541
+2020-09-14 13:49:10 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-09-14 13:49:10 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-09-14 13:49:43 0 [Note] InnoDB: Using Linux native AIO
+2020-09-14 13:49:43 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-09-14 13:49:43 0 [Note] InnoDB: Uses event mutexes
+2020-09-14 13:49:43 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-09-14 13:49:43 0 [Note] InnoDB: Number of pools: 1
+2020-09-14 13:49:43 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-09-14 13:49:44 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-09-14 13:49:44 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-09-14 13:49:44 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-09-14 13:49:44 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-09-14 13:49:44 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-09-14 13:49:44 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-09-14 13:49:44 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-09-14 13:49:44 0 [Note] InnoDB: Waiting for purge to start
+2020-09-14 13:49:44 0 [Note] InnoDB: 10.3.23 started; log sequence number 2056038; transaction id 519
+2020-09-14 13:49:44 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-09-14 13:49:44 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-09-14 13:49:44 0 [Note] Reading of all Master_info entries succeeded
+2020-09-14 13:49:44 0 [Note] Added new Master_info '' to hash table
+2020-09-14 13:49:44 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.4RS74a/mysql.socket'  port: 0  Debian 10
+2020-09-14 13:49:44 0 [Note] InnoDB: Buffer pool(s) load completed at 200914 13:49:44
+2020-09-14 13:53:51 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-09-14 13:53:51 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-09-14 13:53:51 0 [Note] InnoDB: Starting shutdown...
+2020-09-14 13:53:51 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-09-14 13:53:51 0 [Note] InnoDB: Buffer pool(s) dump completed at 200914 13:53:51
+2020-09-14 13:53:53 0 [Note] InnoDB: Shutdown completed; log sequence number 2056047; transaction id 541
+2020-09-14 13:53:53 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-09-14 13:53:53 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-09-14 13:58:39 0 [Note] InnoDB: Using Linux native AIO
+2020-09-14 13:58:39 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-09-14 13:58:39 0 [Note] InnoDB: Uses event mutexes
+2020-09-14 13:58:39 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-09-14 13:58:39 0 [Note] InnoDB: Number of pools: 1
+2020-09-14 13:58:39 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-09-14 13:58:39 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-09-14 13:58:39 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-09-14 13:58:39 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-09-14 13:58:39 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-09-14 13:58:39 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-09-14 13:58:39 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-09-14 13:58:39 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-09-14 13:58:39 0 [Note] InnoDB: Waiting for purge to start
+2020-09-14 13:58:39 0 [Note] InnoDB: 10.3.23 started; log sequence number 2056047; transaction id 519
+2020-09-14 13:58:39 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-09-14 13:58:39 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-09-14 13:58:39 0 [Note] Reading of all Master_info entries succeeded
+2020-09-14 13:58:39 0 [Note] Added new Master_info '' to hash table
+2020-09-14 13:58:39 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.o8mWGT/mysql.socket'  port: 0  Debian 10
+2020-09-14 13:58:39 0 [Note] InnoDB: Buffer pool(s) load completed at 200914 13:58:39
+2020-09-14 14:59:49 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-09-14 14:59:49 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-09-14 14:59:49 0 [Note] InnoDB: Starting shutdown...
+2020-09-14 14:59:49 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-09-14 14:59:49 0 [Note] InnoDB: Buffer pool(s) dump completed at 200914 14:59:49
+2020-09-14 14:59:50 0 [Note] InnoDB: Shutdown completed; log sequence number 2056056; transaction id 541
+2020-09-14 14:59:50 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-09-14 14:59:50 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-09-14 15:00:13 0 [Note] InnoDB: Using Linux native AIO
+2020-09-14 15:00:13 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-09-14 15:00:13 0 [Note] InnoDB: Uses event mutexes
+2020-09-14 15:00:13 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-09-14 15:00:13 0 [Note] InnoDB: Number of pools: 1
+2020-09-14 15:00:13 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-09-14 15:00:13 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-09-14 15:00:13 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-09-14 15:00:13 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-09-14 15:00:13 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-09-14 15:00:13 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-09-14 15:00:13 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-09-14 15:00:13 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-09-14 15:00:13 0 [Note] InnoDB: Waiting for purge to start
+2020-09-14 15:00:13 0 [Note] InnoDB: 10.3.23 started; log sequence number 2056056; transaction id 519
+2020-09-14 15:00:13 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-09-14 15:00:13 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-09-14 15:00:13 0 [Note] InnoDB: Buffer pool(s) load completed at 200914 15:00:13
+2020-09-14 15:00:13 0 [Note] Reading of all Master_info entries succeeded
+2020-09-14 15:00:13 0 [Note] Added new Master_info '' to hash table
+2020-09-14 15:00:13 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.zfG2HT/mysql.socket'  port: 0  Debian 10
+2020-09-14 15:19:11 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-09-14 15:19:11 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-09-14 15:19:11 0 [Note] InnoDB: Starting shutdown...
+2020-09-14 15:19:11 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-09-14 15:19:11 0 [Note] InnoDB: Buffer pool(s) dump completed at 200914 15:19:11
+2020-09-14 15:19:13 0 [Note] InnoDB: Shutdown completed; log sequence number 2056065; transaction id 541
+2020-09-14 15:19:13 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-09-14 15:19:13 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-09-14 15:19:33 0 [Note] InnoDB: Using Linux native AIO
+2020-09-14 15:19:33 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-09-14 15:19:33 0 [Note] InnoDB: Uses event mutexes
+2020-09-14 15:19:33 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-09-14 15:19:33 0 [Note] InnoDB: Number of pools: 1
+2020-09-14 15:19:33 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-09-14 15:19:33 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-09-14 15:19:33 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-09-14 15:19:33 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-09-14 15:19:33 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-09-14 15:19:33 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-09-14 15:19:33 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-09-14 15:19:33 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-09-14 15:19:33 0 [Note] InnoDB: Waiting for purge to start
+2020-09-14 15:19:33 0 [Note] InnoDB: 10.3.23 started; log sequence number 2056065; transaction id 519
+2020-09-14 15:19:33 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-09-14 15:19:33 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-09-14 15:19:33 0 [Note] Reading of all Master_info entries succeeded
+2020-09-14 15:19:33 0 [Note] Added new Master_info '' to hash table
+2020-09-14 15:19:33 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.Clbu7K/mysql.socket'  port: 0  Debian 10
+2020-09-14 15:19:33 0 [Note] InnoDB: Buffer pool(s) load completed at 200914 15:19:33
+2020-09-14 15:51:20 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-09-14 15:51:20 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-09-14 15:51:20 0 [Note] InnoDB: Starting shutdown...
+2020-09-14 15:51:20 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-09-14 15:51:20 0 [Note] InnoDB: Buffer pool(s) dump completed at 200914 15:51:20
+2020-09-14 15:51:21 0 [Note] InnoDB: Shutdown completed; log sequence number 2056074; transaction id 541
+2020-09-14 15:51:21 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-09-14 15:51:21 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-09-14 15:51:42 0 [Note] InnoDB: Using Linux native AIO
+2020-09-14 15:51:42 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-09-14 15:51:42 0 [Note] InnoDB: Uses event mutexes
+2020-09-14 15:51:42 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-09-14 15:51:42 0 [Note] InnoDB: Number of pools: 1
+2020-09-14 15:51:42 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-09-14 15:51:42 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-09-14 15:51:42 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-09-14 15:51:42 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-09-14 15:51:42 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-09-14 15:51:42 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-09-14 15:51:42 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-09-14 15:51:42 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-09-14 15:51:42 0 [Note] InnoDB: Waiting for purge to start
+2020-09-14 15:51:42 0 [Note] InnoDB: 10.3.23 started; log sequence number 2056074; transaction id 519
+2020-09-14 15:51:42 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-09-14 15:51:42 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-09-14 15:51:42 0 [Note] Reading of all Master_info entries succeeded
+2020-09-14 15:51:42 0 [Note] Added new Master_info '' to hash table
+2020-09-14 15:51:42 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.RNkBHz/mysql.socket'  port: 0  Debian 10
+2020-09-14 15:51:42 0 [Note] InnoDB: Buffer pool(s) load completed at 200914 15:51:42
+2020-09-14 17:09:43 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-09-14 17:09:43 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-09-14 17:09:43 0 [Note] InnoDB: Starting shutdown...
+2020-09-14 17:09:43 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-09-14 17:09:43 0 [Note] InnoDB: Buffer pool(s) dump completed at 200914 17:09:43
+2020-09-14 17:09:45 0 [Note] InnoDB: Shutdown completed; log sequence number 2056083; transaction id 541
+2020-09-14 17:09:45 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-09-14 17:09:45 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-09-14 17:12:19 0 [Note] InnoDB: Using Linux native AIO
+2020-09-14 17:12:19 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-09-14 17:12:19 0 [Note] InnoDB: Uses event mutexes
+2020-09-14 17:12:19 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-09-14 17:12:19 0 [Note] InnoDB: Number of pools: 1
+2020-09-14 17:12:19 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-09-14 17:12:19 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-09-14 17:12:19 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-09-14 17:12:19 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-09-14 17:12:19 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-09-14 17:12:19 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-09-14 17:12:19 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-09-14 17:12:19 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-09-14 17:12:19 0 [Note] InnoDB: Waiting for purge to start
+2020-09-14 17:12:19 0 [Note] InnoDB: 10.3.23 started; log sequence number 2056083; transaction id 519
+2020-09-14 17:12:19 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-09-14 17:12:19 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-09-14 17:12:19 0 [Note] Reading of all Master_info entries succeeded
+2020-09-14 17:12:19 0 [Note] Added new Master_info '' to hash table
+2020-09-14 17:12:19 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.rtsbLU/mysql.socket'  port: 0  Debian 10
+2020-09-14 17:12:19 0 [Note] InnoDB: Buffer pool(s) load completed at 200914 17:12:19
+2020-09-14 19:44:07 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-09-14 19:44:07 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-09-14 19:44:07 0 [Note] InnoDB: Starting shutdown...
+2020-09-14 19:44:07 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-09-14 19:44:07 0 [Note] InnoDB: Buffer pool(s) dump completed at 200914 19:44:07
+2020-09-14 19:44:08 0 [Note] InnoDB: Shutdown completed; log sequence number 2056092; transaction id 541
+2020-09-14 19:44:08 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-09-14 19:44:08 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-09-14 19:51:11 0 [Note] InnoDB: Using Linux native AIO
+2020-09-14 19:51:11 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-09-14 19:51:11 0 [Note] InnoDB: Uses event mutexes
+2020-09-14 19:51:11 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-09-14 19:51:11 0 [Note] InnoDB: Number of pools: 1
+2020-09-14 19:51:11 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-09-14 19:51:11 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-09-14 19:51:11 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-09-14 19:51:11 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-09-14 19:51:11 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-09-14 19:51:11 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-09-14 19:51:11 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-09-14 19:51:11 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-09-14 19:51:11 0 [Note] InnoDB: 10.3.23 started; log sequence number 2056092; transaction id 519
+2020-09-14 19:51:11 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-09-14 19:51:11 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-09-14 19:51:11 0 [Note] Reading of all Master_info entries succeeded
+2020-09-14 19:51:11 0 [Note] Added new Master_info '' to hash table
+2020-09-14 19:51:11 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.wb9piU/mysql.socket'  port: 0  Debian 10
+2020-09-14 19:51:12 0 [Note] InnoDB: Buffer pool(s) load completed at 200914 19:51:12
+2020-09-14 20:00:49 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-09-14 20:00:49 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-09-14 20:00:49 0 [Note] InnoDB: Starting shutdown...
+2020-09-14 20:00:49 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-09-14 20:00:49 0 [Note] InnoDB: Buffer pool(s) dump completed at 200914 20:00:49
+2020-09-14 20:00:51 0 [Note] InnoDB: Shutdown completed; log sequence number 2056101; transaction id 541
+2020-09-14 20:00:51 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-09-14 20:00:51 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-09-14 19:44:28 0 [Note] InnoDB: Using Linux native AIO
+2020-09-14 19:44:28 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-09-14 19:44:28 0 [Note] InnoDB: Uses event mutexes
+2020-09-14 19:44:28 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-09-14 19:44:28 0 [Note] InnoDB: Number of pools: 1
+2020-09-14 19:44:28 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-09-14 19:44:28 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-09-14 19:44:28 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-09-14 19:44:28 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-09-14 19:44:28 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-09-14 19:44:28 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-09-14 19:44:28 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-09-14 19:44:28 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-09-14 19:44:28 0 [Note] InnoDB: Waiting for purge to start
+2020-09-14 19:44:29 0 [Note] InnoDB: 10.3.23 started; log sequence number 2056101; transaction id 519
+2020-09-14 19:44:29 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-09-14 19:44:29 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-09-14 19:44:29 0 [Note] Reading of all Master_info entries succeeded
+2020-09-14 19:44:29 0 [Note] Added new Master_info '' to hash table
+2020-09-14 19:44:29 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.Ctq8FV/mysql.socket'  port: 0  Debian 10
+2020-09-14 19:44:29 0 [Note] InnoDB: Buffer pool(s) load completed at 200914 19:44:29
+2020-09-14 20:03:01 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-09-14 20:03:01 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-09-14 20:03:01 0 [Note] InnoDB: Starting shutdown...
+2020-09-14 20:03:01 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-09-14 20:03:01 0 [Note] InnoDB: Buffer pool(s) dump completed at 200914 20:03:01
+2020-09-14 20:03:02 0 [Note] InnoDB: Shutdown completed; log sequence number 2056110; transaction id 541
+2020-09-14 20:03:02 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-09-14 20:03:02 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-09-14 19:47:43 0 [Note] InnoDB: Using Linux native AIO
+2020-09-14 19:47:43 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-09-14 19:47:43 0 [Note] InnoDB: Uses event mutexes
+2020-09-14 19:47:43 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-09-14 19:47:43 0 [Note] InnoDB: Number of pools: 1
+2020-09-14 19:47:43 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-09-14 19:47:43 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-09-14 19:47:43 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-09-14 19:47:43 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-09-14 19:47:43 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-09-14 19:47:43 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-09-14 19:47:43 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-09-14 19:47:43 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-09-14 19:47:43 0 [Note] InnoDB: Waiting for purge to start
+2020-09-14 19:47:43 0 [Note] InnoDB: 10.3.23 started; log sequence number 2056110; transaction id 519
+2020-09-14 19:47:43 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-09-14 19:47:43 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-09-14 19:47:43 0 [Note] Reading of all Master_info entries succeeded
+2020-09-14 19:47:43 0 [Note] Added new Master_info '' to hash table
+2020-09-14 19:47:43 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.pbOFPh/mysql.socket'  port: 0  Debian 10
+2020-09-14 19:47:43 0 [Note] InnoDB: Buffer pool(s) load completed at 200914 19:47:43
+2020-09-14 19:49:34 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-09-14 19:49:34 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-09-14 19:49:34 0 [Note] InnoDB: Starting shutdown...
+2020-09-14 19:49:34 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-09-14 19:49:34 0 [Note] InnoDB: Buffer pool(s) dump completed at 200914 19:49:34
+2020-09-14 19:49:36 0 [Note] InnoDB: Shutdown completed; log sequence number 2056119; transaction id 541
+2020-09-14 19:49:36 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-09-14 19:49:36 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-09-14 19:44:34 0 [Note] InnoDB: Using Linux native AIO
+2020-09-14 19:44:34 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-09-14 19:44:34 0 [Note] InnoDB: Uses event mutexes
+2020-09-14 19:44:34 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-09-14 19:44:34 0 [Note] InnoDB: Number of pools: 1
+2020-09-14 19:44:34 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-09-14 19:44:34 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-09-14 19:44:34 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-09-14 19:44:34 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-09-14 19:44:34 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-09-14 19:44:34 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-09-14 19:44:34 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-09-14 19:44:34 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-09-14 19:44:34 0 [Note] InnoDB: 10.3.23 started; log sequence number 2056119; transaction id 519
+2020-09-14 19:44:34 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-09-14 19:44:34 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-09-14 19:44:34 0 [Note] Reading of all Master_info entries succeeded
+2020-09-14 19:44:34 0 [Note] Added new Master_info '' to hash table
+2020-09-14 19:44:34 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.hQ9W05/mysql.socket'  port: 0  Debian 10
+2020-09-14 19:44:34 0 [Note] InnoDB: Buffer pool(s) load completed at 200914 19:44:34
+2020-09-14 22:10:37 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-09-14 22:10:37 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-09-14 22:10:37 0 [Note] InnoDB: Starting shutdown...
+2020-09-14 22:10:37 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-09-14 22:10:37 0 [Note] InnoDB: Buffer pool(s) dump completed at 200914 22:10:37
+2020-09-14 22:10:38 0 [Note] InnoDB: Shutdown completed; log sequence number 2056128; transaction id 541
+2020-09-14 22:10:38 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-09-14 22:10:38 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-09-14 22:10:58 0 [Note] InnoDB: Using Linux native AIO
+2020-09-14 22:10:58 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-09-14 22:10:58 0 [Note] InnoDB: Uses event mutexes
+2020-09-14 22:10:58 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-09-14 22:10:58 0 [Note] InnoDB: Number of pools: 1
+2020-09-14 22:10:58 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-09-14 22:10:58 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-09-14 22:10:58 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-09-14 22:10:58 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-09-14 22:10:58 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-09-14 22:10:58 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-09-14 22:10:58 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-09-14 22:10:58 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-09-14 22:10:58 0 [Note] InnoDB: Waiting for purge to start
+2020-09-14 22:10:58 0 [Note] InnoDB: 10.3.23 started; log sequence number 2056128; transaction id 519
+2020-09-14 22:10:58 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-09-14 22:10:58 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-09-14 22:10:58 0 [Note] Reading of all Master_info entries succeeded
+2020-09-14 22:10:58 0 [Note] Added new Master_info '' to hash table
+2020-09-14 22:10:58 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.2GjgQp/mysql.socket'  port: 0  Debian 10
+2020-09-14 22:10:58 0 [Note] InnoDB: Buffer pool(s) load completed at 200914 22:10:58
+2020-09-15 10:22:13 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-09-15 10:22:13 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-09-15 10:22:14 0 [Note] InnoDB: Starting shutdown...
+2020-09-15 10:22:14 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-09-15 10:22:14 0 [Note] InnoDB: Buffer pool(s) dump completed at 200915 10:22:14
+2020-09-15 10:22:15 0 [Note] InnoDB: Shutdown completed; log sequence number 2056137; transaction id 541
+2020-09-15 10:22:15 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-09-15 10:22:15 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-09-15 10:22:35 0 [Note] InnoDB: Using Linux native AIO
+2020-09-15 10:22:35 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-09-15 10:22:35 0 [Note] InnoDB: Uses event mutexes
+2020-09-15 10:22:35 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-09-15 10:22:35 0 [Note] InnoDB: Number of pools: 1
+2020-09-15 10:22:35 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-09-15 10:22:35 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-09-15 10:22:35 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-09-15 10:22:35 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-09-15 10:22:35 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-09-15 10:22:35 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-09-15 10:22:35 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-09-15 10:22:35 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-09-15 10:22:35 0 [Note] InnoDB: Waiting for purge to start
+2020-09-15 10:22:35 0 [Note] InnoDB: 10.3.23 started; log sequence number 2056137; transaction id 519
+2020-09-15 10:22:35 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-09-15 10:22:35 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-09-15 10:22:35 0 [Note] Reading of all Master_info entries succeeded
+2020-09-15 10:22:35 0 [Note] Added new Master_info '' to hash table
+2020-09-15 10:22:35 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.8VLmtc/mysql.socket'  port: 0  Debian 10
+2020-09-15 10:22:35 0 [Note] InnoDB: Buffer pool(s) load completed at 200915 10:22:35
+2020-09-15 12:08:34 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-09-15 12:08:34 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-09-15 12:08:34 0 [Note] InnoDB: Starting shutdown...
+2020-09-15 12:08:34 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-09-15 12:08:34 0 [Note] InnoDB: Buffer pool(s) dump completed at 200915 12:08:34
+2020-09-15 12:08:35 0 [Note] InnoDB: Shutdown completed; log sequence number 2056146; transaction id 541
+2020-09-15 12:08:35 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-09-15 12:08:35 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-09-28 22:58:11 0 [Note] InnoDB: Using Linux native AIO
+2020-09-28 22:58:11 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-09-28 22:58:11 0 [Note] InnoDB: Uses event mutexes
+2020-09-28 22:58:11 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-09-28 22:58:11 0 [Note] InnoDB: Number of pools: 1
+2020-09-28 22:58:11 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-09-28 22:58:11 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-09-28 22:58:11 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-09-28 22:58:11 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-09-28 22:58:11 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-09-28 22:58:11 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-09-28 22:58:11 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-09-28 22:58:11 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-09-28 22:58:11 0 [Note] InnoDB: Waiting for purge to start
+2020-09-28 22:58:11 0 [Note] InnoDB: 10.3.23 started; log sequence number 2056146; transaction id 519
+2020-09-28 22:58:11 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-09-28 22:58:11 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-09-28 22:58:11 0 [Note] Reading of all Master_info entries succeeded
+2020-09-28 22:58:11 0 [Note] Added new Master_info '' to hash table
+2020-09-28 22:58:11 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.L2iVRz/mysql.socket'  port: 0  Debian 10
+2020-09-28 22:58:11 0 [Note] InnoDB: Buffer pool(s) load completed at 200928 22:58:11
+2020-09-28 23:09:57 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-09-28 23:09:57 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-09-28 23:09:57 0 [Note] InnoDB: Starting shutdown...
+2020-09-28 23:09:57 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-09-28 23:09:57 0 [Note] InnoDB: Buffer pool(s) dump completed at 200928 23:09:57
+2020-09-28 23:09:58 0 [Note] InnoDB: Shutdown completed; log sequence number 2056155; transaction id 541
+2020-09-28 23:09:58 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-09-28 23:09:58 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-09-28 23:10:20 0 [Note] InnoDB: Using Linux native AIO
+2020-09-28 23:10:20 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-09-28 23:10:20 0 [Note] InnoDB: Uses event mutexes
+2020-09-28 23:10:20 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-09-28 23:10:20 0 [Note] InnoDB: Number of pools: 1
+2020-09-28 23:10:20 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-09-28 23:10:20 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-09-28 23:10:20 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-09-28 23:10:20 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-09-28 23:10:20 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-09-28 23:10:20 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-09-28 23:10:20 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-09-28 23:10:20 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-09-28 23:10:20 0 [Note] InnoDB: Waiting for purge to start
+2020-09-28 23:10:20 0 [Note] InnoDB: 10.3.23 started; log sequence number 2056155; transaction id 519
+2020-09-28 23:10:20 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-09-28 23:10:20 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-09-28 23:10:20 0 [Note] Reading of all Master_info entries succeeded
+2020-09-28 23:10:20 0 [Note] Added new Master_info '' to hash table
+2020-09-28 23:10:20 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.N4ktJ6/mysql.socket'  port: 0  Debian 10
+2020-09-28 23:10:20 0 [Note] InnoDB: Buffer pool(s) load completed at 200928 23:10:20
+2020-09-28 23:13:10 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-09-28 23:13:10 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-09-28 23:13:10 0 [Note] InnoDB: Starting shutdown...
+2020-09-28 23:13:10 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-09-28 23:13:10 0 [Note] InnoDB: Buffer pool(s) dump completed at 200928 23:13:10
+2020-09-28 23:13:11 0 [Note] InnoDB: Shutdown completed; log sequence number 2056164; transaction id 541
+2020-09-28 23:13:11 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-09-28 23:13:11 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+
+2020-10-19 18:38:45 0 [Note] InnoDB: Using Linux native AIO
+2020-10-19 18:38:45 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2020-10-19 18:38:45 0 [Note] InnoDB: Uses event mutexes
+2020-10-19 18:38:45 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2020-10-19 18:38:45 0 [Note] InnoDB: Number of pools: 1
+2020-10-19 18:38:45 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2020-10-19 18:38:45 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2020-10-19 18:38:45 0 [Note] InnoDB: Completed initialization of buffer pool
+2020-10-19 18:38:45 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2020-10-19 18:38:45 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2020-10-19 18:38:45 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2020-10-19 18:38:45 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2020-10-19 18:38:45 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2020-10-19 18:38:45 0 [Note] InnoDB: 10.3.23 started; log sequence number 2056164; transaction id 519
+2020-10-19 18:38:45 0 [Note] InnoDB: Loading buffer pool(s) from /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-10-19 18:38:45 0 [Note] Plugin 'FEEDBACK' is disabled.
+2020-10-19 18:38:45 0 [Note] Reading of all Master_info entries succeeded
+2020-10-19 18:38:45 0 [Note] Added new Master_info '' to hash table
+2020-10-19 18:38:45 0 [Note] /usr/sbin/mysqld-akonadi: ready for connections.
+Version: '10.3.23-MariaDB-0+deb10u1'  socket: '/tmp/akonadi-yoo.eblMOg/mysql.socket'  port: 0  Debian 10
+2020-10-19 18:38:45 0 [Note] InnoDB: Buffer pool(s) load completed at 201019 18:38:45
+2020-10-20 19:31:41 0 [Note] /usr/sbin/mysqld-akonadi (initiated by: unknown): Normal shutdown
+2020-10-20 19:31:41 14 [Warning] Aborted connection 14 to db: 'akonadi' user: 'yoo' host: '' (Got an error reading communication packets)
+2020-10-20 19:31:41 10 [Warning] Aborted connection 10 to db: 'akonadi' user: 'yoo' host: '' (Got an error reading communication packets)
+2020-10-20 19:31:41 12 [Warning] Aborted connection 12 to db: 'akonadi' user: 'yoo' host: '' (Got an error reading communication packets)
+2020-10-20 19:31:41 11 [Warning] Aborted connection 11 to db: 'akonadi' user: 'yoo' host: '' (Got an error reading communication packets)
+2020-10-20 19:31:41 0 [Note] InnoDB: FTS optimize thread exiting.
+2020-10-20 19:31:41 0 [Note] InnoDB: Starting shutdown...
+2020-10-20 19:31:41 0 [Note] InnoDB: Dumping buffer pool(s) to /home/yoo/.local/share/akonadi/db_data/ib_buffer_pool
+2020-10-20 19:31:41 0 [Note] InnoDB: Buffer pool(s) dump completed at 201020 19:31:41
+2020-10-20 19:31:43 0 [Note] InnoDB: Shutdown completed; log sequence number 2086133; transaction id 565
+2020-10-20 19:31:43 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2020-10-20 19:31:43 0 [Note] /usr/sbin/mysqld-akonadi: Shutdown complete
+

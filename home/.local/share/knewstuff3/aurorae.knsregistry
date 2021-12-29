@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="">
+  <name>Air-oxygen-color</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>megabigbug</author>
+  <homepage>https://store.kde.org/p/1002653</homepage>
+  <licence></licence>
+  <version>0.1</version>
+  <rating>85</rating>
+  <downloads>38309</downloads>
+  <installedfile>/home/yoo/.local/share/aurorae/themes//air-oxygen-color/*</installedfile>
+  <installedfile>/home/yoo/.local/share/aurorae/themes//</installedfile>
+  <id>1002653</id>
+  <releasedate>2010-12-21</releasedate>
+  <summary>This theme is an experimental version of air-oxygen that supports color scheme.&lt;br />
+I share it for enthusiast users, Aurorae theme designers and kde developers.&lt;br />
+It needs current kde trunk to work properly.</summary>
+  <changelog></changelog>
+  <preview>https://cn.opendesktop.org/cache/100x100-0/img//hive/content-pre1/136510-1.png</preview>
+  <previewBig>https://cn.opendesktop.org/cache/770x540-0/img//hive/content-pre1/136510-1.png</previewBig>
+  <payload>https://dllb2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE0NjA3NDA3OTYiLCJvIjoiMSIsInMiOiI3ODUwN2Q0Y2M3ZGRmMDkwZWE3M2YzYmY2ZTA3NzE2YTQyNjBiOGEwZmY3ODZmYjUxOWNmMzBjZWE5NDUyZWU1YTNkMzNhNTliNWI1ZDM5YWVjMDA5ZGE0Y2Y2ZWFlNTVmZWU3YTlmM2Y3ZDY3ZDI5NDg4ZmMyOTlkZWJlNjM5OCIsInQiOjE1OTY2NjUwOTAsInN0ZnAiOm51bGwsInN0aXAiOiI2MS43LjE4My4xOTcifQ.lAAs_qlpnaWQJ8DuMNoVdct8_vd_nQdlRsE7aXgSaQA/136510-air-oxygen-color.tar.gz</payload>
+  <tags>linux,unix,theme,kde,plasma</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="">
+  <name>WhiteSur Aurorae</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>vinceliuice</author>
+  <homepage>https://store.kde.org/p/1398835</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>54</rating>
+  <downloads>18173</downloads>
+  <installedfile>/home/yoo/.local/share/aurorae/themes//WhiteSur_x2.0/*</installedfile>
+  <installedfile>/home/yoo/.local/share/aurorae/themes//WhiteSur_x1.25/*</installedfile>
+  <installedfile>/home/yoo/.local/share/aurorae/themes//WhiteSur-dark_x1.5/*</installedfile>
+  <installedfile>/home/yoo/.local/share/aurorae/themes//WhiteSur-dark/*</installedfile>
+  <installedfile>/home/yoo/.local/share/aurorae/themes//WhiteSur-Sharp-dark/*</installedfile>
+  <installedfile>/home/yoo/.local/share/aurorae/themes//WhiteSur-dark_x1.25/*</installedfile>
+  <installedfile>/home/yoo/.local/share/aurorae/themes//WhiteSur/*</installedfile>
+  <installedfile>/home/yoo/.local/share/aurorae/themes//WhiteSur-dark_x2.0/*</installedfile>
+  <installedfile>/home/yoo/.local/share/aurorae/themes//WhiteSur-Sharp/*</installedfile>
+  <installedfile>/home/yoo/.local/share/aurorae/themes//WhiteSur_x1.5/*</installedfile>
+  <installedfile>/home/yoo/.local/share/aurorae/themes//</installedfile>
+  <id>1398835</id>
+  <releasedate>2020-07-23</releasedate>
+  <summary>MacOS big sur theme for kde plasma&lt;br />
+---------------------------------------&lt;br />
+&lt;strong>Fix for Aurorae theme:&lt;/strong>&lt;br />
+Go to the &lt;strong>"Application Style &amp;gt; Window Decorations"&lt;/strong> and set the boder to &lt;strong>"Tiny"&lt;/strong></summary>
+  <changelog></changelog>
+  <preview>https://cn.opendesktop.org/cache/100x100-0/img/c/2/e/9/ad2aae0df61ba06b53fb73d40cccff2d1b30.png</preview>
+  <previewBig>https://cn.opendesktop.org/cache/770x540-0/img/c/2/e/9/ad2aae0df61ba06b53fb73d40cccff2d1b30.png</previewBig>
+  <payload>https://dllb2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1OTU1NTU5NTAiLCJvIjoiMSIsInMiOiIxMjYwNTM0MmYyYjNiODRhYTk0MTJkMGMwYzNlYWU1ZjU1YzUzMTc4YmYyNmIyNzgxZjNjOGUxYmMxOGFmZTlkYjY0NGYzOGNiMmJkMDllMTQwZDRjYTM0ZmQzMWQ5ZmU5MzFhMDI1ZTQwNTkwMDBlMDY4NDkyMWYzMjYyZjU0ZiIsInQiOjE1OTY2NzMwOTksInN0ZnAiOm51bGwsInN0aXAiOiI0NS42Ny45Ni4yMjkifQ.ftokSCIeUCxPMTUEdQ4KU7NzvITMmup0Afr-xqfkTgI/WhiteSur.tar.xz</payload>
+  <tags>linux,unix,theme,kde,plasma,gplv3,original-product</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="">
+  <name>Airglass-black  [AURORAE]</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>jackric</author>
+  <homepage>https://store.kde.org/p/1002711</homepage>
+  <licence></licence>
+  <version>0.1</version>
+  <rating>81</rating>
+  <downloads>36925</downloads>
+  <installedfile>/home/yoo/.local/share/aurorae/themes//airglass-black-deco/*</installedfile>
+  <installedfile>/home/yoo/.local/share/aurorae/themes//</installedfile>
+  <id>1002711</id>
+  <releasedate>2009-08-05</releasedate>
+  <summary>Airglass-black is a window decoration theme for the Aurorae engine: http://www.kde-look.org/content/show.php/Aurorae+Theme+Engine?content=107158&lt;br />
+ &lt;br />
+</summary>
+  <changelog></changelog>
+  <preview>https://cn.opendesktop.org/cache/100x100-0/img//hive/content-pre1/108353-1.png</preview>
+  <previewBig>https://cn.opendesktop.org/cache/770x540-0/img//hive/content-pre1/108353-1.png</previewBig>
+  <payload>https://dllb2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE0NjA3NDA5MTQiLCJvIjoiMSIsInMiOiI2MGQ3YTcyYjYyNzQ5NDg0NDc2NWY3ODY5YjZhZmRhZWFlZTBjYzMzOTcwMDVlNDcwNzczOWNjYWY0YWNjYjQ2ZTY4ZjQxMzgwNzQ0ZDY1N2M3ODQ1MmRhNmI5MDIxYzIxYjE5OGM3OGQyOTk2N2E3YmE2NWQwYmYwMWQ5N2U4OCIsInQiOjE1OTY2NjUxNTksInN0ZnAiOm51bGwsInN0aXAiOiI2MS43LjE4My4xOTcifQ.feqPjAD4KSyMhQ19Hf-iL3WSWqpFXMRUv3e7CgEAo4s/108353-airglass-black-deco.tar.gz</payload>
+  <tags>linux,unix,theme,kde,plasma</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="">
+  <name>We10Xos Aurorae Theme</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>yeyushengfan258</author>
+  <homepage>https://store.kde.org/p/1368851</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>67</rating>
+  <downloads>38225</downloads>
+  <installedfile>/home/yoo/.local/share/aurorae/themes//We10XOS/*</installedfile>
+  <installedfile>/home/yoo/.local/share/aurorae/themes//</installedfile>
+  <id>1368851</id>
+  <releasedate>2020-03-28</releasedate>
+  <summary>We10XOS-Concept kde is a light clean theme for KDE Plasma desktop.&lt;br />
+&lt;br />
+In this repository you'll find:&lt;br />
+&lt;br />
+    Aurorae Themes&lt;br />
+    Kvantum Themes&lt;br />
+    Plasma Color Schemes&lt;br />
+    Plasma Desktop Themes&lt;br />
+    Plasma Look-and-Feel Settings&lt;br />
+&lt;br />
+------------------------------&lt;br />
+&lt;strong>We10Xos Global Theme&lt;/strong>:&lt;a href="https://www.pling.com/p/1368860/" target="_blank" rel="nofollow">https://www.pling.com/p/1368860/&lt;/a>&lt;br />
+&lt;br />
+&lt;strong>We10Xos Sddm Theme&lt;/strong>:&lt;a href="https://www.pling.com/p/1368854/" target="_blank" rel="nofollow">https://www.pling.com/p/1368854/&lt;/a>&lt;br />
+&lt;br />
+&lt;strong>We10Xos color Theme&lt;/strong>:&lt;a href="https://www.pling.com/p/1368852/" target="_blank" rel="nofollow">https://www.pling.com/p/1368852/&lt;/a>&lt;br />
+&lt;br />
+&lt;strong>We10Xos Plasma Theme&lt;/strong>:&lt;a href="https://www.pling.com/p/1368853/" target="_blank" rel="nofollow">https://www.pling.com/p/1368853/&lt;/a>&lt;br />
+&lt;br />
+&lt;strong>We10Xos Aurorae Theme &lt;/strong>:&lt;a href="https://www.pling.com/p/1368851/" target="_blank" rel="nofollow">https://www.pling.com/p/1368851/&lt;/a>&lt;br />
+&lt;br />
+&lt;strong>We10Xos Wallpaper&lt;/strong>:&lt;a href="https://www.pling.com/p/1368857/" target="_blank" rel="nofollow">https://www.pling.com/p/1368857/&lt;/a>&lt;br />
+&lt;br />
+&lt;strong>We10Xos Kvantum&lt;/strong>:&lt;a href="https://www.pling.com/p/1368859/" target="_blank" rel="nofollow">https://www.pling.com/p/1368859/&lt;/a>&lt;br />
+------------------------------&lt;br />
+&lt;strong>We10X icon theme &lt;/strong>:&lt;a href="https://www.pling.com/p/1366371/" target="_blank" rel="nofollow">https://www.pling.com/p/1366371/&lt;/a></summary>
+  <changelog></changelog>
+  <preview>https://cn.opendesktop.org/cache/100x100-0/img/1/9/1/3/8c69022f90855e3f5176848b0b3b4645cc85.png</preview>
+  <previewBig>https://cn.opendesktop.org/cache/770x540-0/img/1/9/1/3/8c69022f90855e3f5176848b0b3b4645cc85.png</previewBig>
+  <payload>https://dllb2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1ODU0MzE3NTciLCJvIjoiMSIsInMiOiJmNmI1ZjdjMzhmNmMzNzk5YTQ0Y2YzZDAyZmRlMGM4YmUxZmQ4YWMwN2NlMWNiZDI1MmYwNzk1Y2M3ZDhiNzEyZTA5MWNlZTNmYzY5MWVkNjQyNGYwMzBhYWU3ODM4NTQ4NDVhMDFmZDNjM2FlMGJjN2ZlMTIxNTQ5NjUwOGViYyIsInQiOjE1OTY2NzMxMjUsInN0ZnAiOm51bGwsInN0aXAiOiI0NS42Ny45Ni4yMjkifQ.8D6nIxLlBD7U9kMxyyOzwf7Hvr6OB7T1ORrZFQdw0g0/We10XOS.tar.xz</payload>
+  <tags>original-product,gplv3,linux,unix,theme,kde,plasma</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

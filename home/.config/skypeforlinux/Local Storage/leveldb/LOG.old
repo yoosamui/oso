@@ -1,0 +1,6 @@
+2021/12/15-14:41:59.417 c9b Reusing MANIFEST /home/yoo/.config/skypeforlinux/Local Storage/leveldb/MANIFEST-000001
+2021/12/15-14:41:59.417 c9b Recovering log #736
+2021/12/15-14:41:59.417 c9b Reusing old log /home/yoo/.config/skypeforlinux/Local Storage/leveldb/000736.log 
+2021/12/15-14:43:55.170 c9c Level-0 table #741: started
+2021/12/15-14:43:55.181 c9c Level-0 table #741: 88007 bytes OK
+2021/12/15-14:43:55.190 c9c Delete type=0 #736

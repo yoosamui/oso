@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Stash
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/466660
+Icon=steam_icon_466660
+Terminal=false
+Type=Application
+Categories=Game;

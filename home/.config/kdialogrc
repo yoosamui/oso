@@ -1,0 +1,9 @@
+[FileDialogSize]
+Height 1080=706
+Height 1440=706
+Width 1920=1017
+Width 2560=1017
+
+[KFileDialog Settings]
+Recent Files[$e]=Screenshot_20200810_090607.png,file:$HOME/Downloads/expressvpn_router_2.6.0.4200_release_linksys-wrt3200acm.img,file:$HOME/Downloads/FW_WRT3200ACM_1.0.8.199531_prod.img
+Recent URLs[$e]=file:$HOME/Downloads/

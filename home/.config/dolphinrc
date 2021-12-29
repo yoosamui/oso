@@ -1,0 +1,53 @@
+Height 1440=1051
+State=AAAA/wAAAAD9AAAAAwAAAAAAAAEiAAAD0fwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAA/////wAAAAoBAAAD+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAABKAAAD0QAAAFoBAAADAAAAAQAAALAAAAPR/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAQAAAEoAAAPRAAABJwEAAAMAAAADAAAAAAAAAAD8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAA/////wAAAAoBAAADAAADJgAAA9EAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+Width 2560=1274
+
+[Baloo KEditCommentDialog]
+Height 1440=254
+Width 2560=276
+
+[CompactMode]
+FontWeight=50
+
+[DetailsMode]
+FontWeight=50
+PreviewSize=22
+
+[General]
+FilterBar=true
+GlobalViewProps=true
+ShowFullPath=true
+ShowFullPathInTitlebar=true
+SortingChoice=CaseInsensitiveSorting
+Version=200
+ViewPropsTimestamp=2020,8,6,3,45,42
+
+[IconsMode]
+FontWeight=50
+PreviewSize=80
+
+[KPropertiesDialog]
+Height 1080=595
+Height 1440=595
+Width 1920=526
+Width 2560=526
+
+[MainWindow]
+Height 1080=1018
+Height 1440=1039
+State=AAAA/wAAAAD9AAAAAwAAAAAAAAEiAAADwfwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAA/////wAAAAIA////+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAA5AAADwQAAAEYA////AAAAAQAAALgAAAPV/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAADoAAAPVAAAAAgD///8AAAADAAAAAAAAAAD8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAA/////wAAAAIA////AAAD1AAAA8EAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+Width 1920=1276
+Width 2560=1276
+
+[Notification Messages]
+ConfirmDelete=true
+
+[PreviewSettings]
+Plugins=audiothumbnail,comicbookthumbnail,djvuthumbnail,exrthumbnail,directorythumbnail,fontthumbnail,imagethumbnail,jpegthumbnail,kraorathumbnail,windowsexethumbnail,windowsimagethumbnail,svgthumbnail,webarchivethumbnail
+
+[SettingsDialog]
+Height 1080=507
+Height 1440=507
+Width 1920=649
+Width 2560=649

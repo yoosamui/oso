@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=application-xml
+Name=rc.xml
+Type=Link
+URL[$e]=file:$HOME/.config/openbox/rc.xml
+X-KDE-LastOpenedWith=firefox-esr

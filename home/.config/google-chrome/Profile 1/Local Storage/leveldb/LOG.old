@@ -1,0 +1,24 @@
+2021/12/26-11:28:10.846 9 Reusing MANIFEST /home/yoo/.config/google-chrome/Profile 1/Local Storage/leveldb/MANIFEST-000001
+2021/12/26-11:28:10.847 9 Recovering log #233
+2021/12/26-11:28:10.848 9 Reusing old log /home/yoo/.config/google-chrome/Profile 1/Local Storage/leveldb/000233.log 
+2021/12/26-11:40:25.986 10d Level-0 table #237: started
+2021/12/26-11:40:25.993 10d Level-0 table #237: 11715 bytes OK
+2021/12/26-11:40:25.998 10d Delete type=0 #233
+2021/12/26-11:40:25.998 10d Compacting 4@0 + 1@1 files
+2021/12/26-11:40:26.015 10d Generated table #238@0: 2493 keys, 838646 bytes
+2021/12/26-11:40:26.015 10d Compacted 4@0 + 1@1 files => 838646 bytes
+2021/12/26-11:40:26.018 10d compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/12/26-11:40:26.019 10d Delete type=2 #237
+2021/12/26-11:40:26.019 10d Delete type=2 #232
+2021/12/26-11:40:26.019 10d Delete type=2 #230
+2021/12/26-11:40:26.019 10d Delete type=2 #234
+2021/12/26-11:40:26.019 10d Delete type=2 #228
+2021/12/26-11:43:58.181 10d Level-0 table #240: started
+2021/12/26-11:43:58.189 10d Level-0 table #240: 45100 bytes OK
+2021/12/26-11:43:58.194 10d Delete type=0 #236
+2021/12/26-16:39:00.779 714 Level-0 table #242: started
+2021/12/26-16:39:00.783 714 Level-0 table #242: 39773 bytes OK
+2021/12/26-16:39:00.786 714 Delete type=0 #239
+2021/12/28-00:10:58.235 b38 Level-0 table #244: started
+2021/12/28-00:10:58.241 b38 Level-0 table #244: 42214 bytes OK
+2021/12/28-00:10:58.244 b38 Delete type=0 #241

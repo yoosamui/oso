@@ -1,0 +1,55 @@
+[LyricsWidget]
+Show=true
+
+[MainWindow]
+Height 1080=698
+Height 1440=698
+State=AAAA/wAAAAD9AAAAAAAABScAAAJbAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAIAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAAAAAAFgBwAGwAYQB5AFQAbwBvAGwAQgBhAHIBAAACsv////8AAAAAAAAAAA==
+ToolBarsMovable=Disabled
+Width 1920=1319
+Width 2560=1319
+
+[MainWindow][Toolbar playToolBar]
+ToolButtonStyle=IconOnly
+
+[Phonon::AudioOutput]
+JuK_Volume=0.5699999928474426
+
+[Player]
+CrossfadeTracks=false
+LoopPlaylist=true
+RandomPlay=Normal
+Volume=56
+
+[PlaylistBox]
+ViewMode=0
+
+[PlaylistShared]
+ColumnOrder=
+InlineCompletionMode=2
+ResizeColumnsManually=false
+VisibleColumns=0,1,2,3,4,5,6,7
+
+[Playlists]
+CollectionListSortAscending=true
+CollectionListSortColumn=1
+DirectoryList[$e]=$HOME,/media/yoo/data/Music
+ImportPlaylists=true
+showUpcoming=false
+
+[Settings]
+DockInSystemTray=true
+DockOnClose=false
+StartDocked=true
+TrackPopup=true
+
+[Splitter]
+EditorSplitterSizes=603,0
+PlaylistSplitterSizes=139,891,279
+ShowSearch=true
+
+[TagEditor]
+AlbumNameBoxMode=2
+ArtistNameBoxMode=2
+GenreBoxMode=2
+Show=false

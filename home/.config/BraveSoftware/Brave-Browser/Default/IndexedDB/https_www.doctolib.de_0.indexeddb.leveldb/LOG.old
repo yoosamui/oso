@@ -1,0 +1,15 @@
+2021/12/16-16:45:54.500 5c00 Reusing MANIFEST /home/yoo/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.doctolib.de_0.indexeddb.leveldb/MANIFEST-000001
+2021/12/16-16:45:54.500 5c00 Recovering log #4
+2021/12/16-16:45:54.501 5c00 Reusing old log /home/yoo/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.doctolib.de_0.indexeddb.leveldb/000004.log 
+2021/12/16-16:45:56.826 44e1 Level-0 table #8: started
+2021/12/16-16:45:56.833 44e1 Level-0 table #8: 3647 bytes OK
+2021/12/16-16:45:56.842 44e1 Delete type=0 #4
+2021/12/16-16:45:56.842 44e1 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2021/12/16-16:45:56.842 44e1 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x07\x00k\x00e\x00y\x00S\x00a\x00f\x00e' @ 192 : 1
+2021/12/16-16:45:56.842 44e1 Compacting 1@1 + 1@2 files
+2021/12/16-16:45:56.849 44e1 Generated table #9@1: 54 keys, 3657 bytes
+2021/12/16-16:45:56.849 44e1 Compacted 1@1 + 1@2 files => 3657 bytes
+2021/12/16-16:45:56.858 44e1 compacted to: files[ 0 0 1 0 0 0 0 ]
+2021/12/16-16:45:56.858 44e1 Delete type=2 #5
+2021/12/16-16:45:56.858 44e1 Delete type=2 #8
+2021/12/16-16:45:56.859 44e1 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x07\x00k\x00e\x00y\x00S\x00a\x00f\x00e' @ 192 : 1 .. (end); will stop at (end)

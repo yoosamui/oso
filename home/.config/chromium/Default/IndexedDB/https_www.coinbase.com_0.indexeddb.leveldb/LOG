@@ -1,0 +1,6 @@
+2021/11/24-14:59:14.161 7c0d Creating DB /home/yoo/.config/chromium/Default/IndexedDB/https_www.coinbase.com_0.indexeddb.leveldb since it was missing.
+2021/11/24-14:59:14.167 7c0d Reusing MANIFEST /home/yoo/.config/chromium/Default/IndexedDB/https_www.coinbase.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/11/24-14:59:27.373 49ee Level-0 table #5: started
+2021/11/24-14:59:27.378 49ee Level-0 table #5: 2289 bytes OK
+2021/11/24-14:59:27.380 49ee Delete type=0 #3
+2021/11/24-14:59:27.381 49ee Manual compaction at level-0 from (begin) .. (end); will stop at (end)

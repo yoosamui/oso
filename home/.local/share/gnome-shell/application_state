@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="org.gnome.FileRoller.desktop" open-window-count="0" score="1" last-seen="1625125779"/>
+    <application id="gnome-control-center.desktop" open-window-count="0" score="149" last-seen="1625129783"/>
+    <application id="firefox.desktop" open-window-count="4" score="1135" last-seen="1625132153"/>
+    <application id="vlc.desktop" open-window-count="0" score="17" last-seen="1625112410"/>
+    <application id="org.gnome.Nautilus.desktop" open-window-count="0" score="6" last-seen="1625127954"/>
+    <application id="pavucontrol.desktop" open-window-count="0" score="5" last-seen="1625131209"/>
+    <application id="nemo.desktop" open-window-count="3" score="261" last-seen="1625132153"/>
+    <application id="mousepad.desktop" open-window-count="0" score="42" last-seen="1625129621"/>
+    <application id="arandr.desktop" open-window-count="0" score="2" last-seen="1625107476"/>
+    <application id="eog.desktop" open-window-count="0" score="3" last-seen="1625115102"/>
+    <application id="google-chrome.desktop" open-window-count="0" score="0" last-seen="1625113024"/>
+    <application id="chromium.desktop" open-window-count="0" score="119" last-seen="1625123571"/>
+    <application id="org.gnome.gedit.desktop" open-window-count="0" score="24" last-seen="1625131287"/>
+    <application id="seahorse.desktop" open-window-count="0" score="0" last-seen="1625128383"/>
+    <application id="org.gnome.tweaks.desktop" open-window-count="1" score="295" last-seen="1625132238"/>
+    <application id="gnome-shell-extension-prefs.desktop" open-window-count="0" score="11" last-seen="1625129692"/>
+    <application id="org.gnome.Terminal.desktop" open-window-count="1" score="335" last-seen="1625132161"/>
+    <application id="org.gnome.baobab.desktop" open-window-count="0" score="5" last-seen="1625129468"/>
+    <application id="org.gnome.PackageUpdater.desktop" open-window-count="0" score="1" last-seen="1625108210"/>
+    <application id="veracrypt.desktop" open-window-count="0" score="1" last-seen="1625111881"/>
+    <application id="org.gnome.Software.desktop" open-window-count="0" score="13" last-seen="1625129541"/>
+    <application id="skypeforlinux.desktop" open-window-count="0" score="1" last-seen="1625125654"/>
+    <application id="gpick.desktop" open-window-count="0" score="0" last-seen="1625112037"/>
+  </context>
+</application-state>

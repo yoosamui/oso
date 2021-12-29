@@ -1,0 +1,13 @@
+[1]
+ActiveTab=0
+Urls[$e]=file:///tmp/mozilla_yoo0/FinancialOverview_704_4523643_20210706_055125.pdf
+
+[Number]
+NumberOfWindows=1
+
+[WindowProperties1]
+ClassName=Shell
+Height 1440=1300
+ObjectName=okular::Shell#1
+State=AAAA/wAAAAD9AAAAAAAACPkAAATbAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+Width 2560=2297

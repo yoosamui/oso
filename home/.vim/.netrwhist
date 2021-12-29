@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/yoo/.local/share/cinnamon/applets/yoovpn@yoo.com'
+let g:netrw_dirhist_2='/media/yoo/develop/of_v0.11.0_linux64gcc6_release/apps/myApps/simpleMotionDetection'
+let g:netrw_dirhist_3='/media/yoo/develop/of_v0.11.0_linux64gcc6_release/apps/myApps/simpleMotionDetection/src'
+let g:netrw_dirhist_4='/media/yoo/develop/of_v0.11.0_linux64gcc6_release/apps/myApps'
+let g:netrw_dirhist_5='/media/yoo/develop/of_v0.11.0_linux64gcc6_release/apps/myApps/video-surveillance/src'

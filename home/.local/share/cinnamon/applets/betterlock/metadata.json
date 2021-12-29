@@ -1,0 +1,6 @@
+{
+    "description": "Shows whether caps lock/num lock is on, and displays a notification when these change.",
+    "uuid": "betterlock",
+    "name": "Num Lock/Caps Lock indicator with notifications",
+    "last-edited": 1580069506
+}

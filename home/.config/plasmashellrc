@@ -1,0 +1,77 @@
+[Containments][1][General]
+ToolBoxButtonState=right
+ToolBoxButtonX=2464
+ToolBoxButtonY=620
+positions=1,20,desktop:/ipcam.txt.txt,0,0
+sortMode=-1
+
+[Containments][3][General]
+AppletOrder=4;5;6;7;9
+
+[Containments][39][General]
+ToolBoxButtonState=right
+ToolBoxButtonX=2474
+ToolBoxButtonY=621
+positions=1,20,desktop:/ipcam.txt.txt,0,0
+sortMode=-1
+
+[Containments][40][General]
+ToolBoxButtonState=topright
+ToolBoxButtonX=1888
+pressToMoveHelp=false
+
+[Containments][41][General]
+AppletOrder=42
+
+[Containments][47][General]
+ItemsGeometries=Applet-48:80,48,304,304,0;
+ToolBoxButtonState=topright
+ToolBoxButtonX=1888
+
+[Containments][59][General]
+ToolBoxButtonState=top
+ToolBoxButtonX=1174
+ToolBoxButtonY=24
+
+[Containments][8][General]
+extraItems=org.kde.discovernotifier,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.keyboardindicator,org.kde.plasma.bluetooth,org.kde.kdeconnect,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.devicenotifier,org.kde.plasma.volume,org.kde.plasma.clipboard
+knownItems=org.kde.discovernotifier,org.kde.plasma.mediacontroller,org.kde.plasma.networkmanagement,org.kde.plasma.keyboardindicator,org.kde.plasma.bluetooth,org.kde.kdeconnect,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.devicenotifier,org.kde.plasma.volume,org.kde.plasma.clipboard
+
+[DownloadDialog Settings]
+Height 1080=562
+Width 1920=700
+
+[General]
+Number of Actions=0
+
+[PlasmaRunnerManager]
+LaunchCounts=1 services_transmission-gtk.desktop,1 services_konqbrowser.desktop,6 services_keys.desktop,1 services_terminator.desktop,1 services_kcmnotify.desktop,1 services_powerdevilprofilesconfig.desktop,2 services_org.kde.konsole.desktop,1 recentdocuments_file:///home/yoo/KDE-Connect,3 services_kcm_kdeconnect.desktop,3 services_khotkeys.desktop,2 services_xscreensaver-properties.desktop,1 services_redshift-gtk.desktop,2 services_kcm_translations.desktop,1 services_org.gnome.Cheese.desktop,1 services_powerdevilglobalconfig.desktop,7 services_autostart.desktop
+pluginWhiteList=services,places,desktopsessions,PowerDevil,shell,bookmarks,recentdocuments,locations,baloosearch
+
+[PlasmaViews][Panel 20][Horizontal1024]
+thickness=30
+
+[PlasmaViews][Panel 20][Horizontal1920]
+thickness=30
+
+[PlasmaViews][Panel 20][Horizontal2560]
+thickness=26
+
+[PlasmaViews][Panel 3][Horizontal1920]
+thickness=52
+
+[PlasmaViews][Panel 3][Horizontal2560]
+thickness=30
+
+[PlasmaViews][Panel 41][Horizontal2560]
+thickness=39
+
+[PlasmaViews][Panel 52][Horizontal2560]
+thickness=40
+
+[ScreenConnectors]
+0=DP-0
+1=LVDS-0
+
+[Updates]
+performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js,/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/desktop-base.js

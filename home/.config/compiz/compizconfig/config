@@ -1,0 +1,10 @@
+[general]
+profile = sinox
+integration = true
+
+[kde_session]
+backend = ini
+profile = 
+integration = true
+plugin_list_autosort = true
+

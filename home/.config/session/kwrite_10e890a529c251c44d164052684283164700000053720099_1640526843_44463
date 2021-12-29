@@ -1,0 +1,33 @@
+[1]
+DocumentNumber=1
+
+[1][General Options]
+CursorColumn=0
+CursorLine=0
+JumpList=
+TextFolding=[]
+ViMarks=
+
+[Document 1]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=C++
+Highlighting Set By User=false
+Indentation Mode=cstyle
+Mode=C++
+Mode Set By User=false
+URL=file:///media/yoo/backup/OpenCVOpFrameworks/6.2_pv/src/Configuration.h
+
+[Number]
+NumberOfDocuments=1
+NumberOfWindows=1
+
+[Window 1]
+DocumentNumber=1
+
+[WindowProperties1]
+ClassName=KWrite
+Height 1080=657
+ObjectName=MainWindow#1
+State=AAAA/wAAAAD9AAAAAAAAA8AAAAJYAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+Width 1920=960

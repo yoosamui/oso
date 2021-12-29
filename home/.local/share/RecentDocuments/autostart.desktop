@@ -1,0 +1,6 @@
+[Desktop Entry]
+Icon=folder
+Name=autostart
+Type=Link
+URL[$e]=file:$HOME/.config/autostart
+X-KDE-LastOpenedWith=

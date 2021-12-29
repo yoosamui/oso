@@ -1,0 +1,9 @@
+2021/12/19-09:08:35.251 40af Reusing MANIFEST /home/yoo/.config/skypeforlinux/Local Storage/leveldb/MANIFEST-000001
+2021/12/19-09:08:35.251 40af Recovering log #740
+2021/12/19-09:08:35.252 40af Reusing old log /home/yoo/.config/skypeforlinux/Local Storage/leveldb/000740.log 
+2021/12/19-09:13:25.782 40d2 Level-0 table #744: started
+2021/12/19-09:13:25.791 40d2 Level-0 table #744: 88071 bytes OK
+2021/12/19-09:13:25.794 40d2 Delete type=0 #740
+2021/12/19-10:18:28.925 e03 Level-0 table #746: started
+2021/12/19-10:18:28.934 e03 Level-0 table #746: 88179 bytes OK
+2021/12/19-10:18:28.937 e03 Delete type=0 #743

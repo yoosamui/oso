@@ -1,0 +1,7 @@
+rtsp://admin:master!31416Pi@192.168.1.91:554/Streaming/channels/101/CENTER
+rtsp://admin:master!31416Pi@192.168.1.90:554/Streaming/channels/101/GATE
+rtsp://admin:master!31416Pi@192.168.1.82:554/Streaming/channels/101/ENTRANCE
+rtsp://admin:master!31416Pi@192.168.1.81:554/Streaming/channels/101/STOREROOM 
+rtsp://admin:master!31416Pi@192.168.1.89:554/Streaming/channels/101/FRONTLEFT
+rtsp://admin:master!31416Pi@192.168.1.93:554/Streaming/channels/101/LEFT
+rtsp://admin:master!31416Pi@192.168.1.92:554/Streaming/channels/101/BEHIND

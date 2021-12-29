@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="">
+  <name>WhiteSur icon theme</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>vinceliuice</author>
+  <homepage>https://store.kde.org/p/1405756</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>77</rating>
+  <downloads>18201</downloads>
+  <installedfile>/home/yoo/.local/share/icons//WhiteSur/*</installedfile>
+  <installedfile>/home/yoo/.local/share/icons//WhiteSur-dark/*</installedfile>
+  <installedfile>/home/yoo/.local/share/icons//</installedfile>
+  <id>1405756</id>
+  <releasedate>2020-07-25</releasedate>
+  <summary>WhiteSur icon theme for linux desktops&lt;br />
+----------------------------&lt;br />
+&lt;br />
+&lt;strong>Based on: &lt;strong>&lt;br />
+OSX_ONE: &lt;a href="https://github.com/unc926/OSX_ONE" target="_blank" rel="nofollow">https://github.com/unc926/OSX_ONE&lt;/a>&lt;br />
+Os-Catalina: &lt;a href="https://github.com/zayronxio/Os-Catalina-icons" target="_blank" rel="nofollow">https://github.com/zayronxio/Os-Catalina-icons&lt;/a>&lt;br />
+----------------------------&lt;br />
+&lt;br />
+You can use this icon theme with:&lt;br />
+----------------------------&lt;br />
+&lt;br />
+&lt;strong> Gtk theme &lt;/strong>&lt;br />
+&lt;br />
+WhiteSur-gtk-theme: &lt;br />
+&lt;a href="https://www.pling.com/p/1403328/" target="_blank" rel="nofollow">https://www.pling.com/p/1403328/&lt;/a>&lt;br />
+---------------------------&lt;br />
+&lt;br />
+&lt;strong> Kde theme &lt;/strong>&lt;br />
+&lt;br />
+WhiteSur-kde-theme: &lt;br />
+Dark version: &lt;a href="https://www.pling.com/p/1400409/" target="_blank" rel="nofollow">https://www.pling.com/p/1400409/&lt;/a>&lt;br />
+Light version: &lt;a href="https://www.pling.com/p/1398840/" target="_blank" rel="nofollow">https://www.pling.com/p/1398840/&lt;/a>&lt;/strong>&lt;/strong></summary>
+  <changelog></changelog>
+  <preview>https://cn.opendesktop.org/cache/100x100-0/img/7/0/b/5/db663c850dae98f46b3b7588ae264f28b8298a3c9d9ab63cf867a2cf936f786a3475.png</preview>
+  <previewBig>https://cn.opendesktop.org/cache/770x540-0/img/7/0/b/5/db663c850dae98f46b3b7588ae264f28b8298a3c9d9ab63cf867a2cf936f786a3475.png</previewBig>
+  <payload>https://dllb2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1OTU3MzM5NzkiLCJvIjoiMSIsInMiOiJmNzNjYmM3Y2JjZmVkYTg3ZTQ2NDVmYmI1ZDFmMjE3MDhlMzY4ZjJiYTdkNTRiZjViODAwNjNkYWU3NTk0NDJkMWFjZTVkOTFmMTk3NDJmMGNjMDk5YWFmY2NkMjBlZGRhMDYyNTU1NmY2MDU1MmIxYjIxMjYyYTM0YTk1MzYzZSIsInQiOjE1OTY2NzMxNDEsInN0ZnAiOm51bGwsInN0aXAiOiI0NS42Ny45Ni4yMjkifQ.kJCcXxNBFYA4jt94Bmx4ah7Djczy9XFd4N6qlxvPcYk/WhiteSur.tar.xz</payload>
+  <tags>gplv3,original-product,linux,unix,icon-theme</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

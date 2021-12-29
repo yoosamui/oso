@@ -1,0 +1,13 @@
+{
+    "header-settings": {
+        "type": "header",
+        "description": "General Settings"
+    },
+    "use-symbolic-icon": {
+        "type": "switch",
+        "default": true,
+        "description": "Use symbolic icon",
+        "value": true
+    },
+    "__md5__": "f2b1b62ee8792ce94b9028c957a1154c"
+}

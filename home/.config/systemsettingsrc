@@ -1,0 +1,26 @@
+[DownloadDialog Settings]
+Height 1440=508
+Width 2560=700
+
+[FileDialogSize]
+Height 1440=943
+Width 2560=1457
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME/KDE-rules/docklight.kwinrule,file:$HOME/KDE-rules/docklight.kwinrule
+Recent URLs[$e]=file:$HOME/KDE-rules/
+
+[KPropertiesDialog]
+Height 1440=543
+Width 2560=463
+
+[MainWindow]
+Height 1080=927
+Height 1440=927
+Height 768=1068
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAABbkAAAOfAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1024=1455
+Width 1920=1465
+Width 2560=1465

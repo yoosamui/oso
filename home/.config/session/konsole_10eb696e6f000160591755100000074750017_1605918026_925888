@@ -1,0 +1,23 @@
+[1]
+Active=1
+Sessions=1
+
+[Number]
+NumberOfSessions=1
+NumberOfWindows=1
+
+[Session1]
+Encoding=UTF-8
+LocalTab=%d : %n
+RemoteTab=(%u) %H
+SessionGuid={6c99038d-98ae-42ee-8fe6-ccd2c83ac573}
+WorkingDir[$e]=/media/yoo/develop/DockLightDev/sources/docklight_3.0.orig/data
+
+[WindowProperties1]
+ClassName=Konsole::MainWindow
+Height 1440=802
+MenuBar=Disabled
+ObjectName=MainWindow#1
+State=AAAA/wAAAAD9AAAAAAAABPwAAAMiAAAABAAAAAQAAAAIAAAACPwAAAAA
+ToolBarsMovable=Disabled
+Width 2560=1276

@@ -1,0 +1,962 @@
+:		
+#include "ofApp.h"
+
+#include <boost/filesystem.hpp>
+//#include <opencv2/tracking.hpp>
+
+#include <cassert>
+static vector<std::thread> m_human_detector;
+
+static std::mutex m_mutex;
+const float dyingTime = 1;
+:q
+cv::Mat ofApp::m_resized;
+hallo juan ramon    in juan ramon
+sadasasdas  ff.ss
+
+
+
+if( )   )
+
+})
+{
+**wwqq",**
+**sdf",**
+**sdaadasd",**
+}
+void Glow::update(const cv::Rect& track)					
+{
+    //cur = toOf(track).getCenter();*
+    //smooth.interpolate(cur, .5);*
+    //all.addVertex(smooth);*
+}
+
+oid Glow::kill(
+{
+    float curTime = ofGetElapsedTimef();
+    if (startedDying == 0) {
+        startedDying = curTime;
+    } else if (curTime - startedDying > dyingTime) {
+        dead = true;
+    }
+}
+
+void Glow::draw()
+
+void Glow::update(const cv::Rect& track)
+{
+    cur = toOf(track).getCenter();
+    smooth.interpolate(cur, .5);
+    all.addVertex(smooth);
+}
+    ofPushStyle();
+    float size = 16;
+    ofSetColor(255);
+    if (startedDying) {
+        ofSetColor(ofColor::red);
+        size = ofMap(ofGetElapsedTimef() - startedDying, 0, dyingTime, size, 0, true);
+    }
+    ofNoFill();
+    // ofDrawCircle(cur, size);
+    ofSetColor(color);
+    all.draw();
+    ofSetColor(255);
+    //   ofDrawBitmapString(ofToString(label), cur);
+    ofPopStyle();
+}
+
+void ofApp::setup()
+{
+    //   auto tracker = Tracker::create("");
+
+    setlocale(LC_ALL, "C");
+    setlocale(LC_CTYPE, "C");
+    setlocale(LC_NUMERIC, "C");
+
+    ofSetFrameRate(FRAME_RATE);
+    ofSetVerticalSync(true);
+
+    connect();
+
+    // set the video size to 512x288 to process faster
+    m_cam.set(3, m_cam_width);
+    m_cam.set(4, m_cam_height);
+
+    m_config.load(m_cam_name + ".cfg");
+    m_maskPoints = m_config.mask_points;
+
+    if (m_maskPoints.size()) {
+        for (const auto p : m_maskPoints) {
+            m_polyline.lineTo(p.x, p.y);
+        }
+    } else {
+        // define default mask size
+        int h = m_cam_height - 40;
+        int w = m_cam_width - 40;
+
+        Point start_point(m_cam_width / 2 - w / 2, (m_cam_height / 2) - h / 2);
+
+        m_polyline.lineTo(start_point.x, start_point.y);
+        m_polyline.lineTo(start_point.x + w, start_point.y);
+        m_polyline.lineTo(start_point.x + w, start_point.y + h);
+        m_polyline.lineTo(start_point.x, start_point.y + h);
+        m_polyline.lineTo(start_point.x, start_point.y);
+
+        for (const auto v : m_polyline.getVertices()) {
+            m_maskPoints.push_back(Point(v.x, v.y));
+        }
+    }
+
+    this->create_mask();
+
+    m_bcksub = createBackgroundSubtractorMOG2(50, 32, false);
+
+    m_contour_finder.setMinAreaRadius(1);
+    m_contour_finder.setMaxAreaRadius(100);
+    m_contour_finder.setThreshold(10);
+
+    // wait for half a frame before forgetting something
+    m_tracker.setPersistence(7);  // m_persistence);
+    // an object can move up to 50 pixels per frame
+    m_tracker.setMaximumDistance(50);
+
+    // m_persondetector.set_processing(true);
+    // m_persondetector.startThread();
+
+    ofSetWindowTitle("CAM: " + m_cam_name + " " + m_ip);
+    m_writer.startThread();
+
+    // ui
+    m_panel = m_gui.addPanel("settings");
+    m_panel->setPosition(20, 20);
+
+    m_panel->add(m_penable_human_detection.set("Human detection", false));
+    m_panel->add(m_pdetection_delay.set("detection time", 2000, 100, 10000));
+    m_panel->add(m_pcontours_min_size.set("contours min size", 30, 1, 200));
+
+    m_panel->setHidden(m_panel_hide);
+    m_panel->loadFromFile(m_cam_name + "_settings.xml");
+}
+
+void ofApp::update()
+{
+    m_cam >> m_frame;
+    //  m_cam.getFrame(0.15);
+    if (m_frame.empty() || !m_cam.isOpened()) {
+        cout << "frame loss" << endl;
+        //    m_frame_number = 0;
+        connect();
+        return;
+    }
+
+    m_frame_number++;
+
+    uint64_t xcurrentMillis = ofGetElapsedTimeMillis();
+    if (xcurrentMillis - m_previous_camtimestamp_millis >= 3600000) {
+        if (!m_ip.empty() && !m_detected) {
+            m_dbusclient.camtimestamp(getpid(), m_ip, m_cam_name);
+            m_previous_camtimestamp_millis = xcurrentMillis;
+        }
+    }
+
+    // transform
+    m_boxes.clear();
+    cv::resize(m_frame, m_resized, cv::Size(m_cam_width, m_cam_height));
+    m_lighten = m_resized + cv::Scalar(m_lighten_value, m_lighten_value, m_lighten_value);
+    cvtColor(m_lighten, m_gray, COLOR_BGR2GRAY);
+
+    if (!m_processing || m_frame_number < 50) return;
+
+    m_writer.add(m_frame);
+
+    m_gray.copyTo(m_mask_image, m_mask);
+    m_mask_image.copyTo(m_output);
+
+    blur(m_output, 10);
+    erode(m_output);
+
+    // update the background model
+    m_bcksub->apply(m_output, m_mask_blob);
+
+    bool found = false;
+    Rect max_rect(9999, 0, 0, 0);
+
+    m_contour_finder.findContours(m_mask_blob);
+    m_tracker.track(m_contour_finder.getBoundingRects());
+
+    // m_nodraw = false;
+    int size = m_contour_finder.getBoundingRects().size();
+    if (size > 25) {
+        // cout << "size: " << size << endl;
+        m_rain = true;
+        return;
+    }
+
+    uint64_t rain_currentMillis = ofGetElapsedTimeMillis();
+    if (rain_currentMillis - m_previous_rain_millis >= 5000) {
+        int size = m_contour_finder.getBoundingRects().size();
+        if (size < 10 && m_rain) m_rain = false;
+        m_previous_rain_millis = ofGetElapsedTimeMillis();
+    }
+    // vector<Glow>& followers = m_tracker.getFollowers();
+    // if (followers.size()) {
+    // ofPolyline pline = followers[0].all;
+    // int size = pline.getVertices().size();
+    // cout << "size: " << size << endl;
+    // if (size > 40) return;
+    //}
+    // if (m_contour_finder.getBoundingRects().size())
+    // max_rect = m_contour_finder.getBoundingRects()[0];
+
+    for (auto& r : m_contour_finder.getBoundingRects()) {
+        if (r.x < max_rect.x) {
+            max_rect.x = r.x;
+        }
+        if (r.y < max_rect.y) {
+            max_rect.y = r.y;
+        }
+        if (r.x + r.width > max_rect.x + max_rect.width) {
+            max_rect.width = r.width;
+        }
+        if (r.y > max_rect.y) {
+            max_rect.y = r.y;
+        }
+        if (r.y + r.height > max_rect.y + max_rect.height) {
+            max_rect.height = r.height;
+        }
+    }
+
+    if (max_rect.width < 250 && max_rect.height < 200 && max_rect.width > m_pcontours_min_size &&
+        max_rect.height > m_pcontours_min_size + (m_pcontours_min_size / 2)) {
+        // cout << m_contour_finder.getBoundingRects().size() << endl;
+        // if (m_contour_finder.getBoundingRects().size() > 50) {
+        // m_rain = true;
+        ////      terminate();
+        // return;
+        //}
+
+        found = m_rain == false;
+    }
+
+    // if (max_rect.width > 90) {
+    //
+    // cout << max_rect.width << endl;
+    // return;
+    //}
+
+//#define ALGO_1
+#ifdef ALGO_1
+    int largest_area = 0;
+    vector<vector<Point>> contours;
+    vector<Vec4i> hierarchy;
+    double area = 0;
+    if (found) {
+        // Find blobs
+        // findContours(m_mask_blob, contours, hierarchy, CV_RETR_CCOMP, CV_CHAIN_APPROX_SIMPLE);
+        findContours(m_mask_blob, contours, hierarchy, CV_RETR_TREE, CV_CHAIN_APPROX_SIMPLE);
+        int size = contours.size();
+        //   cout << "size: " << size << endl;
+        if (size > 10) return;
+        //    terminate();
+    }
+
+    // for (int i = 0; i < (int)contours.size(); i++) {
+    // area = contourArea(contours[i], false);
+    // if (area > largest_area) {
+    // largest_area = area;
+    // cout << "area: " << area << endl;
+
+    // if (largest_area > 500) return;
+    //// Rect r = cv::boundingRect(contours[i]);
+
+    //// if (r.width > m_pcontours_min_size &&
+    //// r.height > m_pcontours_min_size + (m_pcontours_min_size / 2)) {
+    //// max_rect = Rect(r);
+    //// found = true;
+    ////}
+    //}
+    //}
+#endif
+    if (found) {
+        m_boxes.push_back(max_rect);
+        if (!m_detected && !m_firstdetection) {
+            m_firstdetection = true;
+            m_firstdetection_millis = ofGetElapsedTimeMillis();
+        }
+    }
+
+    // ofVec3f v(0, 0);
+    // this->follow_get_last(v);
+
+    //// if (v.x > 0)
+    //{
+    //// max_rect.x = v.x - 50;
+    //// max_rect.width = 100;
+    //// max_rect.height = 150;
+
+    //}
+
+    uint64_t currentMillis = ofGetElapsedTimeMillis();
+    if (currentMillis - m_firstdetection_millis >= m_pdetection_delay /* || (m_detected*/) {
+        if (found) {
+            this->follow_get_first(m_follower_first);
+            m_detection_max++;
+            if (!m_detected && !m_writer_processing_set) {
+                m_detected = true;
+                m_detection_count++;
+                m_writer_processing_set = true;
+
+                m_livevideo_path = "/home/yoo/Dropbox/survillance/" +
+                                   ofGetTimestampString("%Y-%m-%d") + "/" +
+                                   ofGetTimestampString("%H:%M:%S") + "_";
+
+                m_livevideo_filename = m_writer.set_processing(m_writer_processing_set, m_frame,
+                                                               "motion_" + m_cam_name);
+
+                //   this->save_latest_image();
+
+                m_dbusclient.play(m_cam_name);
+                m_persistence = 30;
+
+                m_previous_humandetection_millis = ofGetElapsedTimeMillis();
+                //  m_persondetector.set_processing(true);
+            }
+
+            if (m_penable_human_detection && m_human_detected == false) {
+                // if (currentMillis - m_previous_humandetection_millis >= 100)
+                {
+                    if (m_human_detector.size() == 0) {
+                        cout << "process dnn...\n";
+                        m_human_detector.push_back(std::thread([&]() {
+                            std::thread::id id = std::this_thread::get_id();
+
+                            if (m_persondetector.detector(m_resized, m_cam_name)) {
+                                cout << "human detected yolo" << endl;
+                                m_dbusclient.pushover(
+                                    "HUMAN detection",
+                                    "at the " + m_cam_name +
+                                        ".\nPlease use the link to see latest activity");
+
+                                m_dbusclient.play("human_" + m_cam_name);
+                                m_previous_livevideo_millis = ofGetElapsedTimeMillis();
+                                m_human_detected = true;
+                            } else {
+                                cout << "process HOG... " << endl;
+                                Rect r = m_boxes[0];
+                                if (m_humandetector.detector(m_resized, r, m_cam_name)) {
+                                    //
+                                    cout << "humand detected HOG" << endl;
+                                    m_dbusclient.pushover(
+                                        "HUMAN detection",
+                                        "at the " + m_cam_name +
+                                            ".\nPlease use the link to see latest activity");
+                                    m_dbusclient.play("human_" + m_cam_name);
+                                    //  save_human_image(m_resized, r);
+                                    m_human_detected = true;
+                                    m_previous_livevideo_millis = ofGetElapsedTimeMillis();
+                                }
+                            }
+                            std::thread(remove_thread, id).detach();
+                        }));
+
+                        // cout << "process HOG... " << endl;
+                        // m_human_detector.push_back(std::thread([&]() {
+                        // std::thread::id id = std::this_thread::get_id();
+                        // Rect r = m_boxes[0];
+                        // if (m_humandetector.detector(m_resized, r, m_cam_name)) {
+                        ////
+                        // cout << "humand detected HOG" << endl;
+                        // m_dbusclient.play("human_" + m_cam_name);
+                        ////  save_human_image(m_resized, r);
+                        // m_human_detected = true;
+                        // m_previous_livevideo_millis = ofGetElapsedTimeMillis();
+                        //}
+
+                        // std::thread(remove_thread, id).detach();
+                        //}));
+                    }
+
+                    m_previous_humandetection_millis = ofGetElapsedTimeMillis();
+                }
+            }
+
+            if (ofGetHours() >= 18 || ofGetHours() <= 5) {
+                //    std::system("curl http://192.168.1.60/on");
+            }
+
+            m_previous_livevideo_millis = ofGetElapsedTimeMillis();
+        } else {
+            m_firstdetection = false;
+        }
+
+        m_firstdetection_millis = currentMillis;
+    }
+
+    uint64_t current_livevideo_millis = ofGetElapsedTimeMillis();
+    if ((int)(current_livevideo_millis - m_previous_livevideo_millis) >= 45000) {
+        if (m_writer_processing_set) {
+            m_detected = false;
+            m_writer_processing_set = false;
+            m_writer.set_processing(m_writer_processing_set, m_frame);
+            m_detection_max = 0;
+            m_persistence = 6;
+
+            // string videomode = m_human_detected ? "HUMAN" : "motion";
+
+            if (m_human_detected) {
+                string destination = m_livevideo_path + "HUMAN_" + m_cam_name + ".mkv";
+
+                ifstream file(m_livevideo_filename);
+                if (file) {
+                    if (boost::filesystem::exists(m_livevideo_filename)) {
+                        if (boost::filesystem::exists(destination)) {
+                            boost::filesystem::remove(destination);
+                        }
+                        cout << m_livevideo_filename << " ------------ " << destination << endl;
+                        boost::filesystem::copy_file(m_livevideo_filename, destination);
+
+                        // destination = m_writer.get_filepath("HUMAN_" + m_cam_name, ".mkv", true);
+                        // if (boost::filesystem::exists(destination)) {
+                        // boost::filesystem::remove(destination);
+                        //}
+                        // boost::filesystem::copy_file(m_livevideo_filename, destination);
+
+                        boost::filesystem::remove(m_livevideo_filename);
+
+                        // m_dbusclient.pushover(
+                        //"HUMAN detection VIDEO finish recording.",
+                        //"\nat the " + m_cam_name +
+                        //".\nPlease use the link to see latest HUMAN activity");
+                    }
+                }
+            }
+            m_human_detected = false;
+            m_send_message_set = false;
+
+            cout << "FINISH" << endl;
+        }
+        m_previous_livevideo_millis = ofGetElapsedTimeMillis();
+    }
+}
+
+bool ofApp::follow_get_first(ofVec3f& v)
+{
+    v.x = m_cam_width / 2;
+    v.y = m_cam_height / 2;
+    return true;
+
+    vector<Glow>& followers = m_tracker.getFollowers();
+    if (followers.size()) {
+        ofPolyline pline = followers[0].all;
+        int size = pline.getVertices().size();
+        if (size) {
+            v.x = pline.getVertices()[0].x;
+            v.y = pline.getVertices()[0].y;
+
+            return true;
+        }
+    }
+
+    return false;
+}
+
+bool ofApp::follow_get_last(ofVec3f& v)
+{
+    vector<Glow>& followers = m_tracker.getFollowers();
+    if (followers.size()) {
+        ofPolyline pline = followers[0].all;
+        int size = pline.getVertices().size();
+        if (size) {
+            v.x = pline.getVertices()[size - 1].x;
+            v.y = pline.getVertices()[size - 1].y;
+
+            return true;
+        }
+    }
+
+    return false;
+}
+
+void ofApp::draw()
+{
+    if (m_frame.empty()) return;
+
+    if (m_view_mode == 1)
+        drawMat(m_gray, 0, 0);
+    else if (m_view_mode == 2)
+        drawMat(m_mask_image, 0, 0);
+    else if (m_view_mode == 3)
+        drawMat(m_mask_blob, 0, 0);
+    else if (m_view_mode == 4)
+        drawMat(m_output, 0, 0);
+    else
+        return;
+
+    // ofSetColor(ofColor::blue);
+    // ofDrawCircle(m_follower_first, 12);
+    // ofSetColor(ofColor::red);
+    // follow_get_last(m_follower_last);
+    // ofDrawCircle(m_follower_last, 12);
+
+    // vector<Glow>& f = m_tracker.getFollowers();
+    // for (int i = 0; i < f.size(); i++) {
+    // f[i].draw();
+    //}
+    //    m_contour_finder.draw();
+    // return;
+
+    m_direction = 0;
+
+    //  if (m_nodraw) return;
+
+    vector<Glow>& followers = m_tracker.getFollowers();
+    if (followers.size()) {
+        followers[0].all.draw();
+        ofPolyline pline = followers[0].all;
+
+        int size = pline.getVertices().size();
+
+        m_vertices_size = size;
+
+        //  cout << size << endl;
+        if (size) {
+            int sx = pline.getVertices()[0].x;
+            int sy = pline.getVertices()[0].y;
+
+            int ex = pline.getVertices()[size - 1].x;
+            int ey = pline.getVertices()[size - 1].y;
+            ofSetColor(ofColor::yellow);
+            ofDrawCircle(m_follower_first, 8);
+            ofSetColor(ofColor::blue);
+
+            ofVec3f sv(sx, sy);
+            ofDrawCircle(sv, 4);
+            ofSetColor(ofColor::red);
+
+            ofVec3f ev(ex, ey);
+            ofDrawCircle(ev, 4);
+
+            m_direction = (ex < sx) ? 1 : 2;
+            ofDrawLine(m_follower_first.x, m_follower_first.y, ex, ey);
+            // for (const auto v : pline.getVertices()) {
+            ////   m_maskPoints.push_back(Point(v.x, v.y));
+            //}
+        }
+    }
+
+    // for (int i = 0; i < followers.size(); i++) {
+    //// followers[i].draw();
+    // followers[i].all.draw();
+    //}
+
+//#define TEST
+#ifdef TEST
+    ofSetLineWidth(2);
+
+    ofNoFill();
+    int n = m_contour_finder.size();
+    for (int i = 0; i < n; i++) {
+        // smallest rectangle that fits the contour
+        // ofSetColor(cyanPrint);
+        // ofPolyline minAreaRect = toOf(m_contour_finder.getMinAreaRect(i));
+        // minAreaRect.draw();
+        /*
+                    // ellipse that best fits the contour
+                    ofSetColor(magentaPrint);
+                    cv::RotatedRect ellipse = m_contour_finder.getFitEllipse(i);
+                    ofPushMatrix();
+                    ofVec2f ellipseCenter = toOf(ellipse.center);
+                    ofVec2f ellipseSize = toOf(ellipse.size);
+                    ofTranslate(ellipseCenter.x, ellipseCenter.y);
+                    ofRotate(ellipse.angle);
+                    ofDrawEllipse(0, 0, ellipseSize.x, ellipseSize.y);
+                    ofPopMatrix();
+
+                // minimum area circle that encloses the contour
+                ofSetColor(cyanPrint);
+                float circleRadius;
+                ofVec2f circleCenter = toOf(m_contour_finder.getMinEnclosingCircle(i,
+           circleRadius)); ofDrawCircle(circleCenter, circleRadius);
+
+                // convex hull of the contour
+                ofSetColor(yellowPrint);
+                ofPolyline convexHull = toOf(m_contour_finder.getConvexHull(i));
+                convexHull.draw();
+
+                // defects of the convex hull
+                vector<cv::Vec4i> defects = contourFinder.getConvexityDefects(i);
+                for (int j = 0; j < defects.size(); j++) {
+                    ofDrawLine(defects[j][0], defects[j][1], defects[j][2], defects[j][3]);
+                }
+
+                // some different styles of contour centers
+                ofVec2f centroid = toOf(m_contour_finder.getCentroid(i));
+                ofVec2f average = toOf(m_contour_finder.getAverage(i));
+                ofVec2f center = toOf(m_contour_finder.getCenter(i));
+
+                        ofSetColor(cyanPrint);
+                        ofDrawCircle(centroid, 1);
+                        ofSetColor(magentaPrint);
+                        ofDrawCircle(average, 1);
+                        ofSetColor(yellowPrint);
+                        ofDrawCircle(center, 1);
+
+                // you can also get the area and perimeter using ofPolyline:
+                // ofPolyline::getArea() and ofPolyline::getPerimeter()
+                double area = m_contour_finder.getContourArea(i);
+                double length = m_contour_finder.getArcLength(i);
+
+                // balance is useful for detecting when a shape has an "arm" sticking out
+                // if balance.length() is small, the shape is more symmetric: like I, O, X...
+                // if balance.length() is large, the shape is less symmetric: like L, P, F...
+                ofVec2f balance = toOf(m_contour_finder.getBalance(i));
+                ofPushMatrix();
+                ofTranslate(centroid.x, centroid.y);
+                ofScale(5, 5);
+                ofDrawLine(0, 0, balance.x, balance.y);
+                ofPopMatrix();
+                */
+    }
+    // RectTracker& tracker = m_contour_finder.getTracker();
+    //// m_contour_finder.draw();
+    // for (int i = 0; i < m_contour_finder.size(); i++) {
+    // ofPoint center = toOf(m_contour_finder.getCenter(i));
+    // ofPushMatrix();
+    // ofTranslate(center.x, center.y);
+    // int label = m_contour_finder.getLabel(i);
+    // string msg = ofToString(label) + ":" + ofToString(tracker.getAge(label));
+    // ofDrawBitmapString(msg, 0, 0);
+    // ofVec2f velocity = toOf(m_contour_finder.getVelocity(i));
+    // ofScale(5, 5);
+    // ofDrawLine(0, 0, velocity.x, velocity.y);
+    // ofPopMatrix();
+    //}
+    // for (int i = 0; i < m_contour_finder.size(); i++) {
+    // unsigned int label = m_contour_finder.getLabel(i);
+    //// only draw a line if this is not a new label
+    // if (tracker.existsPrevious(label)) {
+    //// use the label to pick a random color
+    // ofSeedRandom(label << 24);
+    // ofSetColor(ofColor::fromHsb(ofRandom(255), 255, 255));
+    //// get the tracked object (cv::Rect) at current and previous position
+    // const cv::Rect& previous = tracker.getPrevious(label);
+    // const cv::Rect& current = tracker.getCurrent(label);
+    //// get the centers of the rectangles
+    // ofVec2f previousPosition(previous.x + previous.width / 2,
+    // previous.y + previous.height / 2);
+    // ofVec2f currentPosition(current.x + current.width / 2, current.y + current.height / 2);
+    // ofDrawLine(previousPosition, currentPosition);
+    //}
+    //}
+#endif
+    if (!m_processing) return;
+
+    ofPopStyle();
+    ofFill();
+    ofSetLineWidth(2.0);
+    ofSetColor(ofColor::white);
+    m_polyline.draw();
+    ofPushStyle();
+
+    char buffer[512];
+
+    // show status info
+    int seconds = 0;
+    if (m_detection_max) {
+        seconds = (int)(ofGetElapsedTimeMillis() - m_previous_livevideo_millis) / 1000;
+    }
+    ofPushStyle();
+
+    char dirbuf[12];
+
+    sprintf(buffer, "FPS/Frame: %2.2f/%.d motion: %d/%d %d sec. dir: %d [%.2d:%.2d:%.2d] Q:%d",
+            m_frame_number, ofGetFrameRate(), m_detection_count, m_detection_max, seconds,
+            m_direction, ofGetHours(), ofGetMinutes(), ofGetSeconds(), m_writer.get_queue().size()
+
+    );
+
+    ofDrawBitmapStringHighlight(buffer, 1, m_cam_height + 15);
+    ofPopStyle();
+
+    ofPushStyle();
+    ofNoFill();
+    ofSetLineWidth(1.5);
+    ofSetColor(yellowPrint);
+    for (size_t i = 0; i < m_boxes.size(); i++) {
+        Rect r = m_boxes[i];
+        /*
+        ofVec2f centroid(r.x + r.width / 3, r.y + r.height / 2);
+        ofDrawCircle(centroid, 10);
+        */
+
+        ofDrawRectangle(r.x, r.y, r.width, r.height);
+        // sprintf(buffer, "%dx%d", r.width, r.height);
+        // ofDrawBitmapStringHighlight(buffer, r.x + 4, r.y + r.height - 4);
+    }
+    ofPopStyle();
+
+    ofPushStyle();
+    if (m_detection_max) {
+        ofSetColor(ofColor::red);
+        string recording = "REC";
+
+        if (m_frame_number % 10 == 0) {
+            ofCircle(m_cam_width - 20, m_cam_height + 14, 4);
+        }
+
+        ofDrawBitmapStringHighlight(recording, m_cam_width - 54, m_cam_height + 18);
+    }
+
+    ofPopStyle();
+    //    gui.draw();
+}
+
+void ofApp::connect()
+{
+    // When everything done, release the video capture object
+    m_cam.release();
+    m_processing = false;
+    string command = "";
+    std::size_t p2 = m_stream.find_last_of(":");
+    std::size_t p1 = m_stream.find(".") - 3;
+
+    // set the video size to 512x288 to process faster
+    // camera.set(3, 512);
+    // camera.set(4, 288);
+    if (p1 != std::string::npos && p2 != std::string::npos) {
+        //  p1 += 2;
+        m_ip = m_stream.substr(p1, p2 - p1);
+        command = "ping " + m_ip;
+
+        cout << m_ip << endl;
+    }
+    int apiID = cv::CAP_ANY;  // 0 = autodetect default API
+    // int apiID = cv::CAP_FFMPEG;
+    auto previous_millis = ofGetElapsedTimeMillis();
+    while (true) {
+        try {
+            if (m_stream != "0")
+                m_cam.open(m_stream, apiID);
+            else
+                m_cam.open(0);
+
+            if (m_cam.isOpened()) {
+                m_cam >> m_frame;
+                if (m_frame.empty() == false) {
+                    m_processing = true;
+                    cout << "CONNECTED! " << endl;
+                    break;
+                }
+            }
+        } catch (...) {
+            // swallow
+        }
+
+        //  if (!command.empty() && !system(command.c_str())) break;
+
+        // uint64_t currentMillis = ofGetElapsedTimeMillis();
+        // if ((int)(currentMillis - previous_millis) >= 6000) {
+        // cout << "timeout " << endl;
+        // break;
+        //}
+
+        cout << "connecting " << endl;
+        ofSleepMillis(3000);
+    }
+}
+void ofApp::save_human_image(cv::Mat& img, Rect r)
+{
+    string filename = m_writer.get_filepath("HUMAN_" + m_cam_name, ".jpg");
+
+    cout << filename << endl;
+
+    rectangle(img, Point(r.x, r.y), Point(r.width, r.height), Scalar(255, 255, 255));
+
+    imwrite(filename, img);
+
+    // string destination = m_writer.get_filepath("HUMAN_" + m_cam_name, ".jpg", true);
+    // ifstream file(filename);
+    // if (boost::filesystem::exists(destination)) {
+    // boost::filesystem::remove(destination);
+    //}
+    // if (file) {
+    // boost::filesystem::copy_file(filename, destination);
+
+    // string command = ofToDataPath("pushover.sh 'Human detection' 'at the " + m_cam_name +
+    //" please use the link to see latest activity.'");
+    // std::system(command.c_str());
+    //}
+
+    // string info = format("%d %d ", r.x, r.y);
+    // cout << "box " << info << endl;
+    // cout << "save " << filename << endl;
+}
+
+void ofApp::save_motion_image(cv::Mat& img)
+{
+    string filename = m_writer.get_filepath("motion_" + m_cam_name, ".jpg");
+    imwrite(filename, img);
+}
+void ofApp::save_latest_image()
+{
+    string filename = m_writer.get_filepath("motion_" + m_cam_name, ".jpg", true);
+    imwrite(filename, m_resized);
+}
+void ofApp::save_current_image()
+{
+    string filename = ofToDataPath("image_" + ofGetTimestampString() + ".jpg");
+    imwrite(filename, m_resized);
+}
+
+void ofApp::remove_thread(std::thread::id id)
+{
+    std::lock_guard<std::mutex> lock(m_mutex);
+    auto iter = std::find_if(m_human_detector.begin(), m_human_detector.end(),
+                             [=](std::thread& t) { return (t.get_id() == id); });
+    if (iter != m_human_detector.end()) {
+        iter->detach();
+        m_human_detector.erase(iter);
+    }
+}
+
+void ofApp::update_mask()
+{
+    m_mask_image.release();
+
+    // clang-format off
+
+    m_maskPoints.clear();
+
+    m_maskPoints.push_back(cv::Point(m_mask_rect.x, m_mask_rect.y));
+    m_maskPoints.push_back(cv::Point(m_mask_rect.x + m_mask_rect.width, m_mask_rect.y));
+    m_maskPoints.push_back(cv::Point(m_mask_rect.x + m_mask_rect.width, m_mask_rect.y + m_mask_rect.height));
+    m_maskPoints.push_back(cv::Point(m_mask_rect.x, m_mask_rect.y + m_mask_rect.height));
+    m_maskPoints.push_back(cv::Point(m_mask_rect.x, m_mask_rect.y));
+
+    // clang-format on
+
+    this->create_mask();
+}
+
+void ofApp::create_mask()
+{
+    if (m_maskPoints.size() == 0) {
+        m_maskPoints.push_back(cv::Point(2, 2));
+        m_maskPoints.push_back(cv::Point(m_cam_width - 2, 2));
+        m_maskPoints.push_back(cv::Point(m_cam_width - 2, m_cam_height - 2));
+        m_maskPoints.push_back(cv::Point(2, m_cam_height - 2));
+        m_maskPoints.push_back(cv::Point(2, 2));
+    }
+
+    CvMat* matrix = cvCreateMat(m_cam_height, m_cam_width, CV_8UC1);
+    m_mask = cvarrToMat(matrix);  // OpenCV provided this function instead of Mat(matrix).
+
+    for (int i = 0; i < m_mask.cols; i++) {
+        for (int j = 0; j < m_mask.rows; j++) m_mask.at<uchar>(cv::Point(i, j)) = 0;
+    }
+
+    fillPoly(m_mask, m_maskPoints, 255);
+}
+
+void ofApp::mousePressed(int x, int y, int button)
+{
+    if (m_input_mode == input_mode_t::mask) {
+        if (button == 0) {
+            // m_mouse_pressed = true;
+            if (x < m_cam_width && y < m_cam_height) {
+                m_polyline.lineTo(x, y);
+            }
+
+        } else if (button == 2) {
+            if (m_polyline.size() > 1) {
+                // get the fisrt and last vertices
+                auto v1 = m_polyline.getVertices()[0];
+                auto v2 = m_polyline.getVertices().back();
+
+                // convert to cv::Point
+                Point p1 = Point(v1.x, v1.y);
+                Point p2 = Point(v2.x, v2.y);
+
+                if (p1 != p2) m_polyline.lineTo(p1.x, p1.y);
+
+                // copy the points;
+                m_maskPoints.clear();
+                for (const auto v : m_polyline) {
+                    m_maskPoints.push_back(Point(v.x, v.y));
+                }
+
+                // create new mask;
+                m_mask_image.release();
+                this->create_mask();
+
+                m_input_mode = input_mode_t::none;
+
+                m_config.mask_points = m_maskPoints;
+                m_config.save(m_cam_name + ".cfg");
+            }
+        }
+    }
+}
+void ofApp::keyPressed(int key)
+{
+    if (key == 't') {
+        m_dbusclient.camtimestamp(getpid(), m_ip, m_cam_name);
+        return;
+    }
+    if (key == 's') {
+        m_panel->saveToFile(m_cam_name + "_settings.xml");
+        return;
+    }
+
+    if (key == 'l') {
+        m_panel->loadFromFile(m_cam_name + "_settings.xml");
+        return;
+    }
+
+    if (key == 'i') {
+        m_panel_hide = !m_panel_hide;
+        m_panel->setHidden(m_panel_hide);
+        return;
+    }
+
+    if (key == '1') {
+        m_view_mode = 1;
+        return;
+    }
+    if (key == '2') {
+        m_view_mode = 2;
+        return;
+    }
+    if (key == '3') {
+        m_view_mode = 3;
+        return;
+    }
+
+    if (key == '4') {
+        m_view_mode = 4;
+        return;
+    }
+
+    if (OF_KEY_F5 == key) {
+        m_input_mode = input_mode_t::mask;
+        m_maskPoints.clear();
+        m_polyline.clear();
+    }
+
+        this->save_current_image();
+        return;
+    }
+
+    if (key == OF_KEY_F11) {
+        string command =
+            ofFilePath::getCurrentExePath() + " '" + m_stream + "' " + m_cam_name + " 1024 720";
+
+        command = "./bin/bandai '" + m_stream + "' " + m_cam_name + " 1280 720 RO &";
+
+        cout << command << endl;
+        std::system(command.c_str());
+    if (key == OF_KEY_F10) {
+    }
+}
+#include "common.h"
+w

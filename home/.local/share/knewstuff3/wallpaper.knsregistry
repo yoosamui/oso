@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="">
+  <name>We10Xos Wallpaper</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>yeyushengfan258</author>
+  <homepage>https://store.kde.org/p/1368857</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>70</rating>
+  <downloads>16731</downloads>
+  <installedfile>/home/yoo/.local/share/wallpapers//We10XOS/*</installedfile>
+  <installedfile>/home/yoo/.local/share/wallpapers//</installedfile>
+  <id>1368857</id>
+  <releasedate>2020-05-18</releasedate>
+  <summary>We10XOS-Concept kde is a light clean theme for KDE Plasma desktop.&lt;br />
+&lt;br />
+In this repository you'll find:&lt;br />
+&lt;br />
+    Aurorae Themes&lt;br />
+    Kvantum Themes&lt;br />
+    Plasma Color Schemes&lt;br />
+    Plasma Desktop Themes&lt;br />
+    Plasma Look-and-Feel Settings&lt;br />
+&lt;br />
+------------------------------&lt;br />
+&lt;strong>We10XOS Global Theme&lt;/strong>:&lt;a href="https://www.pling.com/p/1368860/" target="_blank" rel="nofollow">https://www.pling.com/p/1368860/&lt;/a>&lt;br />
+&lt;br />
+&lt;strong>We10XOSWT Global Theme&lt;/strong>:&lt;a href="https://www.pling.com/p/1363027/" target="_blank" rel="nofollow">https://www.pling.com/p/1363027/&lt;/a>&lt;br />
+------------------------------&lt;br />
+&lt;strong>We10X icon theme&lt;/strong>:&lt;a href="https://www.pling.com/p/1366371/" target="_blank" rel="nofollow">https://www.pling.com/p/1366371/&lt;/a>&lt;br />
+------------------------------&lt;br />
+&lt;strong>We10Xos Wallpaper-purple&lt;/strong>:&lt;a href="https://www.pling.com/p/1369315/" target="_blank" rel="nofollow">https://www.pling.com/p/1369315/&lt;/a>&lt;br />
+&lt;br />
+&lt;strong>We10Xos Wallpaper-blue&lt;/strong>:&lt;a href="https://www.pling.com/p/1369317/" target="_blank" rel="nofollow">https://www.pling.com/p/1369317/&lt;/a>&lt;br />
+&lt;br />
+&lt;strong>We10Xos Wallpaper-green&lt;/strong>:&lt;a href="https://www.pling.com/p/1369319/" target="_blank" rel="nofollow">https://www.pling.com/p/1369319/&lt;/a>&lt;br />
+&lt;br />
+&lt;strong>We10Xos Wallpaper-black&lt;/strong>:&lt;a href="https://www.pling.com/p/1369321/" target="_blank" rel="nofollow">https://www.pling.com/p/1369321/&lt;/a>&lt;br />
+&lt;br />
+&lt;strong>We10Xos Wallpaper-White&lt;/strong>:&lt;a href="https://www.pling.com/p/1363018/" target="_blank" rel="nofollow">https://www.pling.com/p/1363018/&lt;/a></summary>
+  <changelog></changelog>
+  <preview>https://cn.opendesktop.org/cache/100x100-0/img/a/e/4/1/1ea7faf2f550d3cbb7b4b6c00ec84d27a668.png</preview>
+  <previewBig>https://cn.opendesktop.org/cache/770x540-0/img/a/e/4/1/1ea7faf2f550d3cbb7b4b6c00ec84d27a668.png</previewBig>
+  <payload>https://dllb2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1ODk3OTA3NTEiLCJvIjoiMSIsInMiOiI1MjgxOGM5NDk2MDQ5NzA5MmJhZTM1NTExMGQ3NmUwNzc5ZDVmN2RkYjliMDBmZjczMmEyY2JmYWIxNTQ4NjYzZDExOTkzZjkzNTk1M2UzOWNiMjE0MmVlNjYyNmRmYTU1ZWJlOGRiZDExOGIxNjEyNmRlMmY3MDdmMmY5NTdlZSIsInQiOjE1OTY2NzMxNDcsInN0ZnAiOm51bGwsInN0aXAiOiI0NS42Ny45Ni4yMjkifQ.UX4_cLtb9RytUUJSJeg512p_dEY5r6-z2Ob1YJkMlnM/We10XOS-BK.zip</payload>
+  <tags>gplv3,wallpaper,artwork,windows,original-product</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="">
+  <name>WhiteSur Wallpaper</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>vinceliuice</author>
+  <homepage>https://store.kde.org/p/1398833</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>67</rating>
+  <downloads>38290</downloads>
+  <installedfile>/home/yoo/.local/share/wallpapers//WhiteSur/*</installedfile>
+  <installedfile>/home/yoo/.local/share/wallpapers//</installedfile>
+  <id>1398833</id>
+  <releasedate>2020-07-01</releasedate>
+  <summary>MacOS big sur theme for kde plasma</summary>
+  <changelog></changelog>
+  <preview>https://cn.opendesktop.org/cache/100x100-0/img/3/0/c/a/3fdc0e89e55c612da93893fd216253928423.png</preview>
+  <previewBig>https://cn.opendesktop.org/cache/770x540-0/img/3/0/c/a/3fdc0e89e55c612da93893fd216253928423.png</previewBig>
+  <payload>https://dllb2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1OTM1ODg5MzciLCJvIjoiMSIsInMiOiJmMjkyNDU3ZTM5Mjg0MjE5MjIyMjZkZWEwNzZlMjcwNTJkY2Q1ZTkxNDg2ZjM5MDkxZjU4ZWUyYTdjYWY2YWEwNjI4NzRiNDVkNTBlOWNhZGEwZTZjNWQ4ZWIyNDQ1NmEzNTM5ZDBkNTgwZTJhMjBhOTQ4MTFiMGQyZjBhMTBmZiIsInQiOjE1OTY2NzMxMDgsInN0ZnAiOm51bGwsInN0aXAiOiI0NS42Ny45Ni4yMjkifQ._eIJyOzT5ExkzIMeFwcWlJzcglJtz_Kc-DAD4PO1iWM/WhiteSur.tar.xz</payload>
+  <tags>wallpaper,artwork,plasma,kde,original-product,cc-by-sa</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

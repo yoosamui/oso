@@ -1,0 +1,18 @@
+00:00:00.292983 VirtualBox GUI VM Selector Window 6.0.24 r139119 linux.amd64 (Jul  9 2020 19:41:02) release log
+00:00:00.292985 Log opened 2020-12-08T08:01:09.392344000Z
+00:00:00.292986 Build Type: release
+00:00:00.292990 OS Product: Linux
+00:00:00.292991 OS Release: 4.19.0-10-amd64
+00:00:00.292992 OS Version: #1 SMP Debian 4.19.132-1 (2020-07-24)
+00:00:00.293017 DMI Product Name: Precision M6800
+00:00:00.293024 DMI Product Version: 00
+00:00:00.293069 Host RAM: 15980MB (15.6GB) total, 12403MB (12.1GB) available
+00:00:00.293073 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.293074 Process ID: 24776
+00:00:00.293074 Package type: LINUX_64BITS_DEBIAN_10_0
+00:00:00.293098 Qt version: 5.11.3
+00:00:00.322973 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.322987 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:00.693137 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 0x26 x 2560x1414
+00:00:00.702315 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 1 work area is actually resized to: 2560x0 x 1920x1080
+00:00:00.780566 Failed to open "/dev/vboxdrv", errno=13, rc=VERR_VM_DRIVER_NOT_ACCESSIBLE

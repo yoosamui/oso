@@ -1,0 +1,18 @@
+00:00:00.330507 VirtualBox GUI VM Selector Window 6.0.24 r139119 linux.amd64 (Jul  9 2020 19:41:02) release log
+00:00:00.330509 Log opened 2021-07-06T04:48:25.847992000Z
+00:00:00.330510 Build Type: release
+00:00:00.330514 OS Product: Linux
+00:00:00.330515 OS Release: 4.19.0-10-amd64
+00:00:00.330516 OS Version: #1 SMP Debian 4.19.132-1 (2020-07-24)
+00:00:00.330541 DMI Product Name: Precision M6800
+00:00:00.330548 DMI Product Version: 00
+00:00:00.330592 Host RAM: 15980MB (15.6GB) total, 11158MB (10.8GB) available
+00:00:00.330597 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.330597 Process ID: 3244
+00:00:00.330597 Package type: LINUX_64BITS_DEBIAN_10_0
+00:00:00.330622 Qt version: 5.11.3
+00:00:00.409029 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:01.062797 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 0x30 x 2560x1362
+00:00:01.070490 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 1 work area is actually resized to: 2560x16 x 1920x1080
+00:00:01.075762 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:14.961873 GUI: UIMediumEnumerator: Medium-enumeration finished!

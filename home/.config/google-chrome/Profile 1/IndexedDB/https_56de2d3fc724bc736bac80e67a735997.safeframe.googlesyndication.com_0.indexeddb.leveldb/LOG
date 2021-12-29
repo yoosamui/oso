@@ -1,0 +1,7 @@
+2021/12/25-11:14:13.932 6daf Reusing MANIFEST /home/yoo/.config/google-chrome/Profile 1/IndexedDB/https_56de2d3fc724bc736bac80e67a735997.safeframe.googlesyndication.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/12/25-11:14:13.932 6daf Recovering log #3
+2021/12/25-11:14:13.932 6daf Reusing old log /home/yoo/.config/google-chrome/Profile 1/IndexedDB/https_56de2d3fc724bc736bac80e67a735997.safeframe.googlesyndication.com_0.indexeddb.leveldb/000003.log 
+2021/12/25-11:14:24.775 62d9 Level-0 table #5: started
+2021/12/25-11:14:24.777 62d9 Level-0 table #5: 480 bytes OK
+2021/12/25-11:14:24.780 62d9 Delete type=0 #3
+2021/12/25-11:14:24.780 62d9 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

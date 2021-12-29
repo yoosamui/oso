@@ -1,0 +1,6 @@
+[We10XOS]
+ButtonSize=0
+
+[kwin4_decoration_qml_plastik]
+titleAlignCenter=true
+titleAlignLeft=false

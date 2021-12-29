@@ -1,0 +1,24 @@
+[
+    {
+        "enabled": true,
+        "id": "77a3b2062e00eb402c8359cdb7ed6edb",
+        "metadata": {
+            "fullname": "xrandr-unknown",
+            "name": "LVDS-0"
+        },
+        "mode": {
+            "refresh": 60.012481689453125,
+            "size": {
+                "height": 1080,
+                "width": 1920
+            }
+        },
+        "pos": {
+            "x": 0,
+            "y": 0
+        },
+        "primary": true,
+        "rotation": 1,
+        "scale": 1
+    }
+]

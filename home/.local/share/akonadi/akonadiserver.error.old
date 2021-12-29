@@ -1,0 +1,4 @@
+Connecting to deprecated signal QDBusConnectionInterface::serviceOwnerChanged(QString,QString,QString)
+Received ModifySubscription command before RegisterSubscriber
+Notification socket write timeout!
+Received ModifySubscription command before RegisterSubscriber

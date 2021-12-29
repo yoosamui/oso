@@ -1,0 +1,9 @@
+[Desktop Entry]
+Exec=bash /var/sinox/scripts/vpn-connect.sh
+Hidden=false
+Icon=/usr/lib/expressvpn/icon.png
+Name=ExpressVPN
+Terminal=false
+Type=Application
+X-GNOME-Autostart-enabled=true
+X-GNOME-Autostart-Delay=5

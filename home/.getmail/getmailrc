@@ -1,0 +1,53 @@
+# standard gmail with insecure app on
+#[retriever]
+#type = SimplePOP3SSLRetriever
+#server = pop.gmail.com
+#username = moo4pi@gmail.com
+
+#port = 995
+#password = master!31416Pimoo
+
+#[destination]
+#type = Maildir
+#path = ~/mail/
+
+#[options]
+#read_all = False
+
+#[options]
+#verbose = 0
+
+
+# 2 times auth
+[retriever]
+type = SimplePOP3SSLRetriever
+server = pop.gmail.com
+username = moo4pi
+
+port = 995
+password = itmqdnatjqukyuvq
+
+[destination]
+type = Maildir
+path = ~/mail/
+
+[options]
+read_all = False
+
+#[options]
+#verbose = 0
+# The option delete = true tells getmail to remove the mail from the server after it retrieves messages.
+# If you would like to simply copy the messages from the server and leave them intact on the server set this
+#  value to false.
+delete = false
+
+# A log of getmail operations is logged at ~/.getmail/log-foreman-example
+# in the home directory of the user who executes getmail.
+message_log = ~/.getmail/log-m004pi-mail
+
+read_all=false
+delivered_to=false
+received=false
+use_peek=True
+
+

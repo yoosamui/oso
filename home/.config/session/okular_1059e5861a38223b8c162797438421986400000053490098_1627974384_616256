@@ -1,0 +1,13 @@
+[1]
+ActiveTab=0
+Urls[$e]=file:///media/yoo/shared/documents/VerwalterVertrag_Berlin__janine/Mietvertrag_Juan_20210716_scan.pdf
+
+[Number]
+NumberOfWindows=1
+
+[WindowProperties1]
+ClassName=Shell
+Height 1440=1300
+ObjectName=okular::Shell#1
+State=AAAA/wAAAAD9AAAAAAAACPAAAATbAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+Width 2560=2288

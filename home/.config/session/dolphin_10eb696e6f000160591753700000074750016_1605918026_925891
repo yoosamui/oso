@@ -1,0 +1,15 @@
+[1]
+Active Tab Index=0
+Tab Count=1
+Tab Data 0=\x00\x00\x00\x02\x00\x00\x00\x00Ffile:///media/yoo/develop/DockLightDev/sources/docklight_3.0.orig/data\x00\x00\x00\x00\x01\x00\x00\x00Lfile:///media/yoo/develop/DockLightDev/sources/docklight_3.0.orig/data/icons\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x1b\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x01\x00\x00\x014\x00\xff\xff\xff\xff\x01\x00\x00\x00\x01\x00
+
+[Number]
+NumberOfWindows=1
+
+[WindowProperties1]
+ClassName=DolphinMainWindow
+Height 1440=1039
+ObjectName=Dolphin#1
+State=AAAA/wAAAAD9AAAAAwAAAAAAAAEiAAADyfwCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAA/////wAAAAoBAAAD+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAABGAAADyQAAAFoBAAADAAAAAQAAALgAAAPV/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAAAAADoAAAPVAAAACgEAAAMAAAADAAAAAAAAAAD8AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAA/////wAAAAoBAAADAAAD2QAAA8kAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+ToolBarsMovable=Disabled
+Width 2560=1276

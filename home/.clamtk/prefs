@@ -1,0 +1,12 @@
+GUICheck=1
+TruncateLog=1
+LastInfection=Never
+Mounted=0
+Whitelist=
+SizeLimit=0
+ScanHidden=0
+Recursive=0
+Update=shared
+HTTPProxy=0
+Thorough=0
+DupeDB=1

@@ -1,0 +1,7 @@
+[Applets][3]
+immutability=1
+plugin=org.kde.plasma.systemmonitor.net
+
+[Applets][3][Configuration]
+PreloadWeight=42
+geometry=3038,470,712,494

@@ -1,0 +1,5 @@
+[General]
+history=screen saver,saver,po,transm,rule,scree,task,termi,activi,ara,defa
+
+[PlasmaRunnerManager]
+LaunchCounts=1 services_terminator.desktop,1 services_screenlocker.desktop,2 services_compiz-start.desktop,1 services_kwinrules.desktop,1 services_kwintabbox.desktop,1 services_kcm_sddm.desktop,1 krunner_appstream_lxqt-logout.desktop,1 services_systemsettings.desktop,1 services_grub-customizer.desktop,1 services_arandr.desktop,1 services_transmission-gtk --minimized,1 shell_ls,1 services_shotwell.desktop,1 services_componentchooser.desktop,1 org.kde.windowedwidgets_org.kde.plasma.systemmonitor.net,1 services_kcm_workspace.desktop,1 services_veracrypt.desktop,1 services_ccsm.desktop,1 services_org.gnome.Calculator.desktop,1 services_kcmsmserver.desktop,1 services_xscreensaver-properties.desktop,1 services_gparted.desktop,1 shell_cal,1 services_powerdevilprofilesconfig.desktop,1 shell_vlc,1 services_kwinscreenedges.desktop,1 krunner_appstream_gnome-nettool.desktop,1 krunner_appstream_lxsession-edit.desktop,1 services_khtml_appearance.desktop,1 services_org.kde.spectacle.desktop,1 services_powerdevilactivitiesconfig.desktop

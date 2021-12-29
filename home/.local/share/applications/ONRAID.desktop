@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=ONRAID
+Comment=Play this game on Steam
+Exec=steam steam://rungameid/511800
+Icon=steam_icon_511800
+Terminal=false
+Type=Application
+Categories=Game;

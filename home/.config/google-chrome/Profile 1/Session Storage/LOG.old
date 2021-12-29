@@ -1,0 +1,12 @@
+2021/12/26-11:28:11.087 9 Reusing MANIFEST /home/yoo/.config/google-chrome/Profile 1/Session Storage/MANIFEST-000001
+2021/12/26-11:28:11.087 9 Recovering log #38
+2021/12/26-11:28:11.088 9 Reusing old log /home/yoo/.config/google-chrome/Profile 1/Session Storage/000038.log 
+2021/12/26-11:28:11.089 b Compacting 4@0 + 1@1 files
+2021/12/26-11:28:11.102 b Generated table #41@0: 1260 keys, 36632 bytes
+2021/12/26-11:28:11.102 b Compacted 4@0 + 1@1 files => 36632 bytes
+2021/12/26-11:28:11.106 b compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/12/26-11:28:11.106 b Delete type=2 #37
+2021/12/26-11:28:11.106 b Delete type=2 #34
+2021/12/26-11:28:11.106 b Delete type=2 #39
+2021/12/26-11:28:11.106 b Delete type=2 #31
+2021/12/26-11:28:11.107 b Delete type=2 #29

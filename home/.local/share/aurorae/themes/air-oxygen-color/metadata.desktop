@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=air-oxygen-color
+Comment=An experimental version of air-oxygen with color scheme support
+
+X-KDE-PluginInfo-Author=Lionel Chauvin
+X-KDE-PluginInfo-Email=megabigbug@yahoo.fr
+X-KDE-PluginInfo-Name=air-oxygen-color
+X-KDE-PluginInfo-Version=0.1
+X-KDE-PluginInfo-Category=
+X-KDE-PluginInfo-Depends=KDE 4.5.85
+X-KDE-PluginInfo-License=GPL_V3
+X-KDE-PluginInfo-EnabledByDefault=true

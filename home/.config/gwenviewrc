@@ -1,0 +1,20 @@
+[$Version]
+update_info=gwenview.upd:SideBar_StatusBar_Rename
+
+[MainWindow]
+Height 1080=480
+Height 1440=480
+State=AAAA/wAAAAD9AAAAAAAAA6MAAAGjAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1920=830
+Width 2560=931
+
+[Recent Files]
+File1[$e]=$HOME/KDE-Connect/IMG-20200804-WA0001.jpg
+File2[$e]=/media/yoo/develop/OpenCv-dev/darknet/data/dog.jpg
+File3[$e]=/media/yoo/develop/OpenCv-dev/Extractingtext-from-an-image/1/imgOut1.jpg
+File4[$e]=/media/yoo/data/Picutures/eli/16.nov.2020/IMG-20201115-WA0003.jpg
+Name1[$e]=IMG-20200804-WA0001.jpg
+Name2[$e]=dog.jpg
+Name3[$e]=imgOut1.jpg
+Name4[$e]=IMG-20201115-WA0003.jpg

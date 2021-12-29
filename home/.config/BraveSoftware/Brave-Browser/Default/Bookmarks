@@ -1,0 +1,982 @@
+{
+   "checksum": "1e6257e5a8084a7a8480f3ff167d54dc",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13283695569554615",
+            "guid": "cc2475f6-ade0-49f6-b058-5baa16fc9b8f",
+            "id": "134",
+            "name": "Doctolib | Buchen Sie Ihren Termin online bei einem Arzt oder einer Gesundheitsfachkraft",
+            "type": "url",
+            "url": "https://www.doctolib.de/"
+         }, {
+            "date_added": "13279194257760576",
+            "guid": "c6362c29-8bd1-467d-8fc1-5540bd2187cc",
+            "id": "117",
+            "name": "Shopping in Berlin - Find the Best Places to Go Shopping in Berlin.",
+            "type": "url",
+            "url": "https://www.movingto-berlin.com/shopping/"
+         }, {
+            "date_added": "13278325330434232",
+            "guid": "ded18625-58a1-4bba-a351-333bf09e215f",
+            "id": "115",
+            "name": "BMG - Karriere | Ausbildung, Praktika, Arbeiten im - Bundesgesundheitsministerium",
+            "type": "url",
+            "url": "https://www.bundesgesundheitsministerium.de/ministerium/karriere.html"
+         }, {
+            "date_added": "13278325140973338",
+            "guid": "921c0f73-b40b-482f-a5eb-1b437515c1bf",
+            "id": "114",
+            "name": "Fragen und Antworten zur COVID-19-Impfung | BMG",
+            "type": "url",
+            "url": "https://www.bundesgesundheitsministerium.de/coronavirus/faq-covid-19-impfung.html"
+         }, {
+            "date_added": "13278325126166006",
+            "guid": "d1d39a59-996e-43c8-b1e4-45b6d971e439",
+            "id": "113",
+            "name": "Fragen und Antworten zur COVID-19-Impfung | BMG",
+            "type": "url",
+            "url": "https://www.bundesgesundheitsministerium.de/coronavirus/faq-covid-19-impfung.html#c21978"
+         }, {
+            "date_added": "13272795167779260",
+            "guid": "7f89a61a-c62e-49c8-bebd-042e9ac8a778",
+            "id": "109",
+            "name": "BrowserLeaks - Web Browser Fingerprinting - Browsing Privacy",
+            "type": "url",
+            "url": "https://browserleaks.com/"
+         }, {
+            "date_added": "13275922928500893",
+            "guid": "22f31bdc-7ada-4bc4-bdbe-0c6ee8b053d9",
+            "id": "111",
+            "name": "Onlinebanking and Brokerage Deutsche Bank",
+            "type": "url",
+            "url": "https://meine.deutsche-bank.de/trxm/db/"
+         }, {
+            "date_added": "13271752252000000",
+            "guid": "b1046b9d-3a8f-41ee-82f6-90ff8d490193",
+            "id": "5",
+            "name": "Raiffeisen Login",
+            "type": "url",
+            "url": "https://login.raiffeisen.ch/de?Location=https%3A%2F%2Febanking.raiffeisen.ch%2Fapp&webIAMContractNo=B8CCDCA87129AF18C7BA26C0D1C030F4"
+         }, {
+            "date_added": "13269596086000000",
+            "guid": "cf6d06a7-c056-47cb-a181-9cb6e24bb369",
+            "id": "6",
+            "name": "Getting Started",
+            "type": "url",
+            "url": "https://www.mozilla.org/en-US/firefox/central/"
+         }, {
+            "date_added": "13269680169000000",
+            "guid": "dfd16dd2-436b-4c8c-b459-ab76cb1a2dc0",
+            "id": "7",
+            "name": "The Best of Piano - 50 Greatest Pieces: Chopin, Debussy, Beethoven, Mozart... - YouTube",
+            "type": "url",
+            "url": "https://www.youtube.com/watch?v=MuxB2zACza0"
+         }, {
+            "date_added": "13269596102000000",
+            "guid": "8abd51e8-e83a-4931-939f-815571680f08",
+            "id": "8",
+            "name": "Debian.org",
+            "type": "url",
+            "url": "http://www.debian.org/"
+         }, {
+            "date_added": "13269596102000000",
+            "guid": "5f6133e9-0cec-4066-bbb6-e75f2f2b8603",
+            "id": "9",
+            "name": "Browse Certifications and Exams | Microsoft Docs",
+            "type": "url",
+            "url": "https://docs.microsoft.com/en-us/learn/certifications/browse/?resource_type=certification&filter-products=.net&levels=beginner&roles=developer%2Ctechnology-manager"
+         }, {
+            "date_added": "13269867329000000",
+            "guid": "7f7daae4-b807-475c-afd5-eaa766743854",
+            "id": "10",
+            "name": "How To: HTTP GET and POST requests with ESP8266 - ESP8266 Shop",
+            "type": "url",
+            "url": "https://esp8266-shop.com/blog/how-to-http-get-and-post-requests-with-esp8266/"
+         }, {
+            "date_added": "13269596102000000",
+            "guid": "21deeb84-90e2-4092-a4db-e708f9c9c1f5",
+            "id": "11",
+            "name": "Latest News",
+            "type": "url",
+            "url": "http://www.debian.org/News/"
+         }, {
+            "date_added": "13269596102000000",
+            "guid": "5a4b2716-46ce-4988-a1e7-8628108be2b4",
+            "id": "12",
+            "name": "IXL - Year 2 maths practice",
+            "type": "url",
+            "url": "https://au.ixl.com/math/year-2"
+         }, {
+            "date_added": "13269596102000000",
+            "guid": "007cb68c-732c-4ad2-a40b-320fb6df586a",
+            "id": "13",
+            "name": "OpenCV: Tutorials for contrib modules",
+            "type": "url",
+            "url": "https://www.docs.opencv.org/3.2.0/d3/d81/tutorial_contrib_root.html"
+         }, {
+            "date_added": "13269596102000000",
+            "guid": "f2e84236-4bd1-4578-9290-2481c8dcd0ab",
+            "id": "14",
+            "name": "Help",
+            "type": "url",
+            "url": "http://www.debian.org/support"
+         }, {
+            "date_added": "13269596102000000",
+            "guid": "575dea15-9f66-447b-9e67-9258cb9578de",
+            "id": "15",
+            "name": "How To: HTTP GET and POST requests with ESP8266 - ESP8266 Shop",
+            "type": "url",
+            "url": "https://esp8266-shop.com/blog/how-to-http-get-and-post-requests-with-esp8266/"
+         }, {
+            "date_added": "13269596102000000",
+            "guid": "570d6394-c9c7-42b9-891b-3be735f61171",
+            "id": "16",
+            "name": "ExpressVPN Router",
+            "type": "url",
+            "url": "https://www.expressvpnrouter.com/"
+         }, {
+            "date_added": "13269596102000000",
+            "guid": "44e3969f-04c4-462d-a7f5-57d1a2745737",
+            "id": "17",
+            "name": "192.168.1.54/info",
+            "type": "url",
+            "url": "http://192.168.1.54/info"
+         }, {
+            "date_added": "13269596102000000",
+            "guid": "3c198a41-6fd7-4316-8711-112455d17bf8",
+            "id": "18",
+            "name": "192.168.1.52/info",
+            "type": "url",
+            "url": "http://192.168.1.52/info"
+         }, {
+            "date_added": "13269596102000000",
+            "guid": "22c648ff-5e06-4d60-b406-48e42ce88c42",
+            "id": "19",
+            "name": "192.168.1.53/info",
+            "type": "url",
+            "url": "http://192.168.1.53/info"
+         }, {
+            "date_added": "13269596102000000",
+            "guid": "503e858b-b35e-45fd-812a-14776c8710bc",
+            "id": "20",
+            "name": "192.168.1.55/info",
+            "type": "url",
+            "url": "http://192.168.1.55/info"
+         }, {
+            "date_added": "13269596102000000",
+            "guid": "b20128de-d930-4f85-86ff-4e76c87cf867",
+            "id": "21",
+            "name": "Image ApproxPolyDP Example",
+            "type": "url",
+            "url": "https://docs.opencv.org/3.4/js_contour_features_approxPolyDP.html"
+         }, {
+            "date_added": "13269596102000000",
+            "guid": "c4223590-7a1d-42e0-b808-a046a12a7e12",
+            "id": "22",
+            "name": "THE WELL-TEMPERED CLAVIER - BOOK 1 - NO 1 PRELUDE IN C MAJOR BWV 846 TAB by Johann Sebastian Bach @ Ultimate-Guitar.Com",
+            "type": "url",
+            "url": "https://tabs.ultimate-guitar.com/tab/johann-sebastian-bach/the-well-tempered-clavier-book-1-no-1-prelude-in-c-major-bwv-846-tabs-510847"
+         }, {
+            "date_added": "13269596102000000",
+            "guid": "fc6c45b9-1ef4-49f1-8aef-c0ada1bc0f6f",
+            "id": "23",
+            "name": "THE WELL-TEMPERED CLAVIER - BOOK 1 - NO 1 PRELUDE IN C MAJOR BWV 846 TAB by Johann Sebastian Bach @ Ultimate-Guitar.Com",
+            "type": "url",
+            "url": "https://tabs.ultimate-guitar.com/tab/johann-sebastian-bach/the-well-tempered-clavier-book-1-no-1-prelude-in-c-major-bwv-846-tabs-510847"
+         }, {
+            "date_added": "13269596102000000",
+            "guid": "24f6c95c-063e-462f-bdc3-8e7d13d2949f",
+            "id": "24",
+            "name": "Online Guitar Tuner - gieson.com",
+            "type": "url",
+            "url": "https://www.gieson.com/Library/projects/utilities/tuner/"
+         }, {
+            "date_added": "13269596102000000",
+            "guid": "e3d3472b-c53a-4a6f-b7cf-290a64f041cc",
+            "id": "25",
+            "name": "Car License Plate Recognition using Raspberry Pi and OpenCV",
+            "type": "url",
+            "url": "https://circuitdigest.com/microcontroller-projects/license-plate-recognition-using-raspberry-pi-and-opencv"
+         }, {
+            "date_added": "13269596102000000",
+            "guid": "a80443ee-f79e-4db3-9d2e-1b9f1c696e89",
+            "id": "26",
+            "name": "The Useful RaspberryPi Cross Compile Guide - Alex C.U. - Medium",
+            "type": "url",
+            "url": "https://medium.com/@au42/the-useful-raspberrypi-cross-compile-guide-ea56054de187"
+         }, {
+            "date_added": "13269596102000000",
+            "guid": "bee497eb-128a-40f4-ba73-2dd1826bf28a",
+            "id": "27",
+            "name": "How to prepare training files for Tesseract OCR and improve characters recognition? - PRETIUS",
+            "type": "url",
+            "url": "https://pretius.com/how-to-prepare-training-files-for-tesseract-ocr-and-improve-characters-recognition/"
+         }, {
+            "date_added": "13269596102000000",
+            "guid": "585debbd-3897-4582-b8c3-619b4ec6ad2b",
+            "id": "28",
+            "name": "Smart Pointers – Sutter’s Mill",
+            "type": "url",
+            "url": "https://herbsutter.com/2013/05/29/gotw-89-solution-smart-pointers/"
+         }, {
+            "date_added": "13269596102000000",
+            "guid": "5e4ef495-ea3b-4dd3-b651-731bc301db31",
+            "id": "29",
+            "name": "Top 10 Most Common C++ Mistakes That Developers Make | Toptal",
+            "type": "url",
+            "url": "https://www.toptal.com/c-plus-plus/top-10-common-c-plus-plus-developer-mistakes"
+         }, {
+            "date_added": "13269596102000000",
+            "guid": "6a741a6c-62bd-4f48-8488-7047b176ad2a",
+            "id": "30",
+            "name": " Build a Simple MQTT Subscriber Using ESP8266",
+            "type": "url",
+            "url": "https://appcodelabs.com/introduction-to-iot-how-to-build-a-simple-mqtt-subscriber-using-esp8266"
+         }, {
+            "date_added": "13269596102000000",
+            "guid": "7a9b80ee-4c85-400e-8ad2-54795be32a17",
+            "id": "31",
+            "name": "Getting started with the Garmin (Qwiic) LIDAR-Lite v4 LED | Into Robotics",
+            "type": "url",
+            "url": "https://www.intorobotics.com/lidar-lite-v4-led-arduino/"
+         }, {
+            "date_added": "13269596102000000",
+            "guid": "35cc8f9b-771f-48e2-ac32-84c1cfe3ff16",
+            "id": "32",
+            "name": "c++ - Remove thread from vector upon thread completion - Stack Overflow",
+            "type": "url",
+            "url": "https://stackoverflow.com/questions/46187414/remove-thread-from-vector-upon-thread-completion"
+         }, {
+            "children": [ {
+               "date_added": "13269596102000000",
+               "guid": "b185fb22-e854-461e-85b5-8aee4b3fa79e",
+               "id": "34",
+               "name": "opencv CascadeClassifier - Google Search",
+               "type": "url",
+               "url": "https://www.google.com/search?q=opencv+CascadeClassifier&oq=opencv+CascadeClassifier&aqs=chrome..69i57.3906j0j7&sourceid=chrome&ie=UTF-8"
+            }, {
+               "date_added": "13269596102000000",
+               "guid": "d73ba9e1-b967-4a21-bcc6-0199b5a2bada",
+               "id": "35",
+               "name": "OpenCV: cv::CascadeClassifier Class Reference",
+               "type": "url",
+               "url": "https://docs.opencv.org/master/d1/de5/classcv_1_1CascadeClassifier.html"
+            }, {
+               "date_added": "13269596102000000",
+               "guid": "ba69e897-5043-426e-9ade-2f2e3d34d0fd",
+               "id": "36",
+               "name": "OpenCV: cv::CascadeClassifier Class Reference",
+               "type": "url",
+               "url": "https://docs.opencv.org/master/d1/de5/classcv_1_1CascadeClassifier.html"
+            }, {
+               "date_added": "13269596102000000",
+               "guid": "f93dfba8-7b3a-4445-b439-f1687f76ec5e",
+               "id": "37",
+               "name": "OpenCV: Cascade Classifier Training",
+               "type": "url",
+               "url": "https://docs.opencv.org/master/dc/d88/tutorial_traincascade.html"
+            }, {
+               "date_added": "13269596102000000",
+               "guid": "298a6189-3a91-448d-ac75-e12124ce2c89",
+               "id": "38",
+               "name": "OpenCV: Cascade Classifier",
+               "type": "url",
+               "url": "https://docs.opencv.org/master/db/d28/tutorial_cascade_classifier.html"
+            }, {
+               "children": [ {
+                  "date_added": "13269596102000000",
+                  "guid": "bf63d0e4-7ccc-426e-8958-fd6ab815c592",
+                  "id": "40",
+                  "name": "opencv C++ detect blob - Google Search",
+                  "type": "url",
+                  "url": "https://www.google.com/search?ei=2XN5X6PaOo6y9QOgtomoCw&q=opencv++C%2B%2B+detect+blob&oq=opencv++C%2B%2B+detect+blob&gs_lcp=CgZwc3ktYWIQAzIGCAAQCBAeOgcIABBHELADOgIIADoICAAQBxAKEB46BAgAEA06CAgAEAgQBxAeOggIABAIEA0QHjoKCAAQCBAHEAoQHlDkL1idPmDAQGgBcAB4AIABaYgB9QOSAQMyLjOYAQCgAQGqAQdnd3Mtd2l6yAEIwAEB&sclient=psy-ab&ved=0ahUKEwjjqoLAr5rsAhUOWX0KHSBbArUQ4dUDCA0&uact=5"
+               }, {
+                  "date_added": "13269596102000000",
+                  "guid": "f3c2598d-ec23-41e7-bb12-fb8530809d2d",
+                  "id": "41",
+                  "name": "Blob Detection Using OpenCV ( Python, C++ ) | Learn OpenCV",
+                  "type": "url",
+                  "url": "https://www.learnopencv.com/blob-detection-using-opencv-python-c/"
+               }, {
+                  "date_added": "13269596102000000",
+                  "guid": "d945a062-3ac0-4598-a335-a6be283defaa",
+                  "id": "42",
+                  "name": "Training a custom Object Detector with DLIB and Making Gesture Controlled Applications | Learn OpenCV",
+                  "type": "url",
+                  "url": "https://www.learnopencv.com/training-a-custom-object-detector-with-dlib-making-gesture-controlled-applications/"
+               } ],
+               "date_added": "13272794047855526",
+               "date_modified": "0",
+               "guid": "1489c169-817f-4cc9-b58a-2815f92fe498",
+               "id": "39",
+               "name": "OPEN-CV",
+               "type": "folder"
+            }, {
+               "children": [ {
+                  "date_added": "13269596102000000",
+                  "guid": "c25633fe-144e-4823-b270-1742b8a2259d",
+                  "id": "44",
+                  "name": "org.glibmm.DBusExample.Clock - Google Search",
+                  "type": "url",
+                  "url": "https://www.google.com/search?q=org.glibmm.DBusExample.Clock&oq=org.glibmm.DBusExample.Clock&aqs=chrome..69i57.1339j0j8&sourceid=chrome&ie=UTF-8"
+               }, {
+                  "date_added": "13269596102000000",
+                  "guid": "4048e8e4-2194-417a-b51f-a70af2420ada",
+                  "id": "45",
+                  "name": "[glibmm] Added a simple example of a D-Bus session bus service.",
+                  "type": "url",
+                  "url": "https://mail.gnome.org/archives/commits-list/2011-April/msg00279.html"
+               }, {
+                  "date_added": "13269596102000000",
+                  "guid": "a3b598b1-1870-477b-aa23-75a8ef118df5",
+                  "id": "46",
+                  "name": "https://www-acc.gsi.de/wiki/pub/Timing/TimingSystemDBusInfo/client_read.cpp",
+                  "type": "url",
+                  "url": "https://www-acc.gsi.de/wiki/pub/Timing/TimingSystemDBusInfo/client_read.cpp"
+               }, {
+                  "date_added": "13269596102000000",
+                  "guid": "552251fe-1b67-46b0-a71b-162423be6d72",
+                  "id": "47",
+                  "name": "DBus client and server in the same process - Stack Overflow",
+                  "type": "url",
+                  "url": "https://stackoverflow.com/questions/12279393/dbus-client-and-server-in-the-same-process"
+               } ],
+               "date_added": "13272794047855675",
+               "date_modified": "0",
+               "guid": "ea6f4549-9256-4ad2-8ce9-c5c97a303088",
+               "id": "43",
+               "name": "DBUS",
+               "type": "folder"
+            } ],
+            "date_added": "13272794047855350",
+            "date_modified": "0",
+            "guid": "eb64c433-ade1-4be6-b0e4-0ee5b66cd30d",
+            "id": "33",
+            "name": "OPEN-CV-cascades Classifier",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13269596102000000",
+               "guid": "38318738-b00d-4890-add2-3001785f61dc",
+               "id": "49",
+               "name": "Gio::DBus::Proxy: call_sync - Google Search",
+               "type": "url",
+               "url": "https://www.google.com/search?ei=Nol8X8T1CKz6z7sPhM6SiAk&q=Gio%3A%3ADBus%3A%3AProxy%3A+call_sync&oq=Gio%3A%3ADBus%3A%3AProxy%3A+call_sync&gs_lcp=CgZwc3ktYWIQAzoHCAAQRxCwA1Db-AJY2_gCYLL8AmgCcAB4AIABWIgBWJIBATGYAQCgAQKgAQGqAQdnd3Mtd2l6yAEIwAEB&sclient=psy-ab&ved=0ahUKEwjE6LmloKDsAhUs_XMBHQSnBJEQ4dUDCA0&uact=5"
+            }, {
+               "date_added": "13269596102000000",
+               "guid": "b7eba0f6-1bc6-426f-9d07-3254ec2b6097",
+               "id": "50",
+               "name": "glibmm: Gio::DBus::Proxy Class Reference",
+               "type": "url",
+               "url": "https://developer.gnome.org/glibmm/stable/classGio_1_1DBus_1_1Proxy.html#aa0cf6a0ba10bdd2bcd4e6db2a523bce0"
+            }, {
+               "date_added": "13269596102000000",
+               "guid": "13ba61b8-fc2c-4dc4-b94f-a1b717e0c933",
+               "id": "51",
+               "name": "glibmm: Glib::Variant\u003C std::tuple\u003C Types... > > Class Template Reference",
+               "type": "url",
+               "url": "https://developer.gnome.org/glibmm/stable/classGlib_1_1Variant_3_01std_1_1tuple_3_01Types_8_8_8_01_4_01_4.html#aefb773882076a837f44fcb1715e85adb"
+            }, {
+               "date_added": "13269596102000000",
+               "guid": "1415049c-fae9-46c9-982c-413459462a76",
+               "id": "52",
+               "name": "Glib::Variant\u003Cstd::tuple\u003Cint, int>> - Google Search",
+               "type": "url",
+               "url": "https://www.google.com/search?ei=vYx8X-2TLZLFz7sP8LKukA4&q=Glib%3A%3AVariant%3Cstd%3A%3Atuple%3Cint%2C+int%3E%3E&oq=Glib%3A%3AVariant%3Cstd%3A%3Atuple%3Cint%2C+int%3E%3E&gs_lcp=CgZwc3ktYWIQAzoHCAAQRxCwA1DoT1joT2D2U2gBcAB4AIABVogBVpIBATGYAQCgAQGqAQdnd3Mtd2l6yAECwAEB&sclient=psy-ab&ved=0ahUKEwit5qjUo6DsAhWS4nMBHXCZC-IQ4dUDCA0&uact=5"
+            }, {
+               "date_added": "13269596102000000",
+               "guid": "38ed381b-64cc-44f5-88c4-c325fd2dad2f",
+               "id": "53",
+               "name": "glibmm: Glib::Variant\u003C std::tuple\u003C Types... > > Class Template Reference",
+               "type": "url",
+               "url": "https://developer.gnome.org/glibmm/unstable/classGlib_1_1Variant_3_01std_1_1tuple_3_01Types_8_8_8_01_4_01_4.html#a2338b26250ab256da44ca656191ae187"
+            }, {
+               "date_added": "13269596102000000",
+               "guid": "ecf4dee1-274e-44c2-ba86-f947cbf5c865",
+               "id": "54",
+               "name": "https://www-acc.gsi.de/wiki/pub/Timing/TimingSystemDBusInfo/server_write.cpp",
+               "type": "url",
+               "url": "https://www-acc.gsi.de/wiki/pub/Timing/TimingSystemDBusInfo/server_write.cpp"
+            } ],
+            "date_added": "13272794047855840",
+            "date_modified": "0",
+            "guid": "5a3bf4c9-6de2-4ae6-89ee-d61304bccd71",
+            "id": "48",
+            "name": "DBUS",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13269596102000000",
+               "guid": "ca05438f-61d3-4999-b79f-7394bbe9bdbb",
+               "id": "56",
+               "name": "compile glibmm - Google Search",
+               "type": "url",
+               "url": "https://www.google.com/search?q=compile+glibmm&oq=compile+glibmm&aqs=chrome..69i57.3088j0j7&sourceid=chrome&ie=UTF-8"
+            }, {
+               "date_added": "13269596102000000",
+               "guid": "38cb4915-5ce4-4158-8466-7e777e7bef1f",
+               "id": "57",
+               "name": "glibmm: glibmm Reference Manual",
+               "type": "url",
+               "url": "https://developer.gnome.org/glibmm/stable/"
+            } ],
+            "date_added": "13272794047856193",
+            "date_modified": "0",
+            "guid": "70242995-498b-4155-9b0c-31f77c913eeb",
+            "id": "55",
+            "name": "compile glibmm",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13269596102000000",
+               "guid": "22350ef9-8325-46f5-939b-753f953ce1f6",
+               "id": "59",
+               "name": "opencv setSVMDetector - Google Search",
+               "type": "url",
+               "url": "https://www.google.com/search?q=opencv+setSVMDetector&oq=opencv+setSVMDetector&aqs=chrome.0.69i59j69i60l2.2157j0j7&sourceid=chrome&ie=UTF-8"
+            }, {
+               "date_added": "13269596102000000",
+               "guid": "b4aedece-9439-4263-8606-888f267309ef",
+               "id": "60",
+               "name": "OpenCV: cv::HOGDescriptor Struct Reference",
+               "type": "url",
+               "url": "https://docs.opencv.org/3.4/d5/d33/structcv_1_1HOGDescriptor.html"
+            }, {
+               "date_added": "13269596102000000",
+               "guid": "b5b615f0-e6da-4834-b7ef-dccac1d2e05b",
+               "id": "61",
+               "name": "OpenCV: how to use HOGDescriptor::detectMultiScale() with custom SVM? - Stack Overflow",
+               "type": "url",
+               "url": "https://stackoverflow.com/questions/22159892/opencv-how-to-use-hogdescriptordetectmultiscale-with-custom-svm"
+            }, {
+               "date_added": "13269596102000000",
+               "guid": "2dd44ba5-0ba9-47b7-bc7c-80f4a43819ad",
+               "id": "62",
+               "name": "c++ - Training custom SVM to use with HOGDescriptor in OpenCV - Stack Overflow",
+               "type": "url",
+               "url": "https://stackoverflow.com/questions/15339657/training-custom-svm-to-use-with-hogdescriptor-in-opencv/17118561#17118561"
+            }, {
+               "date_added": "13269596102000000",
+               "guid": "a5003739-2cbd-472d-9d36-014b40da7d78",
+               "id": "63",
+               "name": "opencv CvSVM - Google Search",
+               "type": "url",
+               "url": "https://www.google.com/search?q=opencv+CvSVM&oq=opencv+CvSVM&aqs=chrome..69i57.5394j0j7&sourceid=chrome&ie=UTF-8"
+            }, {
+               "date_added": "13269596102000000",
+               "guid": "2c430b4c-a87d-41a0-a523-f30168357eda",
+               "id": "64",
+               "name": "OpenCV: cv::ml::SVM Class Reference",
+               "type": "url",
+               "url": "https://docs.opencv.org/3.4/d1/d2d/classcv_1_1ml_1_1SVM.html"
+            }, {
+               "date_added": "13269596102000000",
+               "guid": "4df5f331-574f-48f9-9c0d-6d87a1dc033f",
+               "id": "65",
+               "name": "c++ - Opencv 3 SVM training - Stack Overflow",
+               "type": "url",
+               "url": "https://stackoverflow.com/questions/27114065/opencv-3-svm-training"
+            }, {
+               "date_added": "13269596102000000",
+               "guid": "5e4bf49b-88c8-48f2-969b-a31e2c5100e0",
+               "id": "66",
+               "name": "Introduction to Support Vector Machines — OpenCV 3.0.0-dev documentation",
+               "type": "url",
+               "url": "https://docs.opencv.org/3.0-beta/doc/tutorials/ml/introduction_to_svm/introduction_to_svm.html"
+            }, {
+               "date_added": "13269596102000000",
+               "guid": "967eccee-def4-47ab-aba4-3eb179a1adf4",
+               "id": "67",
+               "name": "opencv/svm.cpp at master · opencv/opencv · GitHub",
+               "type": "url",
+               "url": "https://github.com/opencv/opencv/blob/master/modules/ml/src/svm.cpp"
+            }, {
+               "date_added": "13269596102000000",
+               "guid": "29957f20-46e4-4d92-9eb6-e0a97390af6d",
+               "id": "68",
+               "name": "hog svm opencv c++ - Google Search",
+               "type": "url",
+               "url": "https://www.google.com/search?q=hog+svm+opencv+c%2B%2B&sa=X&ved=2ahUKEwj6mYCX3qTsAhXMjqQKHbZUDl4Q1QIoAHoECBEQAQ"
+            }, {
+               "date_added": "13269596102000000",
+               "guid": "0db6fce3-afd2-4dc5-8360-dc0cf6d7e879",
+               "id": "69",
+               "name": "c++ - SVM classifier based on HOG features for \"object detection\" in OpenCV - Stack Overflow",
+               "type": "url",
+               "url": "https://stackoverflow.com/questions/10769519/svm-classifier-based-on-hog-features-for-object-detection-in-opencv"
+            }, {
+               "date_added": "13269596102000000",
+               "guid": "d2cb6ce0-6750-40b1-a142-74979422310a",
+               "id": "70",
+               "name": "opencv detectMultiScale - Google Search",
+               "type": "url",
+               "url": "https://www.google.com/search?q=opencv+detectMultiScale&oq=opencv+detectMultiScale&aqs=chrome..69i57j69i60.3463j0j7&sourceid=chrome&ie=UTF-8"
+            }, {
+               "date_added": "13269596102000000",
+               "guid": "a150f4b4-44bb-43c3-855c-dc667c3bd633",
+               "id": "71",
+               "name": "OpenCV: Cascade Classifier",
+               "type": "url",
+               "url": "https://docs.opencv.org/3.4/db/d28/tutorial_cascade_classifier.html"
+            }, {
+               "date_added": "13269596102000000",
+               "guid": "f5c9a8fd-a6ed-4fd3-be3d-93bb4fdeee7d",
+               "id": "72",
+               "name": "c++ - Recommended values for OpenCV detectMultiScale() parameters - Stack Overflow",
+               "type": "url",
+               "url": "https://stackoverflow.com/questions/20801015/recommended-values-for-opencv-detectmultiscale-parameters"
+            }, {
+               "date_added": "13269596102000000",
+               "guid": "6f5e1440-735e-431b-a73b-f43e2369f1cc",
+               "id": "74",
+               "name": "opencv setSVMDetector - Google Search",
+               "type": "url",
+               "url": "https://www.google.com/search?q=opencv+setSVMDetector&oq=opencv+setSVMDetector&aqs=chrome..69i57.3383j0j7&sourceid=chrome&ie=UTF-8"
+            }, {
+               "date_added": "13269596102000000",
+               "guid": "e5c2068d-b0d0-47e5-828b-f9c92e1bf5a0",
+               "id": "75",
+               "name": "HOG descriptor - setSVMDetector throws confusing error - OpenCV Q&A Forum",
+               "type": "url",
+               "url": "https://answers.opencv.org/question/161392/hog-descriptor-setsvmdetector-throws-confusing-error/"
+            }, {
+               "date_added": "13269596102000000",
+               "guid": "09f05d07-a693-4220-bf25-d624657ae6d3",
+               "id": "76",
+               "name": "opencv c++ HOGDescriptor_getDefaultPeopleDetector - Google Search",
+               "type": "url",
+               "url": "https://www.google.com/search?ei=EkB4X8qwMtD8rQGGnorwCg&q=opencv+c%2B%2B+HOGDescriptor_getDefaultPeopleDetector&oq=opencv+c%2B%2B+HOGDescriptor_getDefaultPeopleDetector&gs_lcp=CgZwc3ktYWIQAzoHCAAQRxCwAzoECAAQDVCfkwJYnLMCYNS3AmgGcAB4AIABoQGIAbQGkgEDMy40mAEAoAEBqgEHZ3dzLXdpesgBCMABAQ&sclient=psy-ab&ved=0ahUKEwjKgb39iZjsAhVQfisKHQaPAq4Q4dUDCA0&uact=5"
+            }, {
+               "date_added": "13269596102000000",
+               "guid": "4a2eb414-90a5-4a5c-8c96-fc364aaf22c5",
+               "id": "77",
+               "name": "Tuning OpenCV HOG method for reliable pedestrian detection using Thermographic camera - OpenCV Q&A Forum",
+               "type": "url",
+               "url": "https://answers.opencv.org/question/70792/tuning-opencv-hog-method-for-reliable-pedestrian-detection-using-thermographic-camera/"
+            }, {
+               "date_added": "13269596102000000",
+               "guid": "a656b0c0-54dc-44ea-a451-c72af0b853f0",
+               "id": "78",
+               "name": "opencv/peopledetect.cpp at master · npinto/opencv · GitHub",
+               "type": "url",
+               "url": "https://github.com/npinto/opencv/blob/master/samples/cpp/peopledetect.cpp"
+            }, {
+               "date_added": "13269596102000000",
+               "guid": "fd4047f6-2bf5-476a-8701-373373992a3c",
+               "id": "79",
+               "name": "opencv HOGDescriptor - Google Search",
+               "type": "url",
+               "url": "https://www.google.com/search?q=opencv+HOGDescriptor&oq=opencv+HOGDescriptor&aqs=chrome..69i57.4844j0j7&sourceid=chrome&ie=UTF-8"
+            }, {
+               "date_added": "13269596102000000",
+               "guid": "d268d13b-d92d-4209-adc3-04fab9e6f544",
+               "id": "80",
+               "name": "Histogram of Oriented Gradients | Learn OpenCV",
+               "type": "url",
+               "url": "https://www.learnopencv.com/histogram-of-oriented-gradients/"
+            }, {
+               "date_added": "13269596102000000",
+               "guid": "6ae0aa93-c7d2-4f0c-9ef1-b0e7a79eb219",
+               "id": "81",
+               "name": "Handwritten Digits Classification : An OpenCV ( C++ / Python ) Tutorial | Learn OpenCV",
+               "type": "url",
+               "url": "https://www.learnopencv.com/handwritten-digits-classification-an-opencv-c-python-tutorial/"
+            }, {
+               "date_added": "13269596102000000",
+               "guid": "5ca6bd3e-ea0f-4681-b332-9c0904d96639",
+               "id": "82",
+               "name": "Opencv HOGDescriptor -> mexFunction, Matlab crash - MATLAB Answers - MATLAB Central",
+               "type": "url",
+               "url": "https://www.mathworks.com/matlabcentral/answers/46533-opencv-hogdescriptor-mexfunction-matlab-crash"
+            }, {
+               "date_added": "13269596102000000",
+               "guid": "5ac50fdd-933b-4352-8783-0030390a4be2",
+               "id": "83",
+               "name": "opencv/objectDetection.cpp at master · opencv/opencv · GitHub",
+               "type": "url",
+               "url": "https://github.com/opencv/opencv/blob/master/samples/cpp/tutorial_code/objectDetection/objectDetection.cpp"
+            }, {
+               "date_added": "13269596102000000",
+               "guid": "d5a79ef5-df71-4287-8cc7-2a80df71d997",
+               "id": "84",
+               "name": "opencv haarcascade fullbody - Google Search",
+               "type": "url",
+               "url": "https://www.google.com/search?q=opencv+haarcascade+fullbody&oq=opencv+haarcascade+fullbody&aqs=chrome..69i57.11053j0j8&sourceid=chrome&ie=UTF-8"
+            }, {
+               "date_added": "13269596102000000",
+               "guid": "fbe0ae3e-71cb-4d1e-ab20-61e78b4985d2",
+               "id": "85",
+               "name": "opencv/haarcascade_fullbody.xml at master · opencv/opencv · GitHub",
+               "type": "url",
+               "url": "https://github.com/opencv/opencv/blob/master/data/haarcascades/haarcascade_fullbody.xml"
+            }, {
+               "date_added": "13269596102000000",
+               "guid": "c49112e8-0c0f-43ce-9c36-5c3286e283ba",
+               "id": "86",
+               "name": "python 2.7 - Fullbody detection using haarcascades - Stack Overflow",
+               "type": "url",
+               "url": "https://stackoverflow.com/questions/35923072/fullbody-detection-using-haarcascades"
+            }, {
+               "date_added": "13269596102000000",
+               "guid": "1012b144-c735-4afd-b70d-1f7d5f63b100",
+               "id": "87",
+               "name": "opencv/peopledetect.py at master · opencv/opencv · GitHub",
+               "type": "url",
+               "url": "https://github.com/opencv/opencv/blob/master/samples/python/peopledetect.py"
+            }, {
+               "date_added": "13269596102000000",
+               "guid": "828ce4f2-848c-4e5e-827b-b5deedcc88c7",
+               "id": "88",
+               "name": "GitHub - spmallick/learnopencv: Learn OpenCV : C++ and Python Examples",
+               "type": "url",
+               "url": "https://github.com/spmallick/learnopencv"
+            }, {
+               "date_added": "13269596102000000",
+               "guid": "f79d2974-6bc4-441b-bc17-87b40ee91de5",
+               "id": "89",
+               "name": "learnopencv/Getting-Started-OpenCV-CUDA-Module at master · spmallick/learnopencv · GitHub",
+               "type": "url",
+               "url": "https://github.com/spmallick/learnopencv/tree/master/Getting-Started-OpenCV-CUDA-Module"
+            }, {
+               "date_added": "13269596102000000",
+               "guid": "c1f92103-ceed-41b7-9a2b-38e10aada00c",
+               "id": "90",
+               "name": "learnopencv/AgeGender at master · spmallick/learnopencv · GitHub",
+               "type": "url",
+               "url": "https://github.com/spmallick/learnopencv/tree/master/AgeGender"
+            }, {
+               "date_added": "13269596102000000",
+               "guid": "e46d2152-ba73-4c39-9edc-88c692ae001d",
+               "id": "91",
+               "name": "CPU Performance Analysis of OpenCV with OpenVINO | Learn OpenCV",
+               "type": "url",
+               "url": "https://www.learnopencv.com/using-openvino-with-opencv/"
+            } ],
+            "date_added": "13272794047856260",
+            "date_modified": "0",
+            "guid": "65f36016-0b42-4f7c-a6c3-23b0a5ecc820",
+            "id": "58",
+            "name": "OPEN-CV",
+            "type": "folder"
+         }, {
+            "date_added": "13269596102000000",
+            "guid": "c9499aaf-9ab8-4762-a173-ad98e2627f99",
+            "id": "73",
+            "name": "SVMLightClassifier",
+            "type": "url",
+            "url": "https://github.com/LihO/SVMLightClassifier"
+         }, {
+            "children": [ {
+               "date_added": "13269596102000000",
+               "guid": "a06b16ce-46be-4ecd-8a88-fb483aa52141",
+               "id": "93",
+               "name": "org.freedesktop.UDisks - Google Search",
+               "type": "url",
+               "url": "https://www.google.com/search?q=org.freedesktop.UDisks&oq=org.freedesktop.UDisks&aqs=chrome..69i57.1549j0j7&sourceid=chrome&ie=UTF-8"
+            }, {
+               "date_added": "13269596102000000",
+               "guid": "62c41f6e-1598-4af9-8c64-fea8fc6d9a7f",
+               "id": "94",
+               "name": "udisks",
+               "type": "url",
+               "url": "https://www.freedesktop.org/wiki/Software/udisks/"
+            }, {
+               "date_added": "13269596102000000",
+               "guid": "fe54a6cf-08fc-4134-99c9-70c01be12399",
+               "id": "95",
+               "name": "org.freedesktop.UDisks2.xml\\data - udisks - Disk Manager",
+               "type": "url",
+               "url": "https://cgit.freedesktop.org/udisks/tree/data/org.freedesktop.UDisks2.xml?id=aa02e5fc53efdeaf66047d2ad437ed543178965b"
+            }, {
+               "date_added": "13269596102000000",
+               "guid": "2f9bd23d-9b2d-422d-9da9-ee035061f837",
+               "id": "96",
+               "name": "UDisks Reference Manual: UDisks Reference Manual",
+               "type": "url",
+               "url": "http://storaged.org/doc/udisks2-api/latest/"
+            }, {
+               "date_added": "13269596102000000",
+               "guid": "69f04a81-d1c3-42a1-826f-692dd239bc06",
+               "id": "97",
+               "name": "Compiling GLib Applications: GLib Reference Manual",
+               "type": "url",
+               "url": "https://developer.gnome.org/glib/stable/glib-compiling.html"
+            }, {
+               "date_added": "13269596102000000",
+               "guid": "d0447181-aacb-47b9-ab71-e2d9f25e78e5",
+               "id": "98",
+               "name": "Compiling the GLib package: GLib Reference Manual",
+               "type": "url",
+               "url": "https://developer.gnome.org/glib/stable/glib-building.html"
+            }, {
+               "date_added": "13269596102000000",
+               "guid": "f6954d89-29b8-4649-95ec-48bc7dd10332",
+               "id": "99",
+               "name": "linux - D-Bus, UDisks and Glibmm's bindings - Stack Overflow",
+               "type": "url",
+               "url": "https://stackoverflow.com/questions/8977462/d-bus-udisks-and-glibmms-bindings"
+            }, {
+               "date_added": "13269596102000000",
+               "guid": "69e47432-9b94-46f7-94ec-ccaf6276e923",
+               "id": "100",
+               "name": "https://www-acc.gsi.de/wiki/pub/Timing/TimingSystemDBusInfo/client_read.cpp",
+               "type": "url",
+               "url": "https://www-acc.gsi.de/wiki/pub/Timing/TimingSystemDBusInfo/client_read.cpp"
+            } ],
+            "date_added": "13272794047857823",
+            "date_modified": "0",
+            "guid": "2a0d457f-a68d-4c22-8d89-461144072b67",
+            "id": "92",
+            "name": "D-BUS",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "children": [ {
+                  "date_added": "13269596086000000",
+                  "guid": "8bc2e787-8116-4d89-b4c3-2471e2c51389",
+                  "id": "103",
+                  "name": "Get Help",
+                  "type": "url",
+                  "url": "https://support.mozilla.org/en-US/products/firefox"
+               }, {
+                  "date_added": "13269596086000000",
+                  "guid": "0fe5b3dc-4e8d-47e0-976e-ed2ad91b0d31",
+                  "id": "104",
+                  "name": "Customize Firefox",
+                  "type": "url",
+                  "url": "https://support.mozilla.org/en-US/kb/customize-firefox-controls-buttons-and-toolbars?utm_source=firefox-browser&utm_medium=default-bookmarks&utm_campaign=customize"
+               }, {
+                  "date_added": "13269596086000000",
+                  "guid": "73c8e9d9-dea7-4a8b-b73d-2d3da85639b3",
+                  "id": "105",
+                  "name": "Get Involved",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/en-US/contribute/"
+               }, {
+                  "date_added": "13269596086000000",
+                  "guid": "ef3246d4-1bb0-4b35-8566-f263a2e3011c",
+                  "id": "106",
+                  "name": "About Us",
+                  "type": "url",
+                  "url": "https://www.mozilla.org/en-US/about/"
+               } ],
+               "date_added": "13272794047858102",
+               "date_modified": "0",
+               "guid": "ee608060-00e4-4b80-8184-725ebcda0a1e",
+               "id": "102",
+               "name": "Mozilla Firefox",
+               "type": "folder"
+            } ],
+            "date_added": "13272794047858094",
+            "date_modified": "13272794047858094",
+            "guid": "ba885b5b-1d2e-42de-852b-bee97af08f70",
+            "id": "101",
+            "name": "Imported From Firefox",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13282906157384940",
+               "guid": "945df046-1077-4a58-87f4-1cb0ed315491",
+               "id": "120",
+               "name": "Ausländeramt in Berlin - Ausländerbehörde in Berlin - Info von Auslaenderaemter.de",
+               "type": "url",
+               "url": "https://www.auslaenderaemter.de/info/info_auslaenderamt_in_berlin.php"
+            }, {
+               "date_added": "13282906157385184",
+               "guid": "aa804158-38cd-4384-a043-bef050812d6a",
+               "id": "121",
+               "name": "Landesamt für Einwanderung - Startseite - Berlin.de",
+               "type": "url",
+               "url": "https://www.berlin.de/einwanderung/"
+            }, {
+               "date_added": "13282906157385335",
+               "guid": "d0d91d7d-80df-49f1-9b42-2cfbb7ef4fed",
+               "id": "122",
+               "name": "Aufenthaltserlaubnisse und Blaue Karte EU - Berlin.de",
+               "type": "url",
+               "url": "https://www.berlin.de/einwanderung/aufenthalt/befristet/"
+            }, {
+               "date_added": "13282906157385472",
+               "guid": "ff21b042-8a91-4efa-8565-1fda4e76f54e",
+               "id": "123",
+               "name": "Dienstleistungen mit Terminbuchung - Berlin.de",
+               "type": "url",
+               "url": "https://www.berlin.de/einwanderung/termine/unsere-dienstleistungen/artikel.873508.php"
+            }, {
+               "date_added": "13282906157385615",
+               "guid": "8b0355a1-e0f9-4435-860a-478b69cb67fd",
+               "id": "124",
+               "name": "Alle Dienstleistungen von A-Z - Berlin.de",
+               "type": "url",
+               "url": "https://www.berlin.de/einwanderung/dienstleistungen/service.871055.php/dienstleistung/327471/"
+            }, {
+               "date_added": "13282906157385791",
+               "guid": "466cb2b2-705e-495a-9fc7-0e806856687c",
+               "id": "125",
+               "name": "Aufenthaltserlaubnis für Ehepartner von Ausländern - Dienstleistungen - Service Berlin - Berlin.de",
+               "type": "url",
+               "url": "https://service.berlin.de/dienstleistung/305289/"
+            }, {
+               "date_added": "13282906157385943",
+               "guid": "2978eda0-2ae3-436d-955c-f063af757e96",
+               "id": "126",
+               "name": "Einreise mit einem nationalen Visum - Berlin.de",
+               "type": "url",
+               "url": "https://www.berlin.de/einwanderung/einreise/visum-verlaengern/artikel.872652.php#90"
+            }, {
+               "date_added": "13282906157386094",
+               "guid": "e67b8d41-7a63-4577-b37d-fe172d8dc941",
+               "id": "127",
+               "name": "Termine - Berlin.de",
+               "type": "url",
+               "url": "https://www.berlin.de/einwanderung/termine/"
+            }, {
+               "date_added": "13282906157386367",
+               "guid": "432ffd7b-c1d0-4919-8c9a-625d67e4bb4f",
+               "id": "128",
+               "name": "Termin vereinbaren - Berlin.de",
+               "type": "url",
+               "url": "https://www.berlin.de/einwanderung/termine/termin-vereinbaren/"
+            }, {
+               "date_added": "13282906157386616",
+               "guid": "c1011b46-61da-407a-86d9-bbac1d206e76",
+               "id": "129",
+               "name": "Antrag auf Verlängerung per E-Mail - Berlin.de",
+               "type": "url",
+               "url": "https://www.berlin.de/einwanderung/termine/termin-vereinbaren/artikel.1144332.php"
+            }, {
+               "date_added": "13282906157386782",
+               "guid": "7a76b561-8439-4166-8b92-656a75a69158",
+               "id": "130",
+               "name": "Startseite - Englisch - Berlin.de",
+               "type": "url",
+               "url": "https://www.berlin.de/einwanderung/en/"
+            }, {
+               "date_added": "13282906157386921",
+               "guid": "d797bc4c-efb0-4334-be66-f07fa86b9ca2",
+               "id": "131",
+               "name": "Error",
+               "type": "url",
+               "url": "https://otv.verwalt-berlin.de/ams/TerminBuchen/wizardng/f9707f3a-0dc6-41c5-8e64-62f961a31e3d?dswid=9894&dsrid=229&v=1637507910523"
+            }, {
+               "date_added": "13282906157387080",
+               "guid": "02e8f956-2d0e-4eac-9d2b-07a4cfa283b0",
+               "id": "132",
+               "name": "Ausländerbehörde Berlin • Öffnungszeiten und Adressen",
+               "type": "url",
+               "url": "https://www.umzugsvergleich.de/ab/auslaenderbehoerde-berlin.html"
+            } ],
+            "date_added": "13282906157381520",
+            "date_modified": "13282906157387080",
+            "guid": "cfff8c83-837b-4142-a84e-2dcfadcc7b63",
+            "id": "119",
+            "name": "VISA-SUP",
+            "type": "folder"
+         }, {
+            "children": [ {
+               "date_added": "13284978793596005",
+               "guid": "0a2cbd05-6d36-4049-999d-86c405c12a45",
+               "id": "137",
+               "name": "Additionsverfahren - lineare Gleichungssysteme - fünf einfache Übungsaufgaben | Lehrerschmidt - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=EG-KXnbxL38"
+            }, {
+               "date_added": "13284978793596980",
+               "guid": "23c426c0-1cdf-484b-9dc5-16d0f3f8bb02",
+               "id": "138",
+               "name": "\"Kein Bock!\" Hilfe, mein Kind hat keine Lust zur Schule zu gehen! Was kann ich tun? #Gassitogo - YouTube",
+               "type": "url",
+               "url": "https://www.youtube.com/watch?v=Oj3J5Rk8F-s&list=RDCMUCy0FxMgGUlRnkxCoNZUNRQQ&start_radio=1"
+            }, {
+               "date_added": "13284978793597057",
+               "guid": "35d40c32-68a0-4903-95ec-f4bda20e9a4d",
+               "id": "139",
+               "name": "Amazon.de : dell u2422h",
+               "type": "url",
+               "url": "https://www.amazon.de/s?k=dell+u2422h&sprefix=dell+u24%2Caps%2C121&ref=nb_sb_ss_ts-doa-p_1_8"
+            }, {
+               "date_added": "13284978793597110",
+               "guid": "24db0876-d5d1-4f3e-985a-7b3941f3146e",
+               "id": "140",
+               "name": "Dell U2422H, 23.8 Zoll, UltraSharp Monitor, FHD 1920x1080, 60 Hz, 5 ms , IPS entspiegelt, 16:9, HDMI, DisplayPort, 3 Jahre Austauschservice, schwarz/Silber: Amazon.de: Computer & Zubehör",
+               "type": "url",
+               "url": "https://www.amazon.de/Dell-UltraSharp-Monitor-1920x1080-entspiegelt/dp/B08ZJ1TNJY/ref=sr_1_2?keywords=dell+u2422h&qid=1640273900&sprefix=dell+u24%2Caps%2C121&sr=8-2"
+            }, {
+               "date_added": "13284978793597197",
+               "guid": "6eab97bd-c472-4cf8-940c-a40815040bfa",
+               "id": "141",
+               "name": "Amazon.de: : Alle Kategorien",
+               "type": "url",
+               "url": "https://www.amazon.de/l/17434775031/ref=AB_ProductAlert?pf_rd_m=A3JWKAKR8XB7XF&pf_rd_s=product-alert&pf_rd_r=TCTFG9RZJ4Q6Q2B605E8&pf_rd_r=TCTFG9RZJ4Q6Q2B605E8&pf_rd_t=201&pf_rd_p=3582e60f-768f-408f-9e65-f4627eb0d8c0&pf_rd_p=3582e60f-768f-408f-9e65-f4627eb0d8c0&pf_rd_i=B08ZJ1TNJY"
+            }, {
+               "date_added": "13284978793597335",
+               "guid": "15bb7c60-081d-427d-8402-36f897e73cad",
+               "id": "142",
+               "name": "Amazon Basics - Faltbarer Laptop-Ständer aus Aluminium für Laptops bis zu 38 cm , Schwarz: Amazon.de: Computer & Zubehör",
+               "type": "url",
+               "url": "https://www.amazon.de/AmazonBasics-Faltbarer-Laptop-St%C3%A4nder-Aluminium-Laptops/dp/B07GFF82DP/ref=lp_17434775031_1_2"
+            }, {
+               "date_added": "13284978793597404",
+               "guid": "af342d86-1aed-4ee1-8cf3-d10f6378ee50",
+               "id": "143",
+               "name": "Fellowes Laptop Ständer I-Spire Quick Lift, höhenverstellbar, klappbar, portabel, für Notebooks bis 17 Zoll , perfekt für unterwegs und Home Office - schwarz: Amazon.de: Computer & Zubehör",
+               "type": "url",
+               "url": "https://www.amazon.de/Fellowes-8212001-I-Spire-St%C3%A4nder-schwarz/dp/B019ZF1IYW/ref=pd_sbs_6/257-3800624-8787852?pd_rd_w=kbT0p&pf_rd_p=b1c388c3-48c2-4960-8532-fa8f1477aee9&pf_rd_r=1KTGJ0E6J4DZ3Y132MBG&pd_rd_r=7854f8ea-1aa9-46f0-a46f-bd2b5243165a&pd_rd_wg=OfW4R&pd_rd_i=B01BHLPG9U&th=1"
+            }, {
+               "date_added": "13284978793597482",
+               "guid": "467f1025-0087-4b51-9f95-8cbf15fa3a66",
+               "id": "144",
+               "name": "ivoler Laptop Ständer, 6-Stufe Höhenverstellbar Laptop Stand, Faltbarer Aluminium-Riser, Tragbar Belüfteter Notebook Ständer Kompatibel mit 10-15,6 ” Laptop, Tablet - Silber: Amazon.de: Computer & Zubehör",
+               "type": "url",
+               "url": "https://www.amazon.de/ivoler-Computerhalterung-Laptopst%C3%A4nder-MacBook-Computer-h%C3%B6henverstellbar/dp/B07XNP2KKK/ref=pd_sbs_1/257-3800624-8787852?pd_rd_w=kbT0p&pf_rd_p=b1c388c3-48c2-4960-8532-fa8f1477aee9&pf_rd_r=1KTGJ0E6J4DZ3Y132MBG&pd_rd_r=7854f8ea-1aa9-46f0-a46f-bd2b5243165a&pd_rd_wg=OfW4R&pd_rd_i=B07XNP2KKK&psc=1"
+            }, {
+               "date_added": "13284978793597563",
+               "guid": "68950c9c-da74-41a4-89f8-96a6ed19b9fb",
+               "id": "145",
+               "name": "Amazon.de : dell u2417h",
+               "type": "url",
+               "url": "https://www.amazon.de/s?k=dell+u2417h&sprefix=dell+u2417h%2Caps%2C120&ref=nb_sb_ss_ts-doa-p_1_11"
+            }, {
+               "date_added": "13284978793597611",
+               "guid": "c9ce6f67-004f-4f4e-b8fc-4e0e86b80772",
+               "id": "146",
+               "name": "DELL U2417H 48,6 cm Monitor schwarz: Amazon.de: Computer & Zubehör",
+               "type": "url",
+               "url": "https://www.amazon.de/Dell-UltraSharp-InfinityEdge-Monitor-schwarz/dp/B01CFTTXDS/ref=sr_1_1?keywords=dell+u2417h&qid=1640273979&sprefix=dell+u2417h%2Caps%2C120&sr=8-1"
+            } ],
+            "date_added": "13284978793595649",
+            "date_modified": "13284978793597611",
+            "guid": "ce43bc2f-2308-4e3d-a90c-998a87d585f2",
+            "id": "136",
+            "name": "Amazon LIKE",
+            "type": "folder"
+         } ],
+         "date_added": "13272793910908650",
+         "date_modified": "13284978793597665",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13272793910908652",
+         "date_modified": "0",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13272793910908659",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "version": 1
+}

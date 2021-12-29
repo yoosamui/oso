@@ -1,0 +1,146 @@
+# lxpanel <profile> config file. Manually editing is not recommended.
+# Use preference dialog in lxpanel to adjust config when you can.
+
+Global {
+  edge=top
+  allign=left
+  margin=0
+  widthtype=percent
+  width=100
+  height=26
+  transparent=1
+  tintcolor=#595252
+  alpha=255
+  setdocktype=1
+  setpartialstrut=1
+  usefontcolor=1
+  fontcolor=#cccccc
+  usefontsize=1
+  fontsize=12
+  background=0
+  backgroundfile=/usr/share/lxpanel/images/background.png
+  autohide=0
+}
+Plugin {
+  type=space
+  Config {
+    Size=2
+  }
+}
+Plugin {
+  type=menu
+  Config {
+    image=/usr/share/lxpanel/images/my-computer.png
+    system {
+    }
+    separator {
+    }
+    item {
+      command=run
+    }
+    separator {
+    }
+    item {
+      image=gnome-logout
+      command=logout
+    }
+  }
+}
+Plugin {
+  type=space
+  Config {
+    Size=6
+  }
+}
+Plugin {
+  type=space
+  Config {
+    Size=4
+  }
+}
+Plugin {
+  type=pager
+  Config {
+  }
+}
+Plugin {
+  type=space
+  Config {
+    Size=4
+  }
+  expand=1
+}
+Plugin {
+  type=space
+  Config {
+    Size=8
+  }
+  expand=1
+}
+Plugin {
+  type=tray
+  Config {
+  }
+}
+Plugin {
+  type=volume
+  Config {
+  }
+}
+Plugin {
+  type=space
+  Config {
+    Size=10
+  }
+}
+Plugin {
+  type=dclock
+  Config {
+    ClockFmt=%a %d %b %Y - %R:%S
+    TooltipFmt=%A %x
+    BoldFont=0
+    IconOnly=0
+    CenterText=0
+    Action=gnome-calendar
+  }
+}
+Plugin {
+  type=xkb
+  Config {
+    Model=pc105
+    LayoutsList=us
+    VariantsList=,
+    ToggleOpt=grp:shift_caps_toggle
+    DisplayType=1
+    FlagSize=1
+  }
+}
+Plugin {
+  type=thermal
+  Config {
+    NormalColor=#00ff00
+    Warning1Color=#fff000
+    Warning2Color=#ff0000
+    AutomaticLevels=1
+    Warning1Temp=97
+    Warning2Temp=102
+    AutomaticSensor=1
+  }
+}
+Plugin {
+  type=batt
+  Config {
+    BackgroundColor=black
+    ChargingColor1=#28f200
+    ChargingColor2=#22cc00
+    DischargingColor1=#ffee00
+    DischargingColor2=#d9ca00
+    HideIfNoBattery=0
+    AlarmCommand=notify-send "Battery low" --icon=battery-caution
+    AlarmTime=5
+    BorderWidth=1
+    Size=8
+    ShowExtendedInformation=0
+    BatteryNumber=0
+  }
+}

@@ -1,0 +1,21 @@
+[FileDialogSize]
+Height 1080=966
+Height 1440=966
+Width 1920=1388
+Width 2560=1388
+
+[General]
+lastSaveAsLocation=file:///home/yoo/Pictures/SUP-TERMIN/
+
+[GuiConfig]
+captureDelay=0
+captureModeIndex=4
+cropRegion=540,268,831,609
+includePointer=false
+lastUsedSaveMode=0
+onClickChecked=true
+window-position=834,526
+
+[KFileDialog Settings]
+Recent Files[$e]=file:///media/yoo/develop/OpenCv-dev/finger_ounting_test/hand.jpg,file:///media/yoo/develop/OpenCv-dev/finger_ounting_test/ford.jpg
+Recent URLs[$e]=file:///media/yoo/develop/OpenCv-dev/finger_ounting_test/

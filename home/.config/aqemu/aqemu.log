@@ -1,0 +1,85 @@
+Type: Warning Num: 0
+Date: 2021.07.09 15:20:55 799
+Sender: bool Update_Emulators_List()
+Message: No emulators found in "/home/yoo/.config/aqemu/"
+
+Type: Error Num: 1
+Date: 2021.07.09 15:20:55 799
+Sender: QList<Emulator> Get_Emulators_List()
+Message: Cannot Update Emulators List
+
+Type: Warning Num: 3
+Date: 2021.07.09 15:20:55 809
+Sender: bool Update_Emulators_List()
+Message: No emulators found in "/home/yoo/.config/aqemu/"
+
+Type: Warning Num: 4
+Date: 2021.07.09 15:20:55 856
+Sender: bool Update_Emulators_List()
+Message: No emulators found in "/home/yoo/.config/aqemu/"
+
+Type: Error Num: 5
+Date: 2021.07.09 15:20:55 856
+Sender: QList<Emulator> Get_Emulators_List()
+Message: Cannot Update Emulators List
+
+Type: Error Num: 6
+Date: 2021.07.09 15:20:55 856
+Sender: const Emulator &Get_Default_Emulator()
+Message: Emulator Count == 0
+
+Type: Warning Num: 7
+Date: 2021.07.09 15:20:55 856
+Sender: const Emulator &Get_Default_Emulator()
+Message: Cannot Find!
+
+Type: Error Num: 8
+Date: 2021.07.09 15:20:55 856
+Sender: QList<Available_Devices> &Main_Window::Get_Devices_Info( bool *ok )
+Message: Emulator empty!
+
+Type: Warning Num: 10
+Date: 2021.07.09 15:20:55 888
+Sender: Main_Window::Main_Window( QWidget *parent )
+Message: No VM Loaded!
+
+Type: Error Num: 11
+Date: 2021.07.09 15:21:27 505
+Sender: const Emulator &Get_Default_Emulator()
+Message: Emulator Count == 0
+
+Type: Warning Num: 12
+Date: 2021.07.09 15:21:27 505
+Sender: const Emulator &Get_Default_Emulator()
+Message: Cannot Find!
+
+Type: Error Num: 13
+Date: 2021.07.09 15:21:27 505
+Sender: void VM_Wizard_Window::on_Button_Next_clicked()
+Message: Cannot get devices!
+
+Type: Warning Num: 14
+Date: 2021.07.09 15:21:53 083
+Sender: bool Virtual_Machine::Load_VM( const QString &file_name )
+Message: Uses compatible mode for config version 0.5
+
+Type: Error Num: 15
+Date: 2021.07.09 15:21:53 083
+Sender: const Emulator &Get_Default_Emulator()
+Message: Emulator Count == 0
+
+Type: Warning Num: 16
+Date: 2021.07.09 15:21:53 083
+Sender: const Emulator &Get_Default_Emulator()
+Message: Cannot Find!
+
+Type: Error Num: 18
+Date: 2021.07.09 15:21:53 083
+Sender: void Update_Current_Emulator_Devices()
+Message: Cannot Load Info About This Emulator! AQEMU Doesn't Work!
+
+Type: Error Num: 22
+Date: 2021.07.09 15:21:53 084
+Sender: void Update_Current_Emulator_Devices()
+Message: Cannot Load Info About This Emulator! AQEMU Doesn't Work!
+

@@ -1,0 +1,14 @@
+[activities]
+3e86703d-bce0-40ad-955e-cdefc0fa35e6=Musica
+e5eee5e8-11e7-4be7-b415-21743d305fcb=General
+
+[activities-descriptions]
+e5eee5e8-11e7-4be7-b415-21743d305fcb=
+
+[activities-icons]
+e5eee5e8-11e7-4be7-b415-21743d305fcb=accessories-character-map
+
+[main]
+currentActivity=e5eee5e8-11e7-4be7-b415-21743d305fcb
+runningActivities=e5eee5e8-11e7-4be7-b415-21743d305fcb
+stoppedActivities=

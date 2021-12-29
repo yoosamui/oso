@@ -1,0 +1,129 @@
+[1]
+Active ViewSpace=0
+Height 1440=858
+Kate-MDI-H-Splitter=200,1254,200
+Kate-MDI-Sidebar-0-Splitter=0
+Kate-MDI-Sidebar-1-Splitter=
+Kate-MDI-Sidebar-2-Splitter=
+Kate-MDI-Sidebar-3-Splitter=0
+Kate-MDI-Sidebar-Style=2
+Kate-MDI-Sidebar-Visible=true
+Kate-MDI-ToolView-kate_plugin_katesearch-Persistent=false
+Kate-MDI-ToolView-kate_plugin_katesearch-Position=3
+Kate-MDI-ToolView-kate_plugin_katesearch-Sidebar-Position=0
+Kate-MDI-ToolView-kate_plugin_katesearch-Visible=false
+Kate-MDI-ToolView-kate_private_plugin_katefiletreeplugin-Persistent=false
+Kate-MDI-ToolView-kate_private_plugin_katefiletreeplugin-Position=0
+Kate-MDI-ToolView-kate_private_plugin_katefiletreeplugin-Sidebar-Position=0
+Kate-MDI-ToolView-kate_private_plugin_katefiletreeplugin-Visible=false
+Kate-MDI-V-Splitter=150,816,200
+State=AAAA/wAAAAD9AAAAAAAABP4AAANGAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+Width 2560=1278
+
+[1-Splitter 0]
+Children=1-ViewSpace 0
+Orientation=1
+Sizes=1254
+
+[1-ViewSpace 0]
+Active View=file:///home/yoo/.config/autostart/redshift-gtk.desktop
+Count=1
+Documents=file:///home/yoo/.config/autostart/redshift-gtk.desktop
+View 0=file:///home/yoo/.config/autostart/redshift-gtk.desktop
+
+[1-ViewSpace 0 file:///home/yoo/.config/autostart/redshift-gtk.desktop]
+CursorColumn=0
+CursorLine=0
+JumpList=
+TextFolding=[]
+ViMarks=
+
+[Document 0]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=.desktop
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=.desktop
+Mode Set By User=false
+URL=file:///home/yoo/.config/autostart/redshift-gtk.desktop
+
+[General]
+Last Session=
+
+[Kate Plugins]
+katebacktracebrowserplugin=false
+katebuildplugin=false
+katecloseexceptplugin=false
+katectagsplugin=false
+katefilebrowserplugin=false
+katefiletreeplugin=true
+kategdbplugin=false
+katekonsoleplugin=false
+kateopenheaderplugin=false
+kateprojectplugin=true
+katereplicodeplugin=false
+katesearchplugin=true
+katesnippetsplugin=false
+katesqlplugin=false
+katesymbolviewerplugin=false
+katexmlcheckplugin=false
+katexmltoolsplugin=false
+kterustcompletionplugin=false
+ktexteditor_lumen=false
+ktexteditorpreviewplugin=false
+tabswitcherplugin=true
+textfilterplugin=false
+
+[Number]
+NumberOfWindows=1
+
+[Open Documents]
+Count=1
+
+[Plugin:katesearchplugin:MainWindow:0]
+BinaryFiles=false
+CurrentExcludeFilter=-1
+CurrentFilter=-1
+ExcludeFilters=
+ExpandSearchResults=false
+Filters=
+FollowSymLink=false
+HiddenFiles=false
+MatchCase=false
+Place=1
+Recursive=true
+Replaces=
+Search=
+SearchDiskFiles=
+SearchDiskFiless=
+UseRegExp=false
+
+[Recent Files]
+File1[$e]=/var/sinox/scripts/clone-maker.sh
+File10[$e]=$HOME/.config/autostart/redshift-gtk.desktop
+File2[$e]=/var/sinox/scripts/clone-debian.sh
+File3[$e]=$HOME/scripts/rasberrypi/ip_change.sh
+File4[$e]=$HOME/Desktop/uwemail.txt
+File5[$e]=/boot/grub/grub.cfg
+File6[$e]=/boot/grub/sinox-custom.cfg
+File7[$e]=$HOME/.config/docklight/docklight.config
+File8[$e]=/media/yoo/shared/VisaDELinks.txt
+File9[$e]=$HOME/.config/openbox/autostart
+Name1[$e]=clone-maker.sh
+Name10[$e]=redshift-gtk.desktop
+Name2[$e]=clone-debian.sh
+Name3[$e]=ip_change.sh
+Name4[$e]=uwemail.txt
+Name5[$e]=grub.cfg
+Name6[$e]=sinox-custom.cfg
+Name7[$e]=docklight.config
+Name8[$e]=VisaDELinks.txt
+Name9[$e]=autostart
+
+[WindowProperties1]
+ClassName=KateMainWindow
+Height 1440=858
+ObjectName=MainWindow#1
+State=AAAA/wAAAAD9AAAAAAAABP4AAANGAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgAAAAAA/////wAAAAAAAAAA
+Width 2560=1278

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="">
+  <name>Sugar Candy for SDDM</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>marianarlt</author>
+  <homepage>https://store.kde.org/p/1312658</homepage>
+  <licence></licence>
+  <version>1.6</version>
+  <rating>89</rating>
+  <downloads>56070</downloads>
+  <installedfile>/tmp/sugar-candy.tar.gz</installedfile>
+  <id>1312658</id>
+  <releasedate>2020-02-01</releasedate>
+  <summary>So extremely sweet your pancreas will have difficulties digesting its awesomeness.  &lt;br />
+&lt;br />
+Sweeten the login experience for your users, your family and yourself. Sugar Candy works on almost all major distributions—see below—and focuses on a straight forward user experience and superb...</summary>
+  <changelog></changelog>
+  <preview>https://cn.opendesktop.org/cache/100x100-0/img/0/f/9/6/089f113ce5ee3c4a56389e40ad7752982f86.png</preview>
+  <previewBig>https://cn.opendesktop.org/cache/770x540-0/img/0/f/9/6/089f113ce5ee3c4a56389e40ad7752982f86.png</previewBig>
+  <payload>https://dllb2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1ODA1ODg4MzQiLCJvIjoiMSIsInMiOiI0YTRlNjZjY2VjYTdhMWI1OTYzM2U2OGNiNDY1MThkMTlhNjAzZTNjNWM1NTBiYjMwOTc1YzYxYTEwYjY2ZmU1NDIxNzU5NThkM2Q3NGIxNzgzZGE2OGUwM2NkYjcxMGIzZmE1NGQyYzg2MDAxOTBkMTAyNWEzOTg1YmNiNzE0NiIsInQiOjE1OTY3MDg4MzIsInN0ZnAiOm51bGwsInN0aXAiOiI0NS42Ny45Ni4xMSJ9.6d0AVowEmtc2IicYOrj5I-pbKxIxdla2TJ1W9p6ZibY/sugar-candy.tar.gz</payload>
+  <tags>gplv3,linux,original-product,theme,sddm,unix,awesome</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="">
+  <name>We10Xos Sddm Theme</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>yeyushengfan258</author>
+  <homepage>https://store.kde.org/p/1368854</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>63</rating>
+  <downloads>15576</downloads>
+  <installedfile>/tmp/We10XOS.zip</installedfile>
+  <id>1368854</id>
+  <releasedate>2020-05-18</releasedate>
+  <summary>We10XOS-Concept kde is a light clean theme for KDE Plasma desktop.&lt;br />
+&lt;br />
+In this repository you'll find:&lt;br />
+&lt;br />
+    Aurorae Themes&lt;br />
+    Kvantum Themes&lt;br />
+    Plasma Color Schemes&lt;br />
+    Plasma Desktop Themes&lt;br />
+    Plasma Look-and-Feel Settings&lt;br />
+&lt;br...</summary>
+  <changelog></changelog>
+  <preview>https://cn.opendesktop.org/cache/100x100-0/img/5/d/6/e/6d9d694d582d1d14364c15e27f6e177be521.png</preview>
+  <previewBig>https://cn.opendesktop.org/cache/770x540-0/img/5/d/6/e/6d9d694d582d1d14364c15e27f6e177be521.png</previewBig>
+  <payload>https://dllb2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1ODk3ODM3ODUiLCJvIjoiMSIsInMiOiJhZTQ4NjQ5NmIyMzc5YmI5NjU4MDM0ZGIxZGU5MzQ0MjU2YzUxNmY5N2U3OTMxN2FlOWJjMDUxNjliZTUwNWRhY2Y5ZTZkMjQ2ZTUzZWY5YzBlYjQ0NzQxM2U5NGU5ODJiZmFkODMzY2Y3ZmRkZGVlNTQwYjk1NWUwYmViOGU5NiIsInQiOjE1OTY2NzMxNTUsInN0ZnAiOm51bGwsInN0aXAiOiI0NS42Ny45Ni4yMjkifQ.z2bWTLVj3q_4Ue9McYd9VMlazGy5hbGRR7l5F8ZQMvo/We10XOS.zip</payload>
+  <tags>original-product,unix,linux,gplv3</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="">
+  <name>WhiteSur SDDM</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>vinceliuice</author>
+  <homepage>https://store.kde.org/p/1398839</homepage>
+  <licence></licence>
+  <version></version>
+  <rating>50</rating>
+  <downloads>38766</downloads>
+  <installedfile>/tmp/WhiteSur.tar.xz</installedfile>
+  <id>1398839</id>
+  <releasedate>2020-07-01</releasedate>
+  <summary>MacOS big sur theme for kde plasma</summary>
+  <changelog></changelog>
+  <preview>https://cn.opendesktop.org/cache/100x100-0/img/1/8/a/7/7d69d4bb42b21bd92148a2bf5e692615a15d.png</preview>
+  <previewBig>https://cn.opendesktop.org/cache/770x540-0/img/1/8/a/7/7d69d4bb42b21bd92148a2bf5e692615a15d.png</previewBig>
+  <payload>https://dllb2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1OTM1OTAyMTkiLCJvIjoiMSIsInMiOiJkYjg4YTUyYmQ2MDUyZmU3ZTU2MzEzNjEzNzY5MGI0NWVmN2JmMTExYmRhMTU2OGJjMTAwMDg1YTYzNDAzMTNhYzNjNmM5M2Q5YmFjNmQwN2RkOGQ4OWQ4NTYzNDlkZDE2ZmQ3YmExMDNhM2IzYWYwZWNiOTRjMTg2MDE2ODQyZCIsInQiOjE1OTY2NzMxMTgsInN0ZnAiOm51bGwsInN0aXAiOiI0NS42Ny45Ni4yMjkifQ.WOE4yGtUPMSv6d1ENm0x6RpGwxAgHv59NOn3Q9HtPyY/WhiteSur.tar.xz</payload>
+  <tags>unix,linux,gplv3,modification-product</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

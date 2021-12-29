@@ -1,0 +1,46 @@
+[
+    {
+        "enabled": true,
+        "id": "77a3b2062e00eb402c8359cdb7ed6edb",
+        "metadata": {
+            "fullname": "xrandr-unknown",
+            "name": "LVDS-0"
+        },
+        "mode": {
+            "refresh": 60.012481689453125,
+            "size": {
+                "height": 1080,
+                "width": 1920
+            }
+        },
+        "pos": {
+            "x": 2560,
+            "y": 0
+        },
+        "primary": false,
+        "rotation": 1,
+        "scale": 1
+    },
+    {
+        "enabled": true,
+        "id": "bfe390ed1597c1006e80211a104db98b",
+        "metadata": {
+            "fullname": "xrandr-Dell Inc.-DELL U2713H-C6F0K3BQ0E4L",
+            "name": "DP-0"
+        },
+        "mode": {
+            "refresh": 59.9505500793457,
+            "size": {
+                "height": 1440,
+                "width": 2560
+            }
+        },
+        "pos": {
+            "x": 0,
+            "y": 0
+        },
+        "primary": true,
+        "rotation": 1,
+        "scale": 1
+    }
+]

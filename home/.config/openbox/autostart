@@ -1,0 +1,89 @@
+# Programs that will run after Openbox has started
+# sinox configuration
+
+# experimental (prefer maximun performance)
+# nvidia-settings -a [gpu:0]/GPUPowerMizerMode=1 > /dev/null
+
+# HDMI
+xrandr --output VGA-0 --off --output LVDS-0 --mode 1920x1080 --pos 2560x0 --rotate normal --output DP-5 --off --output DP-4 --off --output DP-3 --off --output DP-2 --off --output DP-1 --off --output DP-0 --primary --mode 2560x1440 --pos 0x0 --rotate normal &
+
+#/usr/bin/bash /home/yoo/.screenlayout/default.sh  &
+
+
+
+# https://wiki.archlinux.org/index.php/Feh
+# feh --bg-scale /home/yoo/wallpapers/blumblaum_3929361972.jpg
+
+
+
+#---------------------------------------------------------------------
+# If you want to use GNOME config tools...
+# Use the Gnome settings.
+# all Gtk applications will use the Gtk theme, icons and fonts specified in the
+# Gnome settings dialog. To change these, just start ‘gnome-control-panel’ 
+# (To make things easy, add an entry in your Openbox menu for this).
+#if test -x /usr/lib/openbox/gnome-settings-daemon >/dev/null; then
+#  /usr/lib/openbox/gnome-settings-daemon &
+#elif which gnome-settings-daemon >/dev/null; then
+#  gnome-settings-daemon &
+#fi
+
+
+
+# apt install network-manager-gnome 
+# network-manager-gnome UI
+nm-applet &
+
+
+(sleep 10s && lxpanel) &
+
+#(sleep 1s && /var/sinox/docklight-3.0/docklight) &
+
+# trayer manager
+#trayer  --edge top --align right --SetPartialStrut true --transparent true --iconspacing 12 --alpha 255 &
+
+# composite manager  setup without shadows
+# compton -b  &
+
+# composite manager without shadows
+# compton -b  -c &
+
+compton -b --glx-no-stencil --config /home/yoo/.config/compton.conf &
+
+#https://wiki.archlinux.org/index.php/Xcompmgr
+#https://wiki.debian.org/Compiz
+
+
+# redshift-gtk with geo for thailand
+# redshift-gtk &
+
+# the screen saver default 10 min
+xscreensaver -nosplash &
+
+#enable numlock on
+numlockx on &
+
+# suspend  the system after 40 min
+#xautolock -detectsleep -time 40 -locker "systemctl suspend" &
+
+# launch the policykit authentication agent service
+/usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1 &
+
+# To view and set the desired wallpaper from a specific directory recursively, run: 
+# $ nitrogen /path/to/image/directory/
+
+# To view and set the desired wallpaper from a specific directory non-recursively, run:
+# $ nitrogen --no-recurse /path/to/image/directory/
+
+# Freeze with dual monitors
+# $ rm -r ~/.config/nitrogen/
+
+# keyboard laayout 
+# English to thai and vise versa with Alt + Shift(RIGHT) 
+(sleep 2s && setxkbmap -option grp:alt_shift_toggle us,th) &
+
+
+
+# start nitrogen
+nitrogen --restore &
+#--EOF--

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="">
+  <name>Translator</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>driglu4it</author>
+  <homepage>https://store.kde.org/p/1395666</homepage>
+  <licence></licence>
+  <version>0.4</version>
+  <rating>90</rating>
+  <downloads>1191</downloads>
+  <installedfile>/tmp/org.kde.plasma.translator.tar.gz</installedfile>
+  <id>1395666</id>
+  <releasedate>2020-07-19</releasedate>
+  <summary>Easy to use translation plasmoid (GUI for translate-shell package).&lt;br />
+Reguired translate-shell package.&lt;br />
+&lt;br />
+Update to 0.4:&lt;br />
+Added compatibility with older Plasma / Qt versions (up to and including Kubuntu 18.04).&lt;br />
+Added a check for the presence of the translate-shell...</summary>
+  <changelog></changelog>
+  <preview>https://cn.opendesktop.org/cache/100x100-0/img/e/4/f/8/3afc6c6465a3636576319fb4d2400a73f3e6.png</preview>
+  <previewBig>https://cn.opendesktop.org/cache/770x540-0/img/e/4/f/8/3afc6c6465a3636576319fb4d2400a73f3e6.png</previewBig>
+  <payload>https://dllb2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1OTUxNDkyNjMiLCJvIjoiMSIsInMiOiIxM2UzMzg4MTUzYTY0NjJlODE0Yzk1YzE5MTRmODVhYzI4MTEyYjVhYTBhNmZlZjI0N2Q2MTY3MTM3NmJlMWVjYWI4MmI2Nzc0MDIzOWI2YjM2YTljOTI4YjA2N2UyNWQyM2QyMWM2YWUzZTBkODY5NjRmZTU3ZDY5YTdmN2JlMSIsInQiOjE1OTY4MTg0MTQsInN0ZnAiOm51bGwsInN0aXAiOiIxOTMuMzcuMzIuMTU4In0.4WKiIxsqT6YMji6reF8MsHjp9aCe856pohfeFW56uCY/org.kde.plasma.translator.tar.gz</payload>
+  <tags>mit-license,linux,unix,extension,kde,plasma##majorversion=5,widget,original-product,kde5,plasma,translate,plasmoid</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>
